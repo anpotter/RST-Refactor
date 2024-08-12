@@ -1,0 +1,100 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="justification" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="antithesis" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="fondo" type="rst" />
+      <rel name="contraste" type="rst" />
+      <rel name="lista" type="rst" />
+      <rel name="elaboraci�n" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="52" relname="preparation">Terminology management and knowledge processing in lesser-used languages</segment>
+    <segment id="2" parent="33" relname="span">
+Terminology management, that is collection, analysis, validation and distribution of terms, is crucial for converting information into comprehensible and applicable knowledge.</segment>
+    <segment id="3" parent="34" relname="span"> Specialists of all persuasions are involved in coining terms, modifying existing terminology, rendering terms archaic or re-introducing discarded terms with new meanings.</segment>
+    <segment id="4" parent="3" relname="elaboration"> One task of specialists, it appears, is to coin neologisms, introduce retronyms, translate terms, validate terms and, in a rather indirect manner, compile or help to compete terminology collection of their specialisms.</segment>
+    <segment id="5" parent="36" relname="background"> Modern science, contemporary leisure and entertainment, innovative enterprises, all distinguish themselves from their older incarnations not merely through goods, services or artefacts, but also through the terminology they use to describe the sciences, arts and culture, and business and enterprises.</segment>
+    <segment id="6" parent="35" relname="background"> Terminology management is by and large a manual task that relies on the existence of well-motivated documentalists, translators and terminologists; the later performing the function of the former two.</segment>
+    <segment id="8" parent="9" relname="concession"> Currently available terminology management systems have alleviated some of the storage and retrieval tasks associated with the archival and presentation of specialist terms.</segment>
+    <segment id="9" parent="35" relname="span"> However, the tasks of collection, analysis and validation are undertaken with skilled human beings.</segment>
+    <segment id="10" parent="38" relname="contrast"> In languages used by numerical majorities, the expensive task of terminology management is underwritten by the expectation that there is a potentially large numbers of people who require and are willing to invest in creating terminology databases.</segment>
+    <segment id="11" parent="39" relname="span"> For languages used by numerically smaller number of people this indeed is not the case;</segment>
+    <segment id="12" parent="11" relname="elaboration"> terminology management here is often linked with the politically-motivated, and often emotionally charged, work of language planning.</segment>
+    <segment id="13" parent="38" relname="restatement"> The dependence on human beings for terminology management is greater in the lesser-used language communities than say may be the case of other languages.</segment>
+    <segment id="14" parent="21" relname="span">
+The automation of terminology involvement management is not merely a task of writing computer programs,</segment>
+    <segment id="15" parent="14" relname="concession"> although such and undertaking is onerous in itself.</segment>
+    <segment id="16" parent="41" relname="contrast"> Such an automation requires an understanding of how specialist text is written, how human beings deal with semantics of specialist domains, how discourse pattern change according to the needs of the authors and the readers of the texts.</segment>
+    <segment id="17" parent="28" relname="conjunction"> Writings in and about lesser-used languages are not easy come by</segment>
+    <segment id="18" parent="28" relname="conjunction"> and it appears that it is difficult to persuade people to undertake research and data collection in these areas.</segment>
+    <segment id="19" parent="43" relname="span"> Somehow, specialist writing is associated with term &apos;technical writing&apos;, a discourse pattern which in turn is associated with machines</segment>
+    <segment id="7" parent="19" relname="result"> and thereby not given the same status as the more abstract task of parsing sentences according to a mathematical model of language or searching for cultural icons in texts for instance. </segment>
+    <segment id="22" parent="45" relname="span">
+But knowledge processing, a term that can be used for elaborating related activities like education, training, teaching and learning, problem solving and so on, is crucially dependent on the availability of specialist terminology collections.</segment>
+    <segment id="23" parent="44" relname="span"> This especially true during the formative years of a child, the early carrier of a novice or a person being retrained;</segment>
+    <segment id="24" parent="23" relname="elaboration"> facts, principles, theories, and rules of thumb related to any human enterprise, collectively known as knowledge, are to be assimilated and then applied for teaching, learning, problem-solving etc.</segment>
+    <segment id="25" parent="23" relname="elaboration"> The &apos;raw material&apos; available in text books, journals, unarticulated past experience, has to be communicated through the agency of terms whose meanings are well defined and used frequently by a specialist enterprise.</segment>
+    <segment id="26" parent="45" relname="result"> Knowledge processing therefore is inextricably linked terminology management which, in turn, is linked with language planning and politics.</segment>
+    <segment id="27" parent="29" relname="contrast"> Over the last ten years we have been building terminology collections in languages used by numerically larger groups of people, like English, German and Spanish,</segment>
+    <segment id="20" parent="29" relname="contrast"> while at the same time attempting to adapt such methods for lesser used languages like Welsh, Norwegian, Flemish and Catalan.</segment>
+    <segment id="30" parent="31" relname="span"> This paper will discuss challenges encountered, opportunities identified and solutions suggested for managing terminology of specialist languages in multilingual environments where at least one language belongs to the lesser used category on numerical groups.</segment>
+    <segment id="32" parent="30" relname="elaboration"> Our theoretical framework draws from recent work in corpus linguistics, philosophy and history of science on the one hand and computing sciences on the other.</segment>
+<group id="21" type="span" parent="41" relname="contrast" />
+<group id="28" type="multinuc" parent="47" relname="span" />
+<group id="29" type="multinuc" parent="51" relname="span" />
+<group id="31" type="span" parent="52" relname="span" />
+<group id="33" type="span" parent="37" relname="background" />
+<group id="34" type="span" parent="2" relname="elaboration" />
+<group id="35" type="span" parent="36" relname="span" />
+<group id="36" type="span" parent="37" relname="span" />
+<group id="37" type="span" parent="54" relname="span" />
+<group id="38" type="multinuc" parent="40" relname="span" />
+<group id="39" type="span" parent="38" relname="contrast" />
+<group id="40" type="span" parent="42" relname="span" />
+<group id="41" type="multinuc" parent="40" relname="elaboration" />
+<group id="42" type="span" parent="50" relname="span" />
+<group id="43" type="span" parent="28" relname="elaboration" />
+<group id="44" type="span" parent="22" relname="elaboration" />
+<group id="45" type="span" parent="46" relname="span" />
+<group id="46" type="span" parent="48" relname="span" />
+<group id="47" type="span" parent="46" relname="concession" />
+<group id="48" type="span" parent="42" relname="elaboration" />
+<group id="49" type="multinuc" parent="29" relname="solutionhood" />
+<group id="51" type="span" parent="31" relname="background" />
+<group id="52" type="span" parent="53" relname="span" />
+<group id="53" type="span" />
+<group id="50" type="span" parent="49" relname="contrast" />
+<group id="54" type="span" parent="49" relname="contrast" />
+  </body>
+</rst>

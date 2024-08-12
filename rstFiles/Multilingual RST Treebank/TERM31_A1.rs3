@@ -1,1 +1,156 @@
-
+<rst>
+  <header>
+    <relations>
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="justification" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="antithesis" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="fondo" type="rst" />
+      <rel name="contraste" type="rst" />
+      <rel name="lista" type="rst" />
+      <rel name="elaboraci�n" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="96" relname="preparation">Automatic terminology extraction and its application to Basque</segment>
+    <segment id="2" parent="60" relname="preparation">
+1. Introduction</segment>
+    <segment id="3" parent="24" relname="span">
+In recent years work has begun to develop instruments in several languages for automatic terminology extraction in technical texts,</segment>
+    <segment id="4" parent="3" relname="concession"> though human intervention is still required to make the final selection from the terms automatically chosen.</segment>
+    <segment id="5" parent="57" relname="span"> As an example we can cite the following instruments: LEXTER (Bourigault, 92), AT &amp; Tko Terminght (Church &amp; Dagan, 94), TERMS by IBM (Justeson &amp; Katz, 95) and NPtool (Arpper, 95). </segment>
+    <segment id="6" parent="5" relname="elaboration">
+Their areas of application can be divided into two main groups: information indexing and the making-up of terminological glossaries.</segment>
+    <segment id="7" parent="59" relname="span"> In areas where terminology is developing dynamically, such as computer science, it is almost impossible to carry out effective terminological work without an instrument of this type. </segment>
+    <segment id="8" parent="42" relname="condition">
+If a similar instrument is to be developed for Basque</segment>
+    <segment id="9" parent="42" relname="span"> we shall come up against more major drawbacks,</segment>
+    <segment id="10" parent="40" relname="list"> because the unifying process of the language has not been completed,</segment>
+    <segment id="54" parent="40" relname="list"> research carried out is limited</segment>
+    <segment id="55" parent="40" relname="list"> and Basque is an agglutinative language.</segment>
+    <segment id="11" parent="62" relname="preparation">
+2. Terminology extraction</segment>
+    <segment id="12" parent="13" relname="concession">
+It is a hard task to obtain a formal, complete definition of a term,</segment>
+    <segment id="13" parent="61" relname="span"> but that is precisely what a major part of this work consists of: defining the characteristics of terms.</segment>
+    <segment id="14" parent="62" relname="span"> To obtain technical terms from the corpus a combination of NLP techniques (based on linguistic knowledge) and statistical techniques is usually used.</segment>
+    <segment id="16" parent="72" relname="preparation">
+2.1. Linguistic Techniques</segment>
+    <segment id="17" parent="72" relname="span">
+Linguistic techniques are used basically to make the initial selection of terms.</segment>
+    <segment id="18" parent="19" relname="cause">
+Morpho-syntactic models are usually used,</segment>
+    <segment id="19" parent="63" relname="span"> so it is advisable to have the text already analysed or at least labelled.</segment>
+    <segment id="20" parent="68" relname="span"> The results are conditioned heavily by the quality of the linguistic tool used.</segment>
+    <segment id="21" parent="20" relname="concession"> In any event in some projects neither morphological nor syntactic analysis is carried out (Su et al., 96).</segment>
+    <segment id="22" parent="67" relname="span">
+Lemmatisation is linked to morphological analysis and the removal of ambiguities.</segment>
+    <segment id="23" parent="15" relname="cause"> In complex inflected languages poor results will ensue if only the formal aspect of words is dealt with:</segment>
+    <segment id="15" parent="64" relname="span"> lemmatisation will be necessary.</segment>
+    <segment id="25" parent="66" relname="span"> Linguistic knowledge is also of prime importance in the standardisation of terminology:</segment>
+    <segment id="56" parent="65" relname="span"> a discrimination between terms must be made,</segment>
+    <segment id="27" parent="56" relname="cause"> because some of them may form part of longer units.</segment>
+    <segment id="26" parent="75" relname="preparation">
+2.2. Statistical Techniques</segment>
+    <segment id="28" parent="74" relname="background">
+In most projects statistical methods have been used to reduce the assumed terms which follow the linguistic model.</segment>
+    <segment id="29" parent="30" relname="cause"> The methods applied vary widely from project to project,</segment>
+    <segment id="30" parent="73" relname="span"> so the simplest idea is to require a minimum absolute frequency (Justeson &amp; Katz, 95),</segment>
+    <segment id="31" parent="73" relname="concession"> though several probabilistic formulae are generally combined.</segment>
+    <segment id="32" parent="82" relname="preparation">
+2.3. Results</segment>
+    <segment id="33" parent="80" relname="cause">
+The results obtained are not yet those required for absolutely automatic extraction.</segment>
+    <segment id="34" parent="80" relname="span"> A balance must be found between recall and precision.</segment>
+    <segment id="35" parent="77" relname="span"> In this balance preference is given to recall,</segment>
+    <segment id="36" parent="35" relname="unless"> provided there is a person who can carry out the terminology reduction.</segment>
+    <segment id="37" parent="78" relname="contrast"> To obtain a recall of 95% precision is usually reduced to 50%,</segment>
+    <segment id="41" parent="78" relname="contrast"> and for a precision of 85% cover is not reduced even to 35%.</segment>
+    <segment id="38" parent="95" relname="preparation">
+3. Application to Basque</segment>
+    <segment id="39" parent="88" relname="span">
+The IXA Group intends to develop a tool of this type for Basque.</segment>
+    <segment id="43" parent="87" relname="list"> The morphological analyser is already being prepared (Alegria et al, 96),</segment>
+    <segment id="44" parent="87" relname="list"> the lemmatizer/labeller is almost completed (Aduriz et al, 96)</segment>
+    <segment id="45" parent="87" relname="list"> and work has been done on surface level syntax. </segment>
+    <segment id="46" parent="89" relname="circumstance">
+While these tools are being prepared,</segment>
+    <segment id="47" parent="89" relname="span"> we must work on the modelling of technical terms,</segment>
+    <segment id="48" parent="47" relname="restatement"> i.e. we must reduce their characteristics.</segment>
+    <segment id="49" parent="92" relname="span"> To that end, basing work on existing technical dictionaries and using statistical techniques, principal models must be obtained.</segment>
+    <segment id="51" parent="52" relname="concession"> We do not yet have any results,</segment>
+    <segment id="52" parent="91" relname="span"> but we believe that the model will be wider than the noun phrase.</segment>
+    <segment id="53" parent="91" relname="cause"> In the choice of technical terms, the case of internal declension may prove decisive.</segment>
+<group id="24" type="span" parent="58" relname="span" />
+<group id="40" type="multinuc" parent="9" relname="cause" />
+<group id="42" type="span" parent="50" relname="span" />
+<group id="50" type="span" parent="60" relname="span" />
+<group id="57" type="span" parent="24" relname="elaboration" />
+<group id="58" type="span" parent="7" relname="evidence" />
+<group id="59" type="span" parent="50" relname="background" />
+<group id="60" type="span" parent="70" relname="span" />
+<group id="61" type="span" parent="14" relname="purpose" />
+<group id="62" type="span" parent="71" relname="span" />
+<group id="63" type="span" parent="69" relname="span" />
+<group id="64" type="span" parent="22" relname="elaboration" />
+<group id="65" type="span" parent="25" relname="elaboration" />
+<group id="66" type="span" parent="17" relname="elaboration" />
+<group id="67" type="span" parent="17" relname="elaboration" />
+<group id="68" type="span" parent="63" relname="concession" />
+<group id="69" type="span" parent="17" relname="elaboration" />
+<group id="70" type="span" parent="96" relname="list" />
+<group id="71" type="span" parent="96" relname="list" />
+<group id="72" type="span" parent="84" relname="span" />
+<group id="73" type="span" parent="74" relname="span" />
+<group id="74" type="span" parent="75" relname="span" />
+<group id="75" type="span" parent="76" relname="span" />
+<group id="76" type="span" parent="85" relname="list" />
+<group id="77" type="span" parent="79" relname="span" />
+<group id="78" type="multinuc" parent="77" relname="elaboration" />
+<group id="79" type="span" parent="34" relname="elaboration" />
+<group id="80" type="span" parent="82" relname="span" />
+<group id="82" type="span" parent="83" relname="span" />
+<group id="83" type="span" parent="85" relname="list" />
+<group id="84" type="span" parent="85" relname="list" />
+<group id="85" type="multinuc" parent="62" relname="elaboration" />
+<group id="87" type="multinuc" parent="39" relname="elaboration" />
+<group id="88" type="span" parent="95" relname="span" />
+<group id="89" type="span" parent="90" relname="span" />
+<group id="90" type="span" parent="94" relname="span" />
+<group id="91" type="span" parent="93" relname="span" />
+<group id="92" type="span" parent="90" relname="means" />
+<group id="93" type="span" parent="49" relname="elaboration" />
+<group id="94" type="span" parent="88" relname="elaboration" />
+<group id="95" type="span" parent="97" relname="span" />
+<group id="96" type="multinuc" parent="98" relname="span" />
+<group id="97" type="span" parent="96" relname="list" />
+<group id="98" type="span" />
+  </body>
+</rst>
