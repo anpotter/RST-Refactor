@@ -38,16 +38,31 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="16" relname="span">Intuitiveness is one of those &quot;grey&quot; terms when it comes to desigining a user interface. </segment>
+    <segment id="9" parent="17" relname="span">
+In its simplest form intuitiveness has to deal with the ability to follow the next logical step. </segment>
+    <segment id="8" parent="10" relname="span">
+The question then is logical to whom. </segment>
+    <segment id="7" parent="8" relname="elaboration">
+A mean will a 7 year old find MS Word intuitive? </segment>
+    <segment id="6" parent="15" relname="concession">
+It is a good term to use when marketing a product</segment>
+    <segment id="15" parent="14" relname="span"> but many fall by the way side,</segment>
+    <segment id="5" parent="11" relname="span">
+because I do not believe a product can be intuitive to all users. </segment>
+    <segment id="4" parent="12" relname="span">
+I might find MS Word intuitive</segment>
+    <segment id="3" parent="4" relname="concession"> 
+(and that might be after some time of use)</segment>
+    <segment id="2" parent="13" relname="span"> 
+but I think it is difficult to create a product that is immediately intuitive 
+</segment>
+<group id="10" type="span" parent="9" relname="elaboration" />
+<group id="12" type="span" parent="2" relname="concession" />
+<group id="13" type="span" parent="5" relname="elaboration" />
+<group id="16" type="span" />
+<group id="17" type="span" parent="1" relname="elaboration" />
+<group id="11" type="span" parent="15" relname="nonvolitional-cause" />
+<group id="14" type="span" parent="1" relname="elaboration" />
   </body>
 </rst>

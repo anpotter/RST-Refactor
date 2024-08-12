@@ -38,16 +38,22 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="13" relname="span">
+
+
+I have experienced these things as well.</segment>
+    <segment id="2" parent="1" relname="elaboration"> This is especially true when visiting secure websites.</segment>
+    <segment id="3" parent="7" relname="concession"> You can click on a button,</segment>
+    <segment id="7" parent="9" relname="span"> but it may not prompt anything to happen.</segment>
+    <segment id="4" parent="12" relname="span"> This can cause nothing to happen or even worse duplication.</segment>
+    <segment id="5" parent="11" relname="span"> With purchasing items online or online banking this can be a big hassle.</segment>
+    <segment id="6" parent="8" relname="nonvolitional-cause"> If you get charged twice for something or you transfer double the amount that you wanted to,</segment>
+    <segment id="8" parent="10" relname="span"> it can be a long drawn out process to get those funds back.</segment>
+<group id="9" type="span" parent="4" relname="nonvolitional-cause" />
+<group id="10" type="span" parent="5" relname="elaboration" />
+<group id="11" type="span" parent="4" relname="nonvolitional-result" />
+<group id="12" type="span" parent="14" relname="span" />
+<group id="13" type="span" parent="12" relname="background" />
+<group id="14" type="span" />
   </body>
 </rst>

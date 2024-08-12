@@ -38,16 +38,21 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="7" relname="preparation">
+I can identify with your comments P52.</segment>
+    <segment id="6" parent="2" relname="circumstance"> As I learn more about object
+oriented analysis and design(OOAD),</segment>
+    <segment id="2" parent="7" relname="span"> I see how its very nature and
+building blocks, the class, provide for better intuitiveness in the
+final product. </segment>
+    <segment id="3" parent="4" relname="circumstance"> For example, once an Employee class has been created
+with attributes such as  name, employeeID, pay rate,</segment>
+    <segment id="4" parent="5" relname="span"> any specializations
+or subclasses that follow such as Project Manager, Systems Analyst, DBA,
+will automatically inherit the same attributes. 
+</segment>
+<group id="5" type="span" parent="2" relname="elaboration" />
+<group id="7" type="span" parent="8" relname="span" />
+<group id="8" type="span" />
   </body>
 </rst>

@@ -38,16 +38,20 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="9" relname="span">
+P54 and P37, excellent discussion here.</segment>
+    <segment id="2" parent="1" relname="evidence"> It could very well be that the sample size 
+was limited in size and representation.</segment>
+    <segment id="3" parent="8" relname="span"> I agree that intuitiveness should be supported for 
+a variety of user experience levels (novice, intermediate, expert).</segment>
+    <segment id="4" parent="7" relname="circumstance"> As experience builds 
+over time and effort,</segment>
+    <segment id="7" parent="6" relname="span"> so too does the intuitive quality of a product.</segment>
+    <segment id="5" parent="8" relname="elaboration"> We need 
+representation from various user experience levels to see how this plays out.</segment>
+<group id="6" type="span" parent="3" relname="volitional-cause" />
+<group id="8" type="span" parent="10" relname="span" />
+<group id="9" type="span" parent="8" relname="background" />
+<group id="10" type="span" />
   </body>
 </rst>

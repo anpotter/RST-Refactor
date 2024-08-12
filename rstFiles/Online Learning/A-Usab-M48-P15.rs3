@@ -38,16 +38,18 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="11" relname="span">
+All of these concepts but the &quot;Error recovery&quot; can be measure by subjective means.</segment>
+    <segment id="2" parent="3" relname="concession"> The way we perform the evaluation of &quot;ease of use&quot;,&quot;ease of learning&quot;,&quot;efficiency&quot;,&quot;memorability&quot;,&quot;user satisfaction&quot;,&quot;flexibility&quot;,and &quot;consistency&quot; are stablishing scales factors and having different people express their feelings about the software application evaluating them and scoring them.</segment>
+    <segment id="3" parent="8" relname="span"> But software applications as any other products have a &quot;cost of opportunity&quot; and a &quot;level of satisfaction&quot; (like in economy).</segment>
+    <segment id="4" parent="3" relname="elaboration"> 
+The cost of opportunity means if the user can have a different product than the one he has,</segment>
+    <segment id="6" parent="3" relname="elaboration"> and the level of satisfactions is how comfortable the user feels about the software application.</segment>
+    <segment id="5" parent="7" relname="concession"> All the measures will be relative because of the different point of views of the humans evaluators,</segment>
+    <segment id="7" parent="9" relname="span"> but at least we can measure them.</segment>
+<group id="8" type="span" parent="10" relname="span" />
+<group id="9" type="span" parent="8" relname="summary" />
+<group id="10" type="span" parent="1" relname="elaboration" />
+<group id="11" type="span" />
   </body>
 </rst>

@@ -38,16 +38,27 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="6" relname="solutionhood">
+What would be a more intuitive interface than direct interaction with a human-like entity?</segment>
+    <segment id="6" parent="5" relname="span">
+Now, theorists are developing an artificial personality to accompany the artificial entity 
+(AE), or customer service avatar, that you are interacting with online (Neubauer, 2004).</segment>
+    <segment id="2" parent="7" relname="antithesis"> 
+This is much different from a fixed, programmed personality,</segment>
+    <segment id="7" parent="10" relname="span"> but can evolve 
+with &quot;experience&quot;.</segment>
+    <segment id="3" parent="8" relname="span"> Working with 16 categories of personality and artificial intelligence 
+tools, such as Prolog and AIML (artificial intelligence markup language), developers can 
+simulate certain characteristics and collect &apos;experience&apos; and &apos;perception&apos; toward an AE 
+with an artificial personality.</segment>
+    <segment id="4" parent="9" relname="antithesis">
+Ironically, traits such as &apos;intuition&apos; and &apos;feeling&apos; cannot effectively be simulated,</segment>
+    <segment id="9" parent="12" relname="span"> but the 
+appearance of them can be &quot;faked&quot;.
+</segment>
+<group id="12" type="span" parent="3" relname="elaboration" />
+<group id="10" type="span" parent="6" relname="elaboration" />
+<group id="8" type="span" parent="6" relname="elaboration" />
+<group id="5" type="span" />
   </body>
 </rst>

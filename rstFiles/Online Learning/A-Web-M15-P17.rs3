@@ -38,16 +38,15 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="6" relname="span">
+
+
+I just wanted to know where you got the five second rule for downloading graphics.</segment>
+    <segment id="2" parent="1" relname="elaboration"> I was just wondering whether it was a &quot;standard&quot; or whether it was your own rule of thumb.</segment>
+    <segment id="3" parent="1" relname="evaluation"> Either way it is reasonable and realistic to the expectations of most online users.</segment>
+    <segment id="4" parent="5" relname="joint"> 
+I concur with your pointing out that a website should provide options for the level of usability from novice to experienced users. </segment>
+<group id="5" type="multinuc" />
+<group id="6" type="span" parent="5" relname="joint" />
   </body>
 </rst>

@@ -38,16 +38,17 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
+    <segment id="1" parent="2" relname="preparation">
+
+Good thread.</segment>
+    <segment id="2" parent="8" relname="span">  I took a look at that article too,</segment>
+    <segment id="3" parent="7" relname="span"> and I have to agree with you on your take 
+about intuitiveness,</segment>
+    <segment id="4" parent="6" relname="span"> in that it should probably encompass more of an overall usage of a 
+system,</segment>
+    <segment id="5" parent="4" relname="antithesis"> and not just the initial stages of development.</segment>
+<group id="6" type="span" parent="3" relname="volitional-cause" />
 <group id="7" type="span" />
+<group id="8" type="span" parent="3" relname="preparation" />
   </body>
 </rst>

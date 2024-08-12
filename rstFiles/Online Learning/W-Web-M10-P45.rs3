@@ -38,16 +38,26 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="13" relname="span">
+The target audience wants to access this information as quickly as possible</segment>
+    <segment id="5" parent="1" relname="evaluation"> - I couldn&apos;t 
+agree with this more.</segment>
+    <segment id="2" parent="10" relname="span"> Technology today has become has an important part of our lives </segment>
+    <segment id="6" parent="2" relname="evidence">
+and it is plain for all to see.</segment>
+    <segment id="3" parent="7" relname="antithesis"> We have all seen the fancy graphics and multimedia by now,</segment>
+    <segment id="7" parent="11" relname="span"> 
+we just want our information,</segment>
+    <segment id="8" parent="7" relname="elaboration"> and we want it quick.</segment>
+    <segment id="4" parent="9" relname="volitional-cause"> It is a fast-paced world</segment>
+    <segment id="9" parent="14" relname="span"> and 
+immediate access to data is critical to customer satisfaction.
+</segment>
+<group id="10" type="span" parent="12" relname="span" />
+<group id="11" type="span" parent="10" relname="elaboration" />
+<group id="12" type="span" parent="15" relname="span" />
+<group id="13" type="span" />
+<group id="14" type="span" parent="12" relname="summary" />
+<group id="15" type="span" parent="1" relname="evidence" />
   </body>
 </rst>

@@ -38,16 +38,14 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
+    <segment id="1" parent="6" relname="span">
+Wow, that&apos;s a funny site.</segment>
+    <segment id="2" parent="1" relname="elaboration"> It has a page that provides links to some actual websites that 
+are real life examples of terrible design.</segment>
+    <segment id="3" parent="4" relname="preparation"> I checked out a few of the sites</segment>
+    <segment id="4" parent="5" relname="span"> and I wonder 
+how anyone in their right mind could think those sites are acceptable!</segment>
 <group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+<group id="6" type="span" />
   </body>
 </rst>

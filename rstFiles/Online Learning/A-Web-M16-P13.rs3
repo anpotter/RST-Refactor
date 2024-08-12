@@ -38,16 +38,20 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="10" relname="span">
+
+
+Based on the principles of HCI, a good web design should present a user-friendly web interface to access the information they need.</segment>
+    <segment id="2" parent="1" relname="elaboration"> A user-friendly web interface should make web users feel easy to access the information that web users need.</segment>
+    <segment id="3" parent="8" relname="span"> Also, usability is another important criteria to measure </segment>
+    <segment id="7" parent="3" relname="condition">if a web page/site is a good web page/site.</segment>
+    <segment id="4" parent="9" relname="span"> A good web page/site should deliver the best and the most current information for web users.</segment>
+    <segment id="5" parent="4" relname="antithesis"> Without this premiss, no texts, fonts, colors, images, audio/video components, programming, web servers, and databases can play their roles in a good web design.</segment>
+    <segment id="6" parent="10" relname="summary"> 
+To sum up, Usability, Accessibility, User-friendly, Quality, and Performance should become the essential criteria to measure a good web design.</segment>
+<group id="8" type="span" parent="1" relname="elaboration" />
+<group id="9" type="span" parent="1" relname="elaboration" />
+<group id="10" type="span" parent="11" relname="span" />
+<group id="11" type="span" />
   </body>
 </rst>

@@ -38,16 +38,23 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="7" relname="span">
-Good post.</segment>
-    <segment id="2" parent="1" relname="elaboration"> I would have to agree that the nature of intuitiveness is subjective.</segment>
-    <segment id="3" parent="1" relname="elaboration"> The 
-questions that Jared Spool raises are essential.</segment>
-    <segment id="4" parent="5" relname="span">  This also connects well to what we have 
-discussed in previous threads</segment>
-    <segment id="6" parent="4" relname="elaboration"> -- the notion in the Marcus article that we need to ask &quot;who 
-are our users?&quot;</segment>
-<group id="5" type="span" parent="1" relname="elaboration" />
-<group id="7" type="span" />
+    <segment id="1" parent="10" relname="conjunction">
+
+
+I am a fairly new first time Dad,</segment>
+    <segment id="11" parent="10" relname="conjunction"> my daughter is 11 months old</segment>
+    <segment id="12" parent="10" relname="conjunction"> and my wife recently turned me on too a great site with an equally great interface.</segment>
+    <segment id="2" parent="15" relname="span">Preece,Rogers and Sharp in their book Interactive Design said&quot;If users haven&apos;t used a site for a few months they should be able to remember or at least be reminded how to use it.Users shouldn&apos;t have to keep relearning how to carry out tasks.&quot;</segment>
+    <segment id="4" parent="8" relname="span">I only get a chance to visit that site maybe once every few weeks</segment>
+    <segment id="13" parent="3" relname="span"> usually when I need the answer to some infromation about raising my daughter</segment>
+    <segment id="14" parent="13" relname="elaboration"> such as what to do if your child has a fever.</segment>
+    <segment id="5" parent="9" relname="span">So, it is important that I don&apos;t have to relearn where everyting is.</segment>
+    <segment id="6" parent="5" relname="elaboration">Consistency and intuitiveness also play a part here. 
+</segment>
+<group id="10" type="multinuc" parent="2" relname="background" />
+<group id="3" type="span" parent="4" relname="circumstance" />
+<group id="8" type="span" parent="5" relname="volitional-cause" />
+<group id="9" type="span" parent="2" relname="elaboration" />
+<group id="15" type="span" />
   </body>
 </rst>
