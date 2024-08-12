@@ -1,0 +1,58 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="5" relname="span">The University Press of Kentucky has announced the establishment of
+the Kentucky Foreign Language Conference Award to be given annually for
+the best manuscript dealing with some aspect of foreign language and/or
+literature.</segment>
+    <segment id="2" parent="1" relname="motivation">
+The Award, $500 and acceptance of the manuscript for publication, is
+offered in conjunction with the Kentucky Foreign Language Conference.</segment>
+    <segment id="3" parent="5" relname="enablement">
+The deadline for submission of manuscripts for the 1972 Award is
+December 1, 1971.</segment>
+    <segment id="4" parent="5" relname="enablement">
+For further information, write Kentucky Foreign Language Conference
+Award, The University Press of Kentucky, 104 Lafferty Hall, Lexington,
+Kentucky, 40506.</segment>
+<group id="5" type="span" parent="6" relname="span" />
+<group id="6" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,234 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="attribution-n" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comment" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="consequence-s" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="elaboration-additional" type="rst" />
+      <rel name="elaboration-additional-e" type="rst" />
+      <rel name="elaboration-object-attribute" type="rst" />
+      <rel name="elaboration-object-attribute-e" type="rst" />
+      <rel name="elaboration-set-member-e" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="example" type="rst" />
+      <rel name="explanation-argumentative" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="manner" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="temporal-before" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="analogy" type="rst" />
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comment" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="consequence-n" type="rst" />
+      <rel name="consequence-s" type="rst" />
+      <rel name="contingency" type="rst" />
+      <rel name="elaboration-additional" type="rst" />
+      <rel name="elaboration-general-specific" type="rst" />
+      <rel name="elaboration-object-attribute" type="rst" />
+      <rel name="elaboration-process-step" type="rst" />
+      <rel name="elaboration-set-member" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="example" type="rst" />
+      <rel name="explanation-argumentative" type="rst" />
+      <rel name="hypothetical" type="rst" />
+      <rel name="interpretation-n" type="rst" />
+      <rel name="interpretation-s" type="rst" />
+      <rel name="manner" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="preference" type="rst" />
+      <rel name="problem-solution-n" type="rst" />
+      <rel name="problem-solution-s" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="question-answer-n" type="rst" />
+      <rel name="question-answer-s" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="rhetorical-question" type="rst" />
+      <rel name="summary-n" type="rst" />
+      <rel name="summary-s" type="rst" />
+      <rel name="temporal-after" type="rst" />
+      <rel name="temporal-before" type="rst" />
+      <rel name="temporal-same-time" type="rst" />
+      <rel name="topic-drift" type="rst" />
+      <rel name="topic-shift" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="analogy" type="multinuc" />
+      <rel name="cause-result" type="multinuc" />
+      <rel name="comment-topic" type="multinuc" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="consequence" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="evaluation" type="multinuc" />
+      <rel name="interpretation" type="multinuc" />
+      <rel name="inverted-sequence" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="other-multinuc" type="multinuc" />
+      <rel name="otherwise" type="multinuc" />
+      <rel name="parallel" type="multinuc" />
+      <rel name="problem-solution" type="multinuc" />
+      <rel name="proportion" type="multinuc" />
+      <rel name="question-answer" type="multinuc" />
+      <rel name="reason" type="multinuc" />
+      <rel name="result" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="same-unit-ns" type="multinuc" />
+      <rel name="same-unit-sn" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="temporal-same-time" type="multinuc" />
+      <rel name="textualorganization" type="multinuc" />
+      <rel name="topic-comment" type="multinuc" />
+      <rel name="topic-drift" type="multinuc" />
+      <rel name="topic-shift" type="multinuc" />
+      <rel name="topic-wa-comment" type="multinuc" />
+      <rel name="topic-drift" type="multinuc" />
+      <rel name="abstract" schema="Paper" />
+      <rel name="author" schema="Paper" />
+      <rel name="column-title" schema="Paper" />
+      <rel name="sectiontext" schema="Paper" />
+      <rel name="sectiontitle" schema="Paper" />
+      <rel name="text" schema="Paper" />
+      <rel name="title" schema="Paper" />
+      <rel name="topic" schema="Paper" />
+      <rel name="footnote" schema="Textualorganization" />
+      <rel name="text" schema="Textualorganization" />
+      <rel name="heading" schema="Section" />
+      <rel name="summary" schema="Section" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">[A] Although bullish dollar sentiment has fizzled,</segment>
+    <segment id="2">
+many currency analysts say a massive sell-off probably
+won’t occur in the near future.</segment>
+    <segment id="3"> While Wall Street’s
+tough times and lower U.S. interest rates continue to
+undermine the dollar,</segment>
+    <segment id="4"> weakness in the pound and the yen
+is expected to offset those factors.</segment>
+    <segment id="5"> “By default,” the
+dollar probably will be able to hold up pretty well in
+coming days, says Francoise Soares-Kemp, a foreignexchange
+adviser at Credit Suisse. “We’re close to the
+bottom” of the near-term ranges, she contends. ... [A]</segment>
+    <segment id="8">
+
+[B] With the stock market wobbly and dollar buyers discouraged
+by signs of U.S. economic weakness and the
+recent decline in U.S. interest rates that has diminished
+the attractiveness of dollar-denominated investments,</segment>
+    <segment id="9">
+traders say the dollar is still in a precarious
+position.</segment>
+    <segment id="10"> “They’ll be looking at levels to sell the
+dollar,”</segment>
+    <segment id="11"> says James Scalfaro, a foreign-exchange marketing
+representative at Bank of Montreal.</segment>
+    <segment id="12"> While some
+analysts say the dollar eventually could test support
+at 1.75 marks and 135 yen,</segment>
+    <segment id="13"> Mr. Scalfaro and others don’t
+see the currency decisively sliding under support at
+1.80 marks and 140 yen soon.[B]</segment>
+    <segment id="14">
+
+[C] Predictions for limited
+dollar losses are based largely on the pound’s weak
+state after Mr. Lawson’s resignation and the yen’s
+inability to strengthen substantially when there are
+dollar retreats.</segment>
+    <segment id="15"> With the pound and the yen lagging
+behind other major currencies,</segment>
+    <segment id="16"> “you don’t have a confirmation”
+that a sharp dollar downturn is in the
+works,</segment>
+    <segment id="17"> says Mike Malpede, senior currency analyst at
+Refco Inc. in Chicago. ... [C]</segment>
+    <segment id="18">
+
+[D] As far as the pound goes, some traders say a slide
+toward support at $1.5500 may be a favorable development
+for the dollar this week.</segment>
+    <segment id="19"> While the pound has
+attempted to stabilize,</segment>
+    <segment id="21"> currency analysts say it is in
+critical condition.</segment>
+    <segment id="20"> Sterling plunged about four cents
+Thursday and hit the week’s low of $1.5765</segment>
+    <segment id="22"> when Mr. Lawson
+resigned from his six-year post because of a policy
+squabble with other cabinet members.</segment>
+    <segment id="23"> ... If the pound
+falls closer to 2.80 marks,</segment>
+    <segment id="24"> the Bank of England may
+raise Britain’s base lending rate by one percentage
+point to 16%,</segment>
+    <segment id="25"> says Mr. Rendell.</segment>
+    <segment id="26"> But such an increase, he
+says, could be viewed by the market as “too little too
+late.”</segment>
+    <segment id="27"> The Bank of England indicated its desire to
+leave its monetary policy unchanged Friday by declining
+to raise the official 15% discount-borrowing rate that
+it charges discount houses,</segment>
+    <segment id="28"> analysts say. [D]</segment>
+    <segment id="29">
+
+[E] Pound concerns
+aside, the lack of strong buying interest in the
+yen is another boon for the dollar,</segment>
+    <segment id="31"> many traders say.</segment>
+    <segment id="32">
+The dollar has a “natural base of support” around 140
+yen because the Japanese currency hasn’t been purchased
+heavily in recent weeks,</segment>
+    <segment id="33"> says Ms. Soares-Kemp of Credit
+Suisse.</segment>
+    <segment id="34"> The yen’s softness, she says, apparently stems
+from Japanese investors’ interest in buying dollars
+against the yen to purchase U.S. bond issues and persistent
+worries about this year’s upheaval in the Japanese
+government. [E]</segment>
+    <segment id="30">
+
+Carlson and Marcu pp 33-36</segment>
+  </body>
+</rst>

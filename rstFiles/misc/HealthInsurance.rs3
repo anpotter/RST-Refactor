@@ -1,0 +1,66 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="8" relname="span">Health insurance companies should naturally cover alternative medical treatments.</segment>
+    <segment id="2" parent="3" relname="concession">
+
+Not all practices and approaches that are lumped together under  this term may have been
+proven in clinical</segment>
+    <segment id="3" parent="7" relname="span">
+
+yet it&apos;s precisely their positive effect when accompanying conventional &apos;western&apos; medical therapies that&apos;s been demonstrated</segment>
+    <segment id="4" parent="6" relname="joint">
+
+Besides many general practitioners offer such counselling an treatments in parallel anyway</segment>
+    <segment id="5" parent="6" relname="joint">
+
+and who would want to question their broad expertise?</segment>
+<group id="6" type="multinuc" parent="1" relname="reason" />
+<group id="7" type="span" parent="1" relname="reason" />
+<group id="8" type="span" />
+  </body>
+</rst>
