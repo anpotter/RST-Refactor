@@ -4,6 +4,7 @@ Methods for refactoring RST convergences
 Under construction
 
 Run rp2rs3driver.py
+Refactored RST files will be saved in the refactored/ folder
 
 You can select the files you want to refactor by editing rstlist.py
 
