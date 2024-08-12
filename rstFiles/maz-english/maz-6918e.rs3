@@ -1,0 +1,83 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">
+
+Natural recapture</segment>
+    <segment id="11" parent="2" relname="reason">
+
+The nature park that is being created between Jüterbog, Luckenwalde and Treuenbrietzen is still far too little known outside the region.</segment>
+    <segment id="2" parent="12" relname="span">  
+
+It is therefore to be welcomed that Manfred Stolpe paid a visit to the extensive area the day before yesterday.</segment>
+    <segment id="3" parent="4" relname="background">  
+
+An intended benefit of such official trips by the Prime Minister to the provinces is to draw as much public attention as possible to certain projects.</segment>
+    <segment id="4" parent="13" relname="span">
+
+A circular route is to be created around the approximately 7000-hectare nature park.</segment>
+    <segment id="5" parent="18" relname="span">  
+
+This would be a significant step towards the stated goal of developing the former military training area for tourism.</segment>
+    <segment id="6" parent="5" relname="evidence">
+
+The hiking dune near Forst Zinna is already a popular excursion destination for locals and visitors alike.</segment>
+    <segment id="7" parent="17" relname="span">
+
+This type of conversion - nature reclaims former military areas - is comparatively cheap.</segment>
+    <segment id="8" parent="7" relname="elaboration">  
+
+However, the sections where dangerous ammunition may still be stored remain restricted areas.</segment>
+    <segment id="9" parent="16" relname="span">
+
+Whether new jobs will be created in the long term by developing the conversion areas for tourism depends above all on how many curious visitors will come.</segment>
+    <segment id="10" parent="14" relname="preparation">
+
+As was said :</segment>
+    <segment id="14" parent="15" relname="span"> Stolpe was already there.</segment>
+<group id="12" type="span" parent="18" relname="background" />
+<group id="13" type="span" parent="5" relname="means" />
+<group id="15" type="span" parent="9" relname="elaboration" />
+<group id="16" type="span" parent="5" relname="elaboration" />
+<group id="17" type="span" parent="5" relname="elaboration" />
+<group id="18" type="span" parent="19" relname="span" />
+<group id="19" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,119 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">
+
+One man&apos;s joy ... 
+</segment>
+    <segment id="13" parent="19" relname="interpretation">
+
+The threat was not carried out.
+</segment>
+    <segment id="2" parent="3" relname="antithesis"> 
+
+In August of this year, at a residents&apos; meeting, the anger of the people of Kloster was vented in the announcement that the construction of the new federal highway and the Jüterbog bypass would be stopped.
+</segment>
+    <segment id="3" parent="19" relname="span">  
+
+But since yesterday, construction machinery has been digging into the ground on the eastern edge of Jüterbog.
+</segment>
+    <segment id="4" parent="17" relname="circumstance">  
+
+The route has been marked out,
+</segment>
+    <segment id="14" parent="15" relname="antithesis"> 
+
+and it does not go around the monastery,
+</segment>
+    <segment id="15" parent="17" relname="span"> 
+
+but rather directly into the town.
+</segment>
+    <segment id="5" parent="21" relname="span">
+
+So it&apos;s clear that yesterday&apos;s ground-breaking ceremony was not all happy faces and good words.
+</segment>
+    <segment id="6" parent="16" relname="antithesis">  
+
+And not only among the people from the Kloster Zinna citizens&apos; initiative who were present,
+</segment>
+    <segment id="16" parent="22" relname="span"> 
+
+but also, for example, Jüterbog&apos;s champion for traffic calming in the town center and Schloßstraße.
+</segment>
+    <segment id="7" parent="26" relname="span">  
+
+Hildegard Uebe took the opportunity to have a serious word in person with the head of the Wünsdorf road construction office about the problems that remain despite the bypass.
+</segment>
+    <segment id="8" parent="24" relname="interpretation">
+
+This did not dampen the euphoric mood.
+</segment>
+    <segment id="9" parent="23" relname="span">  
+
+Rather cheerfully, Minister Meyer once again put the Klosterans off until the next Federal Transport Infrastructure Plan.
+</segment>
+    <segment id="10" parent="9" relname="elaboration">  
+
+othing would be in it before 2006.
+</segment>
+    <segment id="11" parent="23" relname="result">  
+
+The faces of the Kloster residents were rather sweet and sour.
+</segment>
+    <segment id="12" parent="27" relname="summary">  
+
+One man&apos;s joy is another man&apos;s sorrow.
+
+</segment>
+<group id="17" type="span" parent="18" relname="span" />
+<group id="18" type="span" parent="5" relname="reason" />
+<group id="19" type="span" parent="20" relname="span" />
+<group id="20" type="span" parent="27" relname="background" />
+<group id="21" type="span" parent="27" relname="joint" />
+<group id="22" type="span" parent="7" relname="circumstance" />
+<group id="23" type="span" parent="24" relname="span" />
+<group id="24" type="span" parent="25" relname="span" />
+<group id="25" type="span" parent="27" relname="joint" />
+<group id="26" type="span" parent="27" relname="joint" />
+<group id="27" type="multinuc" parent="28" relname="span" />
+<group id="28" type="span" />
+  </body>
+</rst>

@@ -41,29 +41,67 @@
   <body>
     <segment id="1">
 
-Füllhorn</segment>
+Cornucopia</segment>
     <segment id="13" parent="27" relname="interpretation">
 
-Vergeblich hat der Noch-Finanzbeigeordnete Hans-Joachim Bosse den Stadtverordneten bei der Einbringung des Haushalts 2002 ins Gewissen geredet .</segment>
-    <segment id="2" parent="26" relname="concession">  Zwar machten die Haushaltspolitiker der SPD im Vorfeld ihrer Wochenendklausur große Welle mit Horrorlisten möglicher Sparpositionen .</segment>
-    <segment id="3" parent="14" relname="interpretation">  Am Ende aber bleibt alles beim Alten :</segment>
-    <segment id="14" parent="26" relname="span">  Dass Millionen fehlen , hindert nicht daran , sie zu verteilen .</segment>
+Hans-Joachim Bosse, who is still a member of the city council responsible for finance, tried in vain to persuade the city councillors when the 2002 budget was presented.</segment>
+    <segment id="2" parent="26" relname="concession">
+
+In the run-up to their weekend retreat, the SPD budget politicians made a big splash with horror lists of possible savings items.
+</segment>
+    <segment id="3" parent="14" relname="interpretation"> 
+
+In the end, however, everything remains the same:
+</segment>
+    <segment id="14" parent="26" relname="span">  
+
+the fact that millions are missing does not prevent them from being distributed.</segment>
     <segment id="4" parent="24" relname="antithesis">
 
-Bosse hatte empfohlen , auf den teuren Theaterneubau zu verzichten .</segment>
-    <segment id="5" parent="6" relname="reason">  Doch der Versuch , das Projekt sterben zu lassen , hätte angesichts der dünnen SPD-CDU-Mehrheit im Desaster geendet .</segment>
-    <segment id="6" parent="24" relname="span">  Also bekannte man sich lieber einmütig zu dem Vorhaben .</segment>
-    <segment id="7" parent="21" relname="span">  Wie bei der Kammerakademie soll die Verwaltung hier und da ein bisschen umschichten ,</segment>
-    <segment id="16" parent="7" relname="elaboration"> nirgendwo darf es richtig weh tut .</segment>
+Bosse had recommended abandoning the expensive new theater building.
+</segment>
+    <segment id="5" parent="6" relname="reason">  
+
+But the attempt to let the project die would have ended in disaster in view of the slim SPD-CDU majority.
+</segment>
+    <segment id="6" parent="24" relname="span">  
+
+So the project was unanimously approved.
+</segment>
+    <segment id="7" parent="21" relname="span"> 
+
+As with the Kammerakademie, the administration should make a few changes here and there,
+</segment>
+    <segment id="16" parent="7" relname="elaboration"> 
+
+but nowhere should it really hurt.
+</segment>
     <segment id="8" parent="23" relname="span">
 
-Das Füllhorn schließlich schüttet man über Kitas und Schulen aus .</segment>
-    <segment id="9" parent="22" relname="list">  Dank der Kooperationsvereinbarung mit der CDU hat man deren Zustimmung schon in der Tasche .</segment>
-    <segment id="10" parent="22" relname="list">  Die PDS wird nichts dagegen haben .</segment>
-    <segment id="11" parent="17" relname="purpose">  Um die sicher notwendigen Investitionen tätigen zu können ,</segment>
-    <segment id="17" parent="20" relname="span"> bleibt aber am Ende wieder nur der Verkauf von Tafelsilber .</segment>
-    <segment id="12" parent="19" relname="span">  Dieses Problem und das Haushaltsloch werden nicht verschwinden ,</segment>
-    <segment id="18" parent="12" relname="circumstance"> wenn man Bosse in die Wüste geschickt hat .</segment>
+Finally, the cornucopia is poured over daycare centers and schools.
+</segment>
+    <segment id="9" parent="22" relname="list"> 
+
+Thanks to the cooperation agreement with the CDU, their approval is already in the bag.</segment>
+    <segment id="10" parent="22" relname="list">  
+
+The PDS will have nothing against it.
+</segment>
+    <segment id="11" parent="17" relname="purpose">  
+
+In order to be able to make the necessary investments, however,
+
+</segment>
+    <segment id="17" parent="20" relname="span"> 
+the only option will be to sell off the silverware.
+
+</segment>
+    <segment id="12" parent="19" relname="span"> 
+This problem and the budget deficit will not disappear
+</segment>
+    <segment id="18" parent="12" relname="circumstance"> 
+once the bosses have been sent into the desert.
+</segment>
 <group id="19" type="span" parent="15" relname="joint" />
 <group id="20" type="span" parent="15" relname="joint" />
 <group id="15" type="multinuc" parent="29" relname="span" />

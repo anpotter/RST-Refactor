@@ -1,0 +1,117 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">
+Suitable for shared apartments</segment>
+    <segment id="17" parent="31" relname="reason">
+
+Shared apartments are not a question of age.</segment>
+    <segment id="2" parent="30" relname="concession">  
+
+Of course, the likelihood that teens and twenty-somethings will agree to share a place is greater than that oldies will agree to a life with a shared kitchen and shopping service.</segment>
+    <segment id="3" parent="30" relname="span"> 
+
+And yet they do it,</segment>
+    <segment id="18" parent="3" relname="evidence"> 
+
+as the example of the senior citizens&apos; home in Bornstedter Feld proves.</segment>
+    <segment id="4" parent="19" relname="concession">
+
+Although the concerns of the young are similar to those of the old,</segment>
+    <segment id="19" parent="29" relname="span"> 
+
+the form of the shared apartment has changed.</segment>
+    <segment id="5" parent="27" relname="list">  
+
+Every pensioner has their own apartment with a bathroom and kitchen.</segment>
+    <segment id="6" parent="27" relname="list"> 
+
+Nosiness and cliquishness are unwelcome.</segment>
+    <segment id="7" parent="27" relname="list">  
+
+Instead, contact and unconditional neighborly assistance are included in the verbally agreed upon &quot;contract&quot;.</segment>
+    <segment id="8" parent="28" relname="span">  
+
+This way, one person saves on an expensive handyman and another saves on a trip to the hardware store.</segment>
+    <segment id="9" parent="8" relname="result">  
+
+It should pay off for everyone in the end.</segment>
+    <segment id="10" parent="27" relname="interpretation"> 
+
+That was the goal.</segment>
+    <segment id="11" parent="23" relname="concession">
+
+For now, the concept seems to be working.</segment>
+    <segment id="12" parent="23" relname="span"> 
+
+In addition to structural deficiencies, there is also a downside that those who have the least pension and could have many concerns about the future were not allowed to move into the subsidized apartments.</segment>
+    <segment id="13" parent="12" relname="cause">  
+
+The city did not play along here.</segment>
+    <segment id="14" parent="25" relname="span">  
+
+Nevertheless, the experiment is noteworthy.</segment>
+    <segment id="15" parent="20" relname="condition"> 
+
+And if someone no longer likes it,</segment>
+    <segment id="20" parent="21" relname="span"> 
+
+they can always move out again.</segment>
+    <segment id="16" parent="21" relname="elaboration">  
+
+Just like any other shared housing situation.</segment>
+<group id="21" type="span" parent="22" relname="span" />
+<group id="22" type="span" parent="14" relname="interpretation" />
+<group id="23" type="span" parent="24" relname="span" />
+<group id="24" type="span" parent="25" relname="concession" />
+<group id="25" type="span" parent="26" relname="span" />
+<group id="26" type="span" parent="34" relname="joint" />
+<group id="27" type="multinuc" parent="33" relname="span" />
+<group id="28" type="span" parent="27" relname="list" />
+<group id="29" type="span" parent="27" relname="interpretation" />
+<group id="30" type="span" parent="31" relname="span" />
+<group id="31" type="span" parent="32" relname="span" />
+<group id="32" type="span" parent="34" relname="background" />
+<group id="33" type="span" parent="34" relname="joint" />
+<group id="34" type="multinuc" parent="35" relname="span" />
+<group id="35" type="span" />
+  </body>
+</rst>
