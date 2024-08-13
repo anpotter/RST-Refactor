@@ -379,23 +379,35 @@ class rp2rs3:
     def structure_repr(self) -> dict[int, list[str, int, str, str]]:
         return({c.id_num: [c.tag_type, c.parent_id, c.rel_name, c.text] for c in self._connections})
 
-
     def save_to_XML(self, path: str, name: str):
-        '''saves the structure in XML format to the file specified by the path and name parameters'''
-        root = ET.Element('rst')
-        self._populate_header(root)
-        self._populate_body(root)
+            '''saves the structure in XML format to the file specified by the path and name parameters'''
+            root = ET.Element('rst')
+            self._populate_header(root)
+            self._populate_body(root)
 
-        data = minidom.parseString(ET.tostring(root)).toprettyxml(indent='    ')
+            data = minidom.parseString(ET.tostring(root)).toprettyxml(indent='    ')
 
-        #with open(f"{path}\\{name}", 'w') as file: # OS dependency?
-##        with open(f"{path}/{name}", 'w') as file:   
+            with open(os.path.join(path, name), 'wb') as file:
+                file.write(data.encode('utf8'))
+
+            return()
+
+##    def save_to_XML(self, path: str, name: str):
+##        '''saves the structure in XML format to the file specified by the path and name parameters'''
+##        root = ET.Element('rst')
+##        self._populate_header(root)
+##        self._populate_body(root)
+##
+##        data = minidom.parseString(ET.tostring(root)).toprettyxml(indent='    ')
+##
+##        #with open(f"{path}\\{name}", 'w') as file: # OS dependency?
+####        with open(f"{path}/{name}", 'w') as file:   
+####            file.write(data)
+##
+##        with open(os.path.join(path, name), 'w') as file:
 ##            file.write(data)
-
-        with open(os.path.join(path, name), 'w') as file:
-            file.write(data)
-
-        return()
+##
+##        return()
 
 
 # Save as XML Driver Methods
