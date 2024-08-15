@@ -1,0 +1,120 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="35" relname="span">The traditional Korean home was divided into male and female apartments. </segment>
+    <segment id="2" parent="30" relname="span">
+The master of the house had a study and drawing room where guests were received.</segment>
+    <segment id="3" parent="2" relname="elaboration">  
+Typical furniture included reading and writing tables, document chests and cupboards 
+with several display shelves above them.</segment>
+    <segment id="4" parent="33" relname="span">  
+In the women&apos;s quarters the business of running the household took place.</segment>
+    <segment id="5" parent="31" relname="span">  
+Much of the furniture was made up of chests arranged vertically in matching pairs, </segment>
+    <segment id="6" parent="5" relname="elaboration">
+or even three pieces one on top of the other.</segment>
+    <segment id="7" parent="32" relname="span">
+Female guests were entertained in these rooms,</segment>
+    <segment id="8" parent="7" relname="elaboration"> 
+which often had beautifully crafted wooden toilet boxes with fold-away mirrors and sewing boxes, and folding screens, painted with birds and flowers.</segment>
+    <segment id="9" parent="40" relname="span">
+
+Chests were used for the storage of clothes,</segment>
+    <segment id="10" parent="9" relname="elaboration"> 
+usually folded rather than hung, and bedding.</segment>
+    <segment id="11" parent="43" relname="span">
+The type of chest known as bandaji is rectangular, 
+with the upper half of the front hinged at the base and opening downwards.</segment>
+    <segment id="13" parent="12" relname="condition">
+If it was to be used for storing books or scrolls </segment>
+    <segment id="14" parent="12" relname="conjunction">
+it had small drawers and cupboards inside </segment>
+    <segment id="15" parent="12" relname="conjunction">
+and was kept in the male quarters.</segment>
+    <segment id="16" parent="42" relname="span">  
+Bandaji with no interior fitments were used for clothes and bedding in the female quarters, </segment>
+    <segment id="17" parent="16" relname="elaboration">
+
+as was the Museum&apos;s mid-nineteenth-century example.</segment>
+    <segment id="18" parent="19" relname="span">
+It is made of zelkova, 
+a hardwood of the elm family, </segment>
+    <segment id="20" parent="18" relname="elaboration">
+and its fine colour and grain are exploited to the full.  </segment>
+    <segment id="21" parent="16" relname="elaboration">
+The brass fitments on chests often expressed good luck, long life and happiness, particularly as the chests were commonly wedding gifts or part of a dowry.  </segment>
+    <segment id="22" parent="16" relname="elaboration">
+Hinges at the base of the upper half of the chest are shaped as two spools, representing longevity, </segment>
+    <segment id="23" parent="16" relname="elaboration">
+and at the centre is a hinge in the shape of a medicine bottle for good health.  </segment>
+    <segment id="24" parent="16" relname="elaboration">
+The characters in the lower half stand for double happiness, </segment>
+    <segment id="25" parent="16" relname="elaboration">
+and the bat is a symbol of good luck.  </segment>
+    <segment id="26" parent="16" relname="elaboration">
+The brass bosses are said to represent the big dipper, another symbol of longevity.</segment>
+    <segment id="27" parent="16" relname="elaboration"> 
+The chest is made of planks of wood joined at top and sides with finger jointing.  </segment>
+    <segment id="28" parent="37" relname="span">
+The brass hinges and splice plates strengthen the joins and add to the distinctive style of the chest, </segment>
+    <segment id="29" parent="28" relname="interpretation">
+placing its manufacture in the Kyoung-gi-do area around Seoul.</segment>
+<group id="30" type="span" parent="34" relname="contrast" />
+<group id="31" type="span" parent="4" relname="elaboration" />
+<group id="32" type="span" parent="4" relname="elaboration" />
+<group id="33" type="span" parent="34" relname="contrast" />
+<group id="34" type="multinuc" parent="38" relname="span" />
+<group id="35" type="span" />
+<group id="12" type="multinuc" parent="36" relname="span" />
+<group id="36" type="span" parent="41" relname="contrast" />
+<group id="19" type="span" parent="16" relname="elaboration" />
+<group id="37" type="span" parent="16" relname="elaboration" />
+<group id="39" type="span" parent="34" relname="elaboration" />
+<group id="40" type="span" parent="39" relname="span" />
+<group id="41" type="multinuc" parent="11" relname="elaboration" />
+<group id="42" type="span" parent="41" relname="contrast" />
+<group id="43" type="span" parent="40" relname="background" />
+<group id="38" type="span" parent="1" relname="elaboration" />
+  </body>
+</rst>
