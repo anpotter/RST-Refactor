@@ -1,13 +1,17 @@
 
 rs3list = [
     # core convergences
+    # crashes:
+    
     './rstFiles/misc/BearsInOntario.rs3',
     './rstFiles/misc/BouquetsBasket.rs3',
     './rstFiles/misc/CCletterTextGenVersion.rs3',
     './rstFiles/misc/DarwinGeologist.rs3',
     './rstFiles/misc/conference(Mann).rs3',
-    './rstFiles/misc/conference(Matthiessen&T).rs3',
+    './rstFiles/misc/cryptocurrency.rs3',
+#    './rstFiles/misc/conference(Matthiessen&T).rs3',   # non-convergent, for ref only
     './rstFiles/misc/GlobalWarming.rs3',
+    './rstFiles/misc/Harmony and Contrast.rs3',     # questionable analysis, but highly convergent
     './rstFiles/misc/HealthInsurance.rs3',
     './rstFiles/misc/KentuckyAward.rs3',
     './rstFiles/misc/Memorex.rs3',
@@ -18,6 +22,7 @@ rs3list = [
     './rstFiles/misc/zpg.rs3',
     './rstFiles/misc/ducasse.rs3',
     './rstFiles/misc/abelen wildlife.rs3',
+    './rstFiles/misc/abelen wildlife plus.rs3',
     './rstFiles/misc/Bateman conjunctive development.rs3',   # Bateman/Martin argumentative list
     './rstFiles/misc/President Bush insists.rs3',            # Adapted from Marcu via Das
    
