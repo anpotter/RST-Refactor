@@ -1,5 +1,4 @@
-# Baseline v 5 for listable convergences
-# refactor ladder style plus listable handling
+# # refactor ladder style plus listable handling
 # plus scoping
 
 import sys
@@ -110,10 +109,10 @@ def get_rel_set(rplist):
 
 ####################################
 # replace eligible convergences with list relations
-
+# This is used by another version of refactor! 
 def listify(convlist):
 
-    return convlist         # bypass listification
+    return convlist         # bypass listification for pure ladder version
 
     lhsats = []
     rhsats = []
@@ -192,15 +191,6 @@ sns_groups = {
 
         # otherwise and unless are treated as variants on condition
 
-##    'experimental1': ['antithesis', 
-##                    'summary',
-##                   ],
-##    'experimental2': ['background', 
-##                    'summary',
-##                   ],
-
-        # To do: anytime summary is conv RHS it probably should escalate
-
     }
 
 # satellite-nucleus-satellite match
@@ -239,17 +229,13 @@ def escalate_scope(convlist):
         else:
             rhsats.append(r)
 
+    summary = False
     for r in rhsats:
         if r[0] == 'summary':   # scope escalation by definition
-#            debug(r)
-            i = 0
-            while i < len(rhsats):
-                convlist.insert(0,convlist.pop())
-                i += 1
-            scope_count += 1
-            return convlist
+            summary = True
+            break
         
-    if len(lhsats) and len(rhsats) and sns_match(rel_list):
+    if summary or len(lhsats) and len(rhsats) and sns_match(rel_list):
         i = 0
         while i < len(rhsats):
             convlist.insert(0,convlist.pop())
