@@ -1,5 +1,5 @@
 # Refactor
-Methods for refactoring RST convergences
+Refactoring RST convergences
 
 Under construction
 
