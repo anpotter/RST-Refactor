@@ -1,17 +1,16 @@
 
 rs3list = [
     # core convergences
-    # crashes:
     
     './rstFiles/misc/BearsInOntario.rs3',
     './rstFiles/misc/BouquetsBasket.rs3',
     './rstFiles/misc/CCletterTextGenVersion.rs3',
     './rstFiles/misc/DarwinGeologist.rs3',
     './rstFiles/misc/conference(Mann).rs3',
-    './rstFiles/misc/cryptocurrency.rs3',
 #    './rstFiles/misc/conference(Matthiessen&T).rs3',   # non-convergent, for ref only
+    './rstFiles/misc/cryptocurrency.rs3',
     './rstFiles/misc/GlobalWarming.rs3',
-    './rstFiles/misc/Harmony and Contrast.rs3',     # questionable analysis, but highly convergent
+    './rstFiles/misc/Harmony and Contrast.rs3',     # questionable analysis, but deeply convergent
     './rstFiles/misc/HealthInsurance.rs3',
     './rstFiles/misc/KentuckyAward.rs3',
     './rstFiles/misc/Memorex.rs3',
@@ -24,13 +23,20 @@ rs3list = [
     './rstFiles/misc/abelen wildlife.rs3',
     './rstFiles/misc/abelen wildlife plus.rs3',
     './rstFiles/misc/Bateman conjunctive development.rs3',   # Bateman/Martin argumentative list
-    './rstFiles/misc/President Bush insists.rs3',            # Adapted from Marcu via Das
-   
+#    './rstFiles/misc/President Bush insists.rs3',            # Adapted from Marcu via Das
+    './rstFiles/misc/egg underspecified.rs3',
+    './rstFiles/misc/Carlson 4 2 1 wsj_0693.rs3',
+    './rstFiles/misc/X brazil.rs3',
+#    './rstFiles/misc/X brazil 02.rs3',  # gratuitous variant
+    './rstFiles/misc/warnock.rs3',
+    './rstFiles/misc/Attribution Justify Waaijers.rs3', # Attribution as Justify
+    './rstFiles/misc/pressroomAsSwiimingPoolHCW10052024.rs3',
+    
 ##    './rstFiles/misc/requestSchema.rs3', # various precedence experiments
 ##    './rstFiles/misc/requestSchema2.rs3',
 ##    './rstFiles/misc/requestSchema3.rs3',
 
-##    './rstFiles/misc/Avoiding chains Not OK.rs3',    # zeldes guidelines example of TBA
+    './rstFiles/misc/Avoiding chains Not OK.rs3',    # zeldes guidelines example of TBA
     
 ##    './rstFiles/misc/GUM_news_worship.rs3',   # zeldes conv-free version
     './rstFiles/misc/GUM_news_worship_2016.rs3',  # zeldes early convergent version
@@ -44,7 +50,8 @@ rs3list = [
     './rstFiles/maz-english/maz-18750e.rs3',    # background summary interpretation + LHS ladders
     './rstFiles/maz-english/maz-3367e.rs3',     # bilateral with listable
     './rstFiles/maz-english/maz-6918e.rs3',     # complex conv (enablement, evidence, elaboration elaboration)
-##  Selected Potsdam Convergences (English Translations) scoping study
+
+##  Selected Potsdam Convergences (English Translations) for scoping study
     './rstFiles/maz-english/maz-12383e.rs3',
     './rstFiles/maz-english/maz-12473e.rs3',    # Changed evaluation_e to reason (see straddlers notes)
     './rstFiles/maz-english/maz-12576e.rs3',
@@ -76,8 +83,8 @@ rs3list = [
     './rstFiles/STS Corpus/STS-Oct-M6-Lieberman.rs3',
     './rstFiles/STS Corpus/STS-Oct-M7-Eglash.rs3',      # antithesis evidence
     './rstFiles/STS Corpus/STS-Oct-M8-Miller.rs3',      # short sweet concession evidence
-    './rstFiles/STS Corpus/STS-Oct-M17-Gross.rs3',      # convergence within convergence
     './rstFiles/STS Corpus/STS-Oct-M12-Fuller.rs3',     # Serial elaborations
+    './rstFiles/STS Corpus/STS-Oct-M17-Gross.rs3',      # convergence within convergence
 ##    
 ##  Convergences from the Multilingual RST Treebank
     './rstFiles/Multilingual RST Treebank/TERM30_A1.rs3',

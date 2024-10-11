@@ -3,14 +3,17 @@
 import os
 from rsttext2dict import text_dict_list
 
-# baselines
-#from refactor_v5b import rp_list   # stair-step
-#from refactor_v5d import rp_list   # Ladder + listification
-#from refactor_v5e import rp_list   # Ladder + listification disabled
-from refactor_v5g import rp_list    # Ladder + Scoping
+# baseline refactoring
+from refactor_v5g import rp_list    # Ladder, no listification, + Scoping (baseline, recommended)
+
+# experimental versions, your mileage may vary
+#from refactor_v5b import rp_list   # stair-step (limited)
+#from refactor_v5d import rp_list   # Ladder + listification (limited)
+#from refactor_v5e import rp_list   # Ladder + no listification
+#from refactor_v5h import rp_list    # Ladder + listification + Scoping (experimental)
 
 from rs3list import rs3list     # RS3 input list
-from rp2rs3 import rp2rs3       # Cameron's rp to RST conversion code
+from rp2rs3 import rp2rs3       # rp to RST conversion code
 
 outpath = "./refactored"
 
