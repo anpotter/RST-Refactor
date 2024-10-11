@@ -49,7 +49,7 @@ familiarity.</segment>
 Some HCI-ers like Raskin and others have asked about the intuitiveness of the desktop.</segment>
     <segment id="4" parent="13" relname="span"> 
 How intuitive is it?</segment>
-    <segment id="7" parent="9" relname="antithesis"> Many workers do not work in an office environment,</segment>
+    <segment id="7" parent="9" relname="concession"> Many workers do not work in an office environment,</segment>
     <segment id="9" parent="11" relname="span"> yet the classic 
 desktop interface was designed to support that metaphor.</segment>
     <segment id="5" parent="11" relname="elaboration"> Many people are not familiar 

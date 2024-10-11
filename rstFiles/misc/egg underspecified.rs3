@@ -29,8 +29,11 @@
       <rel name="volitional-result" type="rst" />
       <rel name="cause" type="rst" />
       <rel name="result" type="rst" />
-      <rel name="" type="rst" />
       <rel name="attribution" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="" type="rst" />
       <rel name="conjunction" type="multinuc" />
       <rel name="contrast" type="multinuc" />
       <rel name="disjunction" type="multinuc" />
@@ -38,27 +41,29 @@
       <rel name="list" type="multinuc" />
       <rel name="restatement-mn" type="multinuc" />
       <rel name="sequence" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
     </relations>
   </header>
   <body>
-    <segment id="1" parent="11" relname="span">President Bush insists</segment>
-    <segment id="2" parent="7" relname="span">
-it would be a great tool</segment>
+    <segment id="1" parent="9" relname="span">Unfortunately, the Dutch animal shelters fill to the brim with homeless animals every summer</segment>
+    <segment id="2" parent="1" relname="elaboration">
+Animals that have been dine away with by their owner for whatever reason and that are now left to their destiny.</segment>
     <segment id="3" parent="13" relname="span">
-for curbing the budget deficit</segment>
-    <segment id="4" parent="14" relname="span">
-and slicing out the lard of government programs</segment>
-    <segment id="5" parent="8" relname="span">
-He wants it now</segment>
-<group id="6" type="multinuc" parent="7" relname="elaboration" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="8" type="span" parent="10" relname="elaboration" />
-<group id="9" type="span" parent="10" relname="span" />
-<group id="10" type="span" parent="12" relname="span" />
-<group id="11" type="span" parent="9" relname="attribution" />
-<group id="12" type="span" />
-<group id="13" type="span" parent="6" relname="list" />
-<group id="14" type="span" parent="6" relname="list" />
+It is in your name we ask their help.</segment>
+    <segment id="4" parent="11" relname="solutionhood">
+Because to improve the existence of these animals,</segment>
+    <segment id="5" parent="11" relname="span">
+there is of course a need of money.</segment>
+    <segment id="7" parent="10" relname="list">
+For vaccinations and sterilisations.</segment>
+    <segment id="6" parent="10" relname="list">
+For increase of the number of shelters.</segment>
+    <segment id="8" parent="10" relname="list">
+For extra medical cate when necessary.</segment>
+<group id="9" type="span" parent="3" relname="circumstance" />
+<group id="10" type="multinuc" parent="5" relname="background" />
+<group id="11" type="span" parent="12" relname="span" />
+<group id="12" type="span" parent="3" relname="justify" />
+<group id="13" type="span" />
   </body>
 </rst>

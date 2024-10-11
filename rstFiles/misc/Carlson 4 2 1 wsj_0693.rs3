@@ -45,12 +45,41 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="4" relname="span">The new Tech Report abstracts are now in the journal area of the library 
-near the abridged dictionary.</segment>
-    <segment id="2" parent="1" relname="enablement">
-Please sign your name by any that you would be interested in seeing.</segment>
-    <segment id="3" parent="1" relname="enablement">
-Last day for sign ups - 31 May.</segment>
+    <segment id="1" parent="4" relname="span">[Although bullish dollar sentiment has fizzled,
+many currency analysts say a massive sell-off probably
+won’t occur in the near future. While Wall Street’s
+tough times and lower U.S. interest rates continue to
+undermine the dollar, weakness in the pound and the yen
+is expected to offset those factors. “By default,” the
+dollar probably will be able to hold up pretty well in
+coming days, says Francoise Soares-Kemp, a foreignexchange
+adviser at Credit Suisse. “We’re close to the
+bottom” of the near-term ranges, she contends. ...A]</segment>
+    <segment id="2" parent="1" relname="elaboration">
+
+[With the stock market wobbly and dollar buyers discouraged
+by signs of U.S. economic weakness and the
+recent decline in U.S. interest rates that has diminished
+the attractiveness of dollar-denominated investments,
+traders say the dollar is still in a precarious
+position. “They’ll be looking at levels to sell the
+dollar,” says James Scalfaro, a foreign-exchange marketing
+representative at Bank of Montreal. While some
+analysts say the dollar eventually could test support
+at 1.75 marks and 135 yen, Mr. Scalfaro and others don’t
+see the currency decisively sliding under support at
+1.80 marks and 140 yen soon.B]</segment>
+    <segment id="3" parent="1" relname="elaboration">
+
+[Predictions for limited
+dollar losses are based largely on the pound’s weak
+state after Mr. Lawson’s resignation and the yen’s
+inability to strengthen substantially when there are
+dollar retreats. With the pound and the yen lagging
+behind other major currencies, “you don’t have a confirmation”
+that a sharp dollar downturn is in the
+works, says Mike Malpede, senior currency analyst at
+Refco Inc. in Chicago. ...C]</segment>
 <group id="4" type="span" />
   </body>
 </rst>

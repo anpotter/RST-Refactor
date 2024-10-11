@@ -29,8 +29,11 @@
       <rel name="volitional-result" type="rst" />
       <rel name="cause" type="rst" />
       <rel name="result" type="rst" />
-      <rel name="" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="propositional-attitude" type="rst" />
       <rel name="attribution" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="reason" type="rst" />
       <rel name="conjunction" type="multinuc" />
       <rel name="contrast" type="multinuc" />
       <rel name="disjunction" type="multinuc" />
@@ -41,24 +44,32 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="11" relname="span">President Bush insists</segment>
-    <segment id="2" parent="7" relname="span">
-it would be a great tool</segment>
-    <segment id="3" parent="13" relname="span">
-for curbing the budget deficit</segment>
-    <segment id="4" parent="14" relname="span">
-and slicing out the lard of government programs</segment>
-    <segment id="5" parent="8" relname="span">
-He wants it now</segment>
-<group id="6" type="multinuc" parent="7" relname="elaboration" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="8" type="span" parent="10" relname="elaboration" />
-<group id="9" type="span" parent="10" relname="span" />
-<group id="10" type="span" parent="12" relname="span" />
-<group id="11" type="span" parent="9" relname="attribution" />
-<group id="12" type="span" />
-<group id="13" type="span" parent="6" relname="list" />
-<group id="14" type="span" parent="6" relname="list" />
+    <segment id="1" parent="11" relname="joint">1) The challenge facing World Wildlife Fund is global.</segment>
+    <segment id="2" parent="11" relname="joint">
+2) And time is running out.</segment>
+    <segment id="3" parent="16" relname="span">
+3) We need your member-ship support now.</segment>
+    <segment id="4" parent="12" relname="span">
+4) Extinction can come quickly.</segment>
+    <segment id="5" parent="4" relname="interpretation">
+5) And extinction is forever.</segment>
+    <segment id="6" parent="17" relname="span">
+6) So please consider sending a member-ship contribu-tion of $15, $25, $50. or more if at all possible.</segment>
+    <segment id="7" parent="13" relname="span">
+7) As I said in the beginning of this letter. talk alone won&apos;t accomplish
+much.</segment>
+    <segment id="8" parent="7" relname="interpretation">
+8) You and I both know that.</segment>
+    <segment id="9" parent="14" relname="span">
+9) It takes action to get the job done.</segment>
+    <segment id="10" parent="15" relname="span">
+10) I urge you to act today.</segment>
+<group id="11" type="multinuc" parent="3" relname="volitional-cause" />
+<group id="12" type="span" parent="3" relname="volitional-cause" />
+<group id="13" type="span" parent="9" relname="volitional-cause" />
+<group id="14" type="span" parent="10" relname="motivation" />
+<group id="15" type="span" parent="6" relname="motivation" />
+<group id="16" type="span" parent="6" relname="motivation" />
+<group id="17" type="span" />
   </body>
 </rst>

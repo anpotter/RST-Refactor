@@ -1,0 +1,73 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="2" relname="justify">Just like other speculative bubbles,</segment>
+    <segment id="2" parent="14" relname="span">
+the cryptocurrency bubble will also blow up at some point, </segment>
+    <segment id="3" parent="2" relname="concession">
+though the timing is quite unpredictable. </segment>
+    <segment id="4" parent="15" relname="span">
+But the risk is not only to gullible speculators. </segment>
+    <segment id="5" parent="10" relname="circumstance">
+As time goes on, </segment>
+    <segment id="6" parent="7" relname="nonvolitional-cause">
+cryptocurrencies
+ get more enmeshed in our economic system </segment>
+    <segment id="7" parent="10" relname="span">
+and the risk of financial contagion grows.</segment>
+    <segment id="8" parent="7" relname="background">
+Financial contagion refers to the spread of market disturbances, 
+typically on the downside, 
+between different economic institutions and between different countries. </segment>
+    <segment id="11" parent="16" relname="span">
+The cryptocurrency bubble is, in my opinion, a growing systemic financial risk </segment>
+    <segment id="12" parent="11" relname="elaboration">
+(and there are also the issues of susceptibility to cyberattacks and voracious energy appetite).</segment>
+    <segment id="13">
+
+Vardi, M. Y. (2018). A declaration of the dependence of cyberspace. Communications of the ACM, 61(3), 9.</segment>
+<group id="14" type="span" parent="4" relname="concession" />
+<group id="10" type="span" parent="9" relname="span" />
+<group id="9" type="span" parent="4" relname="evidence" />
+<group id="15" type="span" parent="17" relname="span" />
+<group id="16" type="span" parent="15" relname="summary" />
+<group id="17" type="span" />
+  </body>
+</rst>

@@ -29,8 +29,8 @@
       <rel name="volitional-result" type="rst" />
       <rel name="cause" type="rst" />
       <rel name="result" type="rst" />
-      <rel name="" type="rst" />
-      <rel name="attribution" type="rst" />
+      <rel name="rst" type="rst" />
+      <rel name="propositional-attitude" type="rst" />
       <rel name="conjunction" type="multinuc" />
       <rel name="contrast" type="multinuc" />
       <rel name="disjunction" type="multinuc" />
@@ -41,24 +41,17 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="11" relname="span">President Bush insists</segment>
-    <segment id="2" parent="7" relname="span">
-it would be a great tool</segment>
-    <segment id="3" parent="13" relname="span">
-for curbing the budget deficit</segment>
-    <segment id="4" parent="14" relname="span">
-and slicing out the lard of government programs</segment>
-    <segment id="5" parent="8" relname="span">
-He wants it now</segment>
-<group id="6" type="multinuc" parent="7" relname="elaboration" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="8" type="span" parent="10" relname="elaboration" />
-<group id="9" type="span" parent="10" relname="span" />
-<group id="10" type="span" parent="12" relname="span" />
-<group id="11" type="span" parent="9" relname="attribution" />
-<group id="12" type="span" />
-<group id="13" type="span" parent="6" relname="list" />
-<group id="14" type="span" parent="6" relname="list" />
+    <segment id="1" parent="8" relname="concession">The deal is an important step toward more open access in scientific publishing, </segment>
+    <segment id="2" parent="8" relname="span">
+but the per paper fee of €2750 seems high, </segment>
+    <segment id="3" parent="2" relname="justify">
+says Leo Waaijers, an open-access advocate and retired librarian at the Delft University of Technology in the Netherlands. </segment>
+    <segment id="5" parent="4" relname="span">
+Dutch researchers are paying Wiley just €1600 per paper under a similar deal in the Netherlands, </segment>
+    <segment id="6" parent="5" relname="justify">
+he notes.</segment>
+<group id="8" type="span" parent="10" relname="span" />
+<group id="10" type="span" />
+<group id="4" type="span" parent="2" relname="evidence" />
   </body>
 </rst>

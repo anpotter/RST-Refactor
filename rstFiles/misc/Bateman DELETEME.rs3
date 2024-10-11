@@ -30,7 +30,6 @@
       <rel name="cause" type="rst" />
       <rel name="result" type="rst" />
       <rel name="" type="rst" />
-      <rel name="attribution" type="rst" />
       <rel name="conjunction" type="multinuc" />
       <rel name="contrast" type="multinuc" />
       <rel name="disjunction" type="multinuc" />
@@ -41,24 +40,47 @@
     </relations>
   </header>
   <body>
-    <segment id="1" parent="11" relname="span">President Bush insists</segment>
-    <segment id="2" parent="7" relname="span">
-it would be a great tool</segment>
-    <segment id="3" parent="13" relname="span">
-for curbing the budget deficit</segment>
-    <segment id="4" parent="14" relname="span">
-and slicing out the lard of government programs</segment>
-    <segment id="5" parent="8" relname="span">
-He wants it now</segment>
-<group id="6" type="multinuc" parent="7" relname="elaboration" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="7" type="span" parent="9" relname="span" />
-<group id="8" type="span" parent="10" relname="elaboration" />
-<group id="9" type="span" parent="10" relname="span" />
-<group id="10" type="span" parent="12" relname="span" />
-<group id="11" type="span" parent="9" relname="attribution" />
-<group id="12" type="span" />
-<group id="13" type="span" parent="6" relname="list" />
-<group id="14" type="span" parent="6" relname="list" />
+    <segment id="1" parent="6" relname="span">Governments were 
+committed to 
+inflation because 
+they were 
+themselves part of 
+the system which 
+required it.</segment>
+    <segment id="2" parent="1" relname="evidence">
+
+Modern capitalism 
+thrives on 
+expansion and 
+credit, and without 
+them it shrivels.</segment>
+    <segment id="3" parent="1" relname="evidence">
+
+Equally however it 
+requires 
+the right context, which 
+is an expanding world 
+economy</segment>
+    <segment id="4" parent="1" relname="evidence">
+
+Furthermore, the 
+more the 
+particular 
+economy 
+flourishes, 
+the more 
+dependent it is 
+upon 
+the total economy</segment>
+    <segment id="5" parent="1" relname="evidence">
+
+Finally, any government 
+operating within such a 
+system 
+becomes 
+overwhelmingly 
+committed to 
+maintaining it</segment>
+<group id="6" type="span" />
   </body>
 </rst>
