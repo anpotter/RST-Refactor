@@ -7,7 +7,7 @@ from inspect import currentframe
 
 from defaulthandlers import *   # relation handlers
 from pcpp import pcpp
-from pycrst import rp_dict      # input
+from pycrst import rp_dict      # Potter's (2023) pycrst, pcpp, etc
 
 
 debugging = True

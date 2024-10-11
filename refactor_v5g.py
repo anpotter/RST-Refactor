@@ -7,7 +7,8 @@ from inspect import currentframe
 
 from defaulthandlers import *   # relation handlers
 from pcpp import pcpp
-from pycrst import rp_dict      # input
+from pycrst import rp_dict      # Potter's (2023) pycrst, pcpp, etc
+from debug import debug
 
 filename = ''
 debugging = True
@@ -145,6 +146,8 @@ def listify(convlist):
 # for scoping to apply all convergent rels must be
 # in the same group
 
+# needs to be import
+
 sns_groups = {
     
     'acceptance' : [#'antithesis',
@@ -170,6 +173,11 @@ sns_groups = {
                     'interpretation',
                     ],
 
+    'rejection': [
+                'antithesis',
+                'concession',
+                ],
+    
     'causality' :   # this group could use further study... see e.g., GlobalWarming
         [
          #'circumstance',
@@ -195,7 +203,7 @@ sns_groups = {
 
 # satellite-nucleus-satellite match
 def sns_match(rlist):
-             
+
     for k in sns_groups:
         v = sns_groups.get(k)
         if all(ele in v for ele in rlist):
@@ -234,7 +242,6 @@ def escalate_scope(convlist):
         if r[0] == 'summary':   # scope escalation by definition
             summary = True
             break
-        
     if summary or len(lhsats) and len(rhsats) and sns_match(rel_list):
         i = 0
         while i < len(rhsats):
@@ -242,7 +249,7 @@ def escalate_scope(convlist):
             i += 1
         scope_count += 1
 
-     #   print(filename, '\n\tscope:', scope_count, convlist[1][0], convlist[0][0])
+        #print(filename, '\n\tscope:', scope_count, convlist[1][0], convlist[0][0])
         
     return convlist
 

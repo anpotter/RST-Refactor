@@ -1,6 +1,5 @@
-# Baseline v 5 for listable convergences
-# refactor ladder style plus listable handling
-# ... listification disabled
+# # refactor ladder style plus listable handling
+# plus scoping
 
 import sys
 import re
@@ -11,7 +10,8 @@ from pcpp import pcpp
 from pycrst import rp_dict      # Potter's (2023) pycrst, pcpp, etc
 
 
-debugging = False
+filename = ''
+debugging = True
 def debug(*arg):
     if debugging:
         frameinfo = currentframe()
@@ -31,9 +31,8 @@ def tup2list(data):
 
 ########################################
 # sort convergent rps by sat
-
 def consort(rp): 
-           
+
     lix = []
     rix = []
     rp_ldict = {}   # left of loie
@@ -111,10 +110,8 @@ def get_rel_set(rplist):
 
 ####################################
 # replace eligible convergences with list relations
-
+# This is used by another version of refactor! 
 def listify(convlist):
-
-    return convlist         # skip listification
 
     lhsats = []
     rhsats = []
@@ -139,8 +136,118 @@ def listify(convlist):
                     listitems.append(r[1][0])
                 newrp = [rel, [['list_',listitems],nuc]]            
                 convlist.append(newrp)
-            
+         #       debug('listify', filename, newrp)
+           
     return convlist
+
+# scope escalation
+# See satellite-nucleus-satellite in ZPG doc.
+# for scoping to apply all convergent rels must be
+# in the same group
+
+sns_groups = {
+    
+    'acceptance' : [#'antithesis',
+                    #'concession',
+                    'evidence',
+                    'reason',
+                    'justify',
+                    ],
+
+    'performance' : [
+                    'motivation',
+                    'enablement',
+                    ],
+    
+    'comprehension' : [
+                    #'background',
+                    #'preparation',
+                    'elaboration',
+                    'summary',
+                    'restatement',
+                    'evaluation',
+                    'evaluation_n',
+                    'interpretation',
+                    ],
+    'resistance' : [
+                    'antithesis',
+                    'concession'
+                    ],
+
+    'causality' :   # this group could use further study... see e.g., GlobalWarming
+        [
+         #'circumstance',
+         'condition',
+         'means',
+         'nonvolitional_cause',
+         'nonvolitional_result',
+         'otherwise',
+         'unless',
+         'purpose',
+         'solutionhood',
+         'unconditional',
+         'unless',
+         'volitional_cause',
+         'volitional_result',
+         'cause',
+         'result'
+         ],
+
+        # otherwise and unless are treated as variants on condition
+
+    }
+
+# satellite-nucleus-satellite match
+def sns_match(rlist):
+        
+    for k in sns_groups:
+        v = sns_groups.get(k)
+        if all(ele in v for ele in rlist):
+            return True
+    return False
+
+
+def get_rels(convlist):
+    rel_list = []
+    for rel in convlist:
+        rel_list.append(rel[0])
+    return rel_list
+
+
+# reorder sns scope 
+scope_count = 0
+
+def escalate_scope(convlist):
+
+    lhsats = []
+    rhsats = []
+
+    global scope_count
+
+    rel_list = get_rels(convlist)   
+    nuc = getconvnuc(convlist)
+    
+    for r in convlist:
+        if islhs(r, nuc):
+            lhsats.append(r)
+        else:
+            rhsats.append(r)
+
+    summary = False
+    for r in rhsats:
+        if r[0] == 'summary':   # scope escalation by definition
+            summary = True
+            break
+        
+    if summary or len(lhsats) and len(rhsats) and sns_match(rel_list):
+        i = 0
+        while i < len(rhsats):
+            convlist.insert(0,convlist.pop())
+            i += 1
+        scope_count += 1
+    return convlist
+
+
 
 def refact(rp):
     
@@ -149,7 +256,7 @@ def refact(rp):
 
     if rp[0] == 'convergence':               # refactor it
 
-        rplist = listify(consort(tup2list(rp[1])))
+        rplist = escalate_scope(listify(consort(tup2list(rp[1]))))
         
         if len(rplist) == 1:
 
@@ -169,10 +276,8 @@ def refact(rp):
             
             exp = rplist[0]
 
-#        print(pcpp(exp))
         return exp
     
-
     else:                               # otherwise just replay it
 
         if not isinstance(rp, (list,tuple)):
@@ -182,10 +287,8 @@ def refact(rp):
         for arg in rp[1]:
             ex = refact(arg)
             exp_list.append(ex)
-#            exp_list.append(refact(arg))   
         exp = '{}({})'.format(rp[0],','.join(map(str,exp_list)))
 
-#        debug(exp)
         return exp
 
 ########################################
@@ -195,15 +298,16 @@ rp_list = []    # for import by rp2rs3driver
 # run it
 
 for f, rp in rp_dict.items():       # for each item from pycrst
+    filename = f            # for use elsewhere
+    print(filename)
     exp = refact(eval(rp))
     rp_list.append(exp)
-
 
     
 if __name__ == "__main__":
     ct = 0
     for rp in rp_list:
-        debug(rp)
+#        debug(rp)
         ct += 1
     print('Total refactors rp:', ct)
 
