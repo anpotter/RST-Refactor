@@ -11,4 +11,4 @@ The code makes some assumptions about directory (folder) structure.
 Use the structure provided here.
 
 The code was developed and tested on a Mac, with a little testing on Windows.
-It has not been tested on any other systems.
+It has not yet been tested on any other systems.
