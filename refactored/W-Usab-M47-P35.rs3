@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="purpose" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="span">Consistency, when spoken in HCI concepts, refers to user-interface (UI) design that has similar elements and similar user processes that accomplish comparable tasks.</segment>
+        <segment id="2" parent="1" relname="elaboration">By designing a consistent UI, the benefits are clearly ease of use and ease of learning.</segment>
+        <segment id="3" parent="4" relname="volitional-cause">When users learn and recognize images, icons, and/or consistent processes to operate the functions of the systems,</segment>
+        <segment id="4" parent="15" relname="span">the system also tends to be more efficient.</segment>
+        <segment id="5" parent="19" relname="span">This being said, the principle of UI consistency is easy to develop and maintain with a UI that has limited functionality,</segment>
+        <segment id="6" parent="12" relname="span">but the real challenge of consistency exists in large, complex interfaces that have multi-functional purposes.</segment>
+        <segment id="7" parent="8" relname="purpose">When designing for consistency of this type of system,</segment>
+        <segment id="8" parent="17" relname="span">some of the items the UI designer needs to account for are to maintain consistency by accounting for interpretation of user behavior by maintaining "shortcut" keys and their meaning, making the overall look of the design elements uniform across all UI screens and make all icons, size boxes, scroll arrows and location of certain images specifically controlled so that the end-user recognizes the intent of the designer.</segment>
+        <segment id="9" parent="18" relname="span">The user should almost know what to expect and where to look to find certain items (such as the print function) when using the application.</segment>
+        <segment id="10" parent="9" relname="justify">"The most important consistency is consistency with user expectations. The only way to ascertain user expectations is to do user testing. No amount of study and debate will substitute." (Tognazzini, 2003)</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="5" relname="background"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="14" relname="elaboration"/>
+        <group id="16" type="span" parent="6" relname="elaboration"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="17" relname="elaboration"/>
+        <group id="19" type="span" parent="12" relname="concession"/>
+    </body>
+</rst>

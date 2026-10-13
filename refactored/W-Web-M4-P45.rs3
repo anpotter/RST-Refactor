@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="span">Good observation P33.</segment>
+        <segment id="2" parent="8" relname="span">I think you brought up a good point about website design.</segment>
+        <segment id="3" parent="11" relname="span">I wasn't aware of certain principles dealing with designing a good website either,</segment>
+        <segment id="4" parent="3" relname="circumstance">until I took this course and started reading the book.</segment>
+        <segment id="5" parent="10" relname="span">Now I'm designing my website over again with many of the ideas that I'm picking up here.</segment>
+        <segment id="6" parent="5" relname="evaluation">I guess that's one of the benefits of taking this class.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="1" relname="elaboration"/>
+        <group id="9" type="span" parent="2" relname="evidence"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="10" relname="antithesis"/>
+    </body>
+</rst>

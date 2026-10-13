@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="span">I am in complete agreement with Myth #4.</segment>
+        <segment id="2" parent="19" relname="span">Usability is NOT just common sense :)</segment>
+        <segment id="3" parent="14" relname="span">First off, common sense in any person has very few absolutes.</segment>
+        <segment id="4" parent="15" relname="contrast">For example, someone or several persons who design an interface may design it according to their own idea of 'common sense.'</segment>
+        <segment id="5" parent="6" relname="circumstance">However, when any other users use the interface,</segment>
+        <segment id="6" parent="16" relname="span">he/she may be completely lost and have no idea what anything means.</segment>
+        <segment id="7" parent="17" relname="span">Usability, in my opinion, follows a very discrete pattern of logic, not to be confused with common sense,</segment>
+        <segment id="8" parent="9" relname="antithesis">because common sense seems to indicate 'not having to think,'</segment>
+        <segment id="9" parent="18" relname="span">while logic is simple reasoning processes that can be easily identifiable and decided upon.</segment>
+        <segment id="10" parent="17" relname="elaboration">The key is finding that universal logic (not an easy thing to do), or as close as you can.</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="1" relname="elaboration"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="2" relname="evidence"/>
+        <group id="15" type="multinuc" parent="3" relname="evidence"/>
+        <group id="16" type="span" parent="15" relname="contrast"/>
+        <group id="17" type="span" parent="13" relname="span"/>
+        <group id="18" type="span" parent="7" relname="evidence"/>
+        <group id="19" type="span" parent="13" relname="antithesis"/>
+    </body>
+</rst>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">You made some very interesting comments and observations about the infamous 7 myths of usability P43.</segment>
+        <segment id="2" parent="1" relname="elaboration">It was nice to get another person's spin on this.</segment>
+        <segment id="3" parent="9" relname="elaboration">I agree with most of what you said,</segment>
+        <segment id="4" parent="8" relname="elaboration">and can identify with your concerns.</segment>
+        <segment id="5" parent="7" relname="elaboration">Nice reading.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+    </body>
+</rst>

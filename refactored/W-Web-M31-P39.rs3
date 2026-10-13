@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="26" relname="span">It is an interesting article that you found</segment>
+        <segment id="2" parent="1" relname="elaboration">and I am glad that people are trying to address the needs of the elderly in regards to Internet use.</segment>
+        <segment id="3" parent="20" relname="span">From what I can tell, based on the two articles I am referencing, seniors are more interested in keeping in touch with family and friends than any other category...even over health related info.</segment>
+        <segment id="4" parent="22" relname="span">It seems to me that they don't want information so much as communication as a primary motiviation for using the web.</segment>
+        <segment id="5" parent="24" relname="antithesis">While we might think, as a younger generation, that there are other concerns that the elderly should consider as more important,</segment>
+        <segment id="6" parent="24" relname="span">I suspect we really don't know how important simple communication is in our later lives</segment>
+        <segment id="7" parent="6" relname="circumstance">until we are experiencing all of that frequently and in large amounts of discretionary time first hand.</segment>
+        <segment id="8" parent="25" relname="span">To me, the usability principles I would pursue would be about designing applications which would be easy to use for communication.</segment>
+        <segment id="9" parent="21" relname="span">I would possibly build in chat and news group areas in the menus of these governmental, commercial or non-profit web sites</segment>
+        <segment id="10" parent="9" relname="volitional-result">so that people could share their experiences with each other about what they are going through and what information they might need from these particular sites.</segment>
+        <segment id="11" parent="17" relname="span">Anyway, I hope they have improved web sites for the elderly</segment>
+        <segment id="12" parent="11" relname="circumstance">when I get older</segment>
+        <segment id="13" parent="18" relname="span">because my eyesite has already gone a bit</segment>
+        <segment id="14" parent="13" relname="elaboration">and I am sure there is more to come.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="17" relname="nonvolitional-cause"/>
+        <group id="19" type="span" parent="16" relname="span"/>
+        <group id="20" type="span" parent="19" relname="span"/>
+        <group id="21" type="span" parent="8" relname="elaboration"/>
+        <group id="22" type="span" parent="3" relname="elaboration"/>
+        <group id="23" type="span" parent="4" relname="volitional-cause"/>
+        <group id="24" type="span" parent="23" relname="span"/>
+        <group id="25" type="span" parent="20" relname="volitional-result"/>
+        <group id="26" type="span" parent="19" relname="background"/>
+        <group id="27" type="span" parent="16" relname="background"/>
+    </body>
+</rst>

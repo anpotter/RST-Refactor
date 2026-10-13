@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="background">With our discussion on usability concepts, it may be a good time to focus a bit more on users.</segment>
+        <segment id="2" parent="13" relname="span">I believe the starting point is asking ourselves, "who are our users?"</segment>
+        <segment id="3" parent="2" relname="elaboration">This requires us to discover the background of our users, including their user experience levels, their goals and needs, and other things that might tie into design.</segment>
+        <segment id="4">The cultural aspect is indeed important,</segment>
+        <segment id="5">particularly when we are designing specifically for an international audience.</segment>
+        <segment id="6" parent="14" relname="span">Marcus raises a few interesting questions in his article in Interactions:</segment>
+        <segment id="7" parent="15" relname="list">When Is A User Not A User?</segment>
+        <segment id="8" parent="15" relname="list">Who Are We?</segment>
+        <segment id="9" parent="15" relname="list">What Do We Do?</segment>
+        <segment id="10" parent="14" relname="background">(Marcus in his numerous articles that are featured in Interactions, provides the basis for a good debate on many HCI issues.)</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="16" relname="span"/>
+        <group id="15" type="multinuc" parent="6" relname="elaboration"/>
+        <group id="16" type="span" parent="13" relname="elaboration"/>
+    </body>
+</rst>

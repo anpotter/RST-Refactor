@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="otherwise" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="list" type="multinuc"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="19" relname="background">On the subject of efficiency, this is defined as the time it takes to complete a task.</segment>
+        <segment id="2" parent="19" relname="span">One application that I have worked with a lot lately is Dreamweaver MX.</segment>
+        <segment id="3" parent="21" relname="span">This application allows users to create a webpage quickly.</segment>
+        <segment id="4" parent="3" relname="elaboration">What really makes the application amazing is the fact that it allows you to view both the HTML code and the what you see is what you get layout of your webpage.</segment>
+        <segment id="5" parent="26" relname="span">The old method, at least for me, involved creating a webpage in a little application called Microsoft Word Pad.</segment>
+        <segment id="6" parent="24" relname="sequence">You would create the HTML code</segment>
+        <segment id="7" parent="24" relname="sequence">and then paste it into a real web page.</segment>
+        <segment id="8" parent="24" relname="sequence">Then you would have to load the webpage and</segment>
+        <segment id="9" parent="24" relname="sequence">attempt the figure out where the mistakes are.</segment>
+        <segment id="10" parent="23" relname="span">What Dreamweaver MX allows users to do is create their webpage without much HTML knowledge.</segment>
+        <segment id="11" parent="25" relname="list">You can lay out the webpage</segment>
+        <segment id="12" parent="25" relname="list">and it not only writes all the code for you,</segment>
+        <segment id="13" parent="25" relname="list">but in real time creates the tags you'll need to make the page work.</segment>
+        <segment id="14" parent="22" relname="span">This can save hours versus the old methods.</segment>
+        <segment id="15" parent="27" relname="span">One area that new webpage designers always have to struggle with is the fact that even Dreamweaver MX will use the local address for elements of the webpage instead of where they are located on the web.</segment>
+        <segment id="16" parent="28" relname="span">So at some point, no matter how efficient the program is, you have the edit the tags manually.</segment>
+        <segment id="17" parent="16" relname="otherwise">Otherwise, you get an empty box, instead of the photo you meant to insert.</segment>
+        <group id="18" type="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="2" relname="elaboration"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="30" relname="span"/>
+        <group id="23" type="span" parent="29" relname="span"/>
+        <group id="24" type="multinuc" parent="5" relname="elaboration"/>
+        <group id="25" type="multinuc" parent="10" relname="elaboration"/>
+        <group id="26" type="span" parent="23" relname="antithesis"/>
+        <group id="27" type="span" parent="14" relname="concession"/>
+        <group id="28" type="span" parent="15" relname="volitional-result"/>
+        <group id="29" type="span" parent="22" relname="volitional-cause"/>
+        <group id="30" type="span" parent="21" relname="evidence"/>
+    </body>
+</rst>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="motivation" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="19" relname="span">I have always cautioned users from creating websites using templates</segment>
+        <segment id="2" parent="1" relname="background">- FrontPage and online services offer hundreds of templates for whatever ideas you may want to peruse over the internet.</segment>
+        <segment id="3" parent="4" relname="volitional-cause">Recently a client of mine decided to go with a developer that offered a quick solution to their website needs</segment>
+        <segment id="4" parent="21" relname="span">- a few weeks after one of the members of this organization came across another website with an identical site,</segment>
+        <segment id="5" parent="20" relname="span">they where not happy...</segment>
+        <segment id="6" parent="20" relname="volitional-result">So much for a unique identity!</segment>
+        <segment id="7" parent="18" relname="concession">Don't get me wrong I don't mind a template if it is customizable or somewhat unique (if that exists)</segment>
+        <segment id="8" parent="24" relname="span">I recently came across this article that supports the use of templates.</segment>
+        <segment id="9" parent="8" relname="elaboration">The author Kukral (2002) suggests that one should Check your HTML tool to see if it has any Web templates you can use. If those aren't good enough, do a search online for "Web site design templates" and you'll find many companies offering low-cost Web design templates you can buy.</segment>
+        <segment id="10" parent="24" relname="elaboration">He also cautions about researching several companies before making your choice.</segment>
+        <segment id="11" parent="26" relname="span">Are template the way to go,</segment>
+        <segment id="12" parent="11" relname="elaboration">what about creativity,</segment>
+        <segment id="13" parent="26" relname="elaboration">what about branding your image on the web</segment>
+        <segment id="14" parent="25" relname="elaboration">or is this just a quick fix, for a fast pace society.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="multinuc" parent="27" relname="motivation"/>
+        <group id="17" type="span" parent="16" relname="contrast"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="22" relname="span"/>
+        <group id="21" type="span" parent="5" relname="volitional-cause"/>
+        <group id="22" type="span" parent="19" relname="evidence"/>
+        <group id="23" type="span" parent="16" relname="contrast"/>
+        <group id="24" type="span" parent="23" relname="span"/>
+        <group id="25" type="span" parent="27" relname="span"/>
+        <group id="26" type="span" parent="25" relname="span"/>
+        <group id="27" type="span" parent="15" relname="span"/>
+    </body>
+</rst>

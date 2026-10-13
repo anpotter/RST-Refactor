@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="means" type="rst"/>
+            <rel name="reason" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="means">I need my neighbor's children to be okay</segment>
+        <segment id="2" parent="20" relname="span">so that my children will be okay.</segment>
+        <segment id="3" parent="18" relname="list">I need all of my neighbor’s children to be okay, poor inner city children in Atlanta and poor children of Appalachia,</segment>
+        <segment id="4" parent="18" relname="list">I need the poor children of Israel and the poor children of Gaza,</segment>
+        <segment id="5" parent="18" relname="list">I need Israelis and Palestinians,</segment>
+        <segment id="6" parent="18" relname="list">I need those in the Congo, those in Haiti, those in Ukraine,</segment>
+        <segment id="7" parent="18" relname="list">I need American children on both sides of the track to be okay.</segment>
+        <segment id="8" parent="19" relname="span">Because we are all God’s children.</segment>
+        <segment id="9" parent="17" relname="list">And so let’s stand together.</segment>
+        <segment id="10" parent="17" relname="list">Let’s work together.</segment>
+        <segment id="11" parent="17" relname="list">Let’s organize together.</segment>
+        <segment id="12" parent="17" relname="list">Let’s pray together.</segment>
+        <segment id="13" parent="17" relname="list">Let’s stand together.</segment>
+        <segment id="14" parent="17" relname="list">Let’s heal the land.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="multinuc" parent="16" relname="span"/>
+        <group id="18" type="multinuc" parent="8" relname="reason"/>
+        <group id="19" type="span" parent="17" relname="reason"/>
+        <group id="20" type="span" parent="16" relname="reason"/>
+    </body>
+</rst>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="preparation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="span">Wow, that's a funny site.</segment>
+        <segment id="2" parent="1" relname="elaboration">It has a page that provides links to some actual websites that are real life examples of terrible design.</segment>
+        <segment id="3" parent="4" relname="preparation">I checked out a few of the sites</segment>
+        <segment id="4" parent="7" relname="span">and I wonder how anyone in their right mind could think those sites are acceptable!</segment>
+        <group id="5" type="span"/>
+        <group id="6" type="span" parent="5" relname="span"/>
+        <group id="7" type="span" parent="6" relname="elaboration"/>
+    </body>
+</rst>

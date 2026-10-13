@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="background">I'm in the process of creating a new corporate website for my employer.</segment>
+        <segment id="2" parent="3" relname="volitional-cause">As a result of what I've learned so far in this course,</segment>
+        <segment id="3" parent="12" relname="span">I've made an effort to design the site to be functional and simple.</segment>
+        <segment id="4" parent="14" relname="conjunction">I see too many sites that have annoying graphics that serve no purpose.</segment>
+        <segment id="5" parent="14" relname="conjunction">I understand that some graphics are necessary to make a site visually appealing,</segment>
+        <segment id="6" parent="14" relname="conjunction">and I have tried to build some into our company's new website;</segment>
+        <segment id="7" parent="13" relname="span">however, I like the site much more after simplifying certain aspects of it.</segment>
+        <segment id="8" parent="9" relname="condition">However, once it's tested by more people</segment>
+        <segment id="9" parent="15" relname="span">I may find that everyone else finds it boring!</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="16" relname="span"/>
+        <group id="13" type="span" parent="11" relname="span"/>
+        <group id="14" type="multinuc" parent="7" relname="concession"/>
+        <group id="15" type="span" parent="13" relname="concession"/>
+        <group id="16" type="span" parent="11" relname="background"/>
+    </body>
+</rst>

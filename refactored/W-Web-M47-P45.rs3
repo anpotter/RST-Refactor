@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="21" relname="concession">P50, I agree with you.</segment>
+        <segment id="2" parent="21" relname="span">On balance however, I'm sure it would be difficult for web designers to target all users,</segment>
+        <segment id="3" parent="2" relname="nonvolitional-cause">since there are so many users out there.</segment>
+        <segment id="4" parent="18" relname="background">Take for example the health care Website that Dr. P11 asked us to evaluate.</segment>
+        <segment id="5" parent="19" relname="concession">This Website may accomodate some senior citizens,</segment>
+        <segment id="6" parent="19" relname="span">but not all.</segment>
+        <segment id="7" parent="8" relname="concession">Some senior citizens would like a little more design put into it,</segment>
+        <segment id="8" parent="20" relname="span">but many I'm sure are happy with the way that it is.</segment>
+        <segment id="9" parent="23" relname="span">But my point is that trying to reach all users is a tall order to fill.</segment>
+        <segment id="10" parent="16" relname="span">But in the end, just like you mentioned, at least we should try,</segment>
+        <segment id="11" parent="10" relname="elaboration">and I think that's a step in the right direction.</segment>
+        <segment id="12" parent="13" relname="joint">Good thread.</segment>
+        <group id="13" type="multinuc"/>
+        <group id="14" type="span" parent="13" relname="joint"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="9" relname="concession"/>
+        <group id="17" type="span" parent="15" relname="span"/>
+        <group id="18" type="span" parent="22" relname="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="6" relname="elaboration"/>
+        <group id="21" type="span" parent="17" relname="span"/>
+        <group id="22" type="span" parent="17" relname="evidence"/>
+        <group id="23" type="span" parent="15" relname="summary"/>
+    </body>
+</rst>

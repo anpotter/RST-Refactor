@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="otherwise" type="rst"/>
+            <rel name="restatement" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="background">There is a case study where a video game publisher web site was being developed (Preece et al., 2002, p. 283)</segment>
+        <segment id="2" parent="14" relname="span">The video game publisher team felt that they really needed to get in touch with users to be able to understand the essence of gaming.</segment>
+        <segment id="3" parent="4" relname="condition">I suspect that if the team continued with what they thought would be the proper usability principles for this group of people,</segment>
+        <segment id="4" parent="15" relname="span">the web site might have had to be reworked after the fact.</segment>
+        <segment id="5" parent="13" relname="span">It has been shown that different principles have been developed for different situations, such as the HOMERUN principles for web sites (Preece et. al, p. 409),</segment>
+        <segment id="6" parent="5" relname="restatement">and I suspect that each environment has its own principles that have come about to meet the needs of the environment.</segment>
+        <segment id="7" parent="17" relname="span">There might have been less user interaciton by the video game publisher team</segment>
+        <segment id="8" parent="7" relname="condition">if they were familiar with the environment.</segment>
+        <segment id="9" parent="11" relname="concession">With that said, the lack of familiarity of an environment might be a good reason to have users more involved in a design.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="16" relname="span"/>
+        <group id="15" type="span" parent="2" relname="otherwise"/>
+        <group id="16" type="span" parent="13" relname="background"/>
+        <group id="17" type="span" parent="12" relname="elaboration"/>
+    </body>
+</rst>

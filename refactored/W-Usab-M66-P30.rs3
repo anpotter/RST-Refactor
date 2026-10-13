@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="background">Consistency and standards are one of the ten Nielsen's ten usability heuristics.</segment>
+        <segment id="2" parent="8" relname="span">Mr. Barnum defines consistency and standards as the user not having to wonder whether different actions mean the same thing.</segment>
+        <segment id="3" parent="9" relname="span">Microsoft office XP suite is an example of consistency.</segment>
+        <segment id="4" parent="10" relname="span">Access, Excel, and PowerPoint have similar standard and formatting menu.</segment>
+        <segment id="5" parent="11" relname="span">If a user knows how to use the menus from one of the programs, the user will not have problems using the menus from the other programs.</segment>
+        <segment id="6" parent="5" relname="evaluation">This also makes it easy for users to learn the software's.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="2" relname="elaboration"/>
+        <group id="10" type="span" parent="3" relname="elaboration"/>
+        <group id="11" type="span" parent="4" relname="elaboration"/>
+    </body>
+</rst>

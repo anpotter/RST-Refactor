@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="preparation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="18" relname="preparation">Great insight on durability.</segment>
+        <segment id="2" parent="18" relname="span">Another aspect is when usability designprinciples are carried over from one technology to the next instead ofdoing a separate task analysis for the newer technology.</segment>
+        <segment id="3" parent="4" relname="concession">Although it isnot always nevessary to reinvent the wheel,</segment>
+        <segment id="4" parent="30" relname="span">you would not necessary wantto put bicycle wheels on your SUV.</segment>
+        <segment id="5" parent="22" relname="span">This issue was among several thatNielsen (2000) pointed out as reasons 70% of people chose not to use WAP(wireless access protocol) phones to access the Internet.</segment>
+        <segment id="6" parent="27" relname="span">Many of thedesign principles that worked well for traditional web design, such asfancy designs and splash screens, just did not have a place on WAPphone.</segment>
+        <segment id="7" parent="6" relname="nonvolitional-cause">One obvious reason was the difference in screen size that made itmore difficult to distinguish between options.</segment>
+        <segment id="8" parent="27" relname="nonvolitional-cause">Also, more screens wereneeded on WAP phones to display items that were designed for regularlarger screen PCs in mind.</segment>
+        <segment id="9" parent="10" relname="circumstance">As we might have experienced,</segment>
+        <segment id="10" parent="26" relname="span">the moreclicking one has to do to accomplish a task,</segment>
+        <segment id="11" parent="28" relname="span">the more discouraging it isto repeat that task;</segment>
+        <segment id="12" parent="13" relname="nonvolitional-cause">and the more time spent using a cell phone,</segment>
+        <segment id="13" parent="29" relname="span">thehigher the monthly bill.</segment>
+        <segment id="14" parent="31" relname="span">Nielsen suggested that much simpler designapproaches were necessary to make accessing the web via WAP phonesfaster, clearer, with as few clicks and screens as possible.</segment>
+        <segment id="15" parent="14" relname="elaboration">This alsomeant using different approaches at task analysis than was used for webdesign meant for the larger screens.</segment>
+        <segment id="16" parent="20" relname="justify">This article could be found athttp://www.useit.com/alertbox/20001210.html</segment>
+        <group id="17" type="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="2" relname="evidence"/>
+        <group id="20" type="span" parent="19" relname="span"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="21" relname="span"/>
+        <group id="23" type="span" parent="5" relname="nonvolitional-cause"/>
+        <group id="24" type="span" parent="23" relname="span"/>
+        <group id="25" type="span" parent="24" relname="span"/>
+        <group id="26" type="span" parent="11" relname="nonvolitional-cause"/>
+        <group id="27" type="span" parent="25" relname="span"/>
+        <group id="28" type="span" parent="25" relname="evidence"/>
+        <group id="29" type="span" parent="24" relname="evidence"/>
+        <group id="30" type="span" parent="22" relname="background"/>
+        <group id="31" type="span" parent="21" relname="elaboration"/>
+    </body>
+</rst>

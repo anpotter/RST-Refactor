@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="span">The concept of a stagnant measure for design development will ultimately fail at adequate usability in web design.</segment>
+        <segment id="2" parent="14" relname="span">It is important to adapt to changes within technology and society.</segment>
+        <segment id="3" parent="16" relname="sequence">As users become more demanding and more educated</segment>
+        <segment id="4" parent="16" relname="sequence">trends then begin to shift</segment>
+        <segment id="5" parent="16" relname="sequence">and expectations are heavier;</segment>
+        <segment id="6" parent="15" relname="span">performance of sites need to also make a paradigm shift.</segment>
+        <segment id="7" parent="8" relname="antithesis">Limiting a scope of design on methods etched in stone will prove negative in a desired user outcome.</segment>
+        <segment id="8" parent="17" relname="span">Rather, keeping up with trends and user needs will play a significant part in HCI.</segment>
+        <segment id="9" parent="10" relname="nonvolitional-cause">Imagine, if web designs were kept the same today as they were in there infantile stages a decade ago and were compelled to not evelove.</segment>
+        <segment id="10" parent="18" relname="span">It would spell doom for this technology.</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="1" relname="evidence"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="2" relname="evidence"/>
+        <group id="16" type="multinuc" parent="6" relname="volitional-cause"/>
+        <group id="17" type="span" parent="14" relname="evidence"/>
+        <group id="18" type="span" parent="13" relname="evidence"/>
+    </body>
+</rst>

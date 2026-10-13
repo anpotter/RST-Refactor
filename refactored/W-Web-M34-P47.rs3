@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="span">I can tell you that my grandmother is still scared to "mess up" thecomputer</segment>
+        <segment id="2" parent="1" relname="circumstance">every time she touches it,</segment>
+        <segment id="3" parent="14" relname="span">but the reason she continues totough it out is to keep in touch</segment>
+        <segment id="4" parent="3" relname="background">(we live in Bolivia).</segment>
+        <segment id="5" parent="6" relname="concession">She does orderprescription refills online with no problem,</segment>
+        <segment id="6" parent="15" relname="span">but her number oneobjective is to see pictures of my son a few times a week.</segment>
+        <segment id="7" parent="16" relname="span">She just gota webcam that I have to help setup remotely</segment>
+        <segment id="8" parent="7" relname="background">- this should be fun.</segment>
+        <segment id="9" parent="10" relname="joint">What if browsers had a single setting - SENIOR - which automatically hadoptimal settings like larger text size and auto-plugin configuration?</segment>
+        <group id="10" type="multinuc"/>
+        <group id="11" type="span" parent="10" relname="joint"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="14" relname="elaboration"/>
+        <group id="16" type="span" parent="13" relname="background"/>
+        <group id="17" type="span" parent="12" relname="concession"/>
+    </body>
+</rst>

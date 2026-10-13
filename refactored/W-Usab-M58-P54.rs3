@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="26" relname="background">Our class texts have similar definitions of user-centered design.</segment>
+        <segment id="2" parent="26" relname="span">From what I gather user-centered design focuses early on users and tasks, as well as getting users involved in providing information as to how the software is meeting these usability requirements.</segment>
+        <segment id="3" parent="27" relname="span">In addition, user-centered design fixes the problem that users find using an iterative approach during the development lifecycle.</segment>
+        <segment id="4" parent="28" relname="span">Using an iterative approach and involving many end-users seems like a good way to achieve a user-centered application.</segment>
+        <segment id="5" parent="29" relname="span">The degree to which these requirements are met is relative to each user's preferences.</segment>
+        <segment id="6" parent="7" relname="condition">If enough users are involved in the design process</segment>
+        <segment id="7" parent="30" relname="span">a design acceptable to most users should be achieved.</segment>
+        <segment id="8" parent="31" relname="span">In addition, information from other areas of research such as the behavioral sciences can help achieve a user-centered application.</segment>
+        <segment id="9" parent="25" relname="span">For example, the degree to which an application is easy to use or learn depends on the end-users.</segment>
+        <segment id="10" parent="9" relname="elaboration">By involving many users in the design process as well as applying concepts from the behavioral sciences the odds of creating a user-centered product are increased.</segment>
+        <segment id="11" parent="23" relname="span">It is also important to involve users with varying skill levels.</segment>
+        <segment id="12" parent="11" relname="elaboration">For example, a novice user is likely to produce different error conditions than an advanced user;</segment>
+        <segment id="13" parent="23" relname="elaboration">in addition an advanced user is more likely to provide a better gauge of the flexibility of a program.</segment>
+        <segment id="14" parent="33" relname="span">Another element to the user-centered approach to design could be the length of time the users are involved in testing.</segment>
+        <segment id="15" parent="20" relname="span">Having users test an application over a long period might help in determining the memorability of an application.</segment>
+        <segment id="16" parent="17" relname="antithesis">At first, it seemed like some of these elements such as efficiency and consistency could be designed into a product with less end user involvement;</segment>
+        <segment id="17" parent="21" relname="span">however, the more I thought about it the more I realized to design a user-centered application one must measure the degree to which all of these elements are being met by getting user feedback.</segment>
+        <group id="18" type="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="14" relname="elaboration"/>
+        <group id="21" type="span" parent="15" relname="elaboration"/>
+        <group id="22" type="span" parent="19" relname="span"/>
+        <group id="23" type="span" parent="32" relname="span"/>
+        <group id="24" type="span" parent="22" relname="span"/>
+        <group id="25" type="span" parent="8" relname="elaboration"/>
+        <group id="26" type="span" parent="24" relname="span"/>
+        <group id="27" type="span" parent="2" relname="elaboration"/>
+        <group id="28" type="span" parent="3" relname="elaboration"/>
+        <group id="29" type="span" parent="4" relname="elaboration"/>
+        <group id="30" type="span" parent="5" relname="elaboration"/>
+        <group id="31" type="span" parent="24" relname="elaboration"/>
+        <group id="32" type="span" parent="22" relname="elaboration"/>
+        <group id="33" type="span" parent="19" relname="elaboration"/>
+    </body>
+</rst>

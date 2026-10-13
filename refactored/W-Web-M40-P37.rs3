@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="span">The main problem that I noticed is the use of popup menus.</segment>
+        <segment id="2" parent="1" relname="elaboration">Many senior citizens have problems controlling a mouse and even more a mouse pad.</segment>
+        <segment id="3" parent="12" relname="elaboration">By using popup menus, users would have to read what links are available and quickly move over to select it before disappearing.</segment>
+        <segment id="4" parent="14" relname="span">In addition, where is the 508 Stanrds ?</segment>
+        <segment id="5" parent="15" relname="span">There are many areas of the site that does not conform to the 508 standards.</segment>
+        <segment id="6" parent="17" relname="list">Little alt tags are provided,</segment>
+        <segment id="7" parent="17" relname="list">and the use of css files is incorporated</segment>
+        <segment id="8" parent="16" relname="span">but what if css is not supported.</segment>
+        <segment id="9" parent="14" relname="elaboration">Here is some more info on the 508 Standard (http://www.w3.org/WAI/GL/508/508-UAAG.html)</segment>
+        <group id="10" type="multinuc"/>
+        <group id="11" type="span" parent="10" relname="joint"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="10" relname="joint"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="4" relname="elaboration"/>
+        <group id="16" type="span" parent="5" relname="evidence"/>
+        <group id="17" type="multinuc" parent="8" relname="concession"/>
+    </body>
+</rst>

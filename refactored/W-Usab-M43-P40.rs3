@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="background">I think the MX stands for Most Xcruciating.</segment>
+        <segment id="2" parent="11" relname="span">I'm doing assignment 1 on just those issues.</segment>
+        <segment id="3" parent="4" relname="concession">Dreamweaver is a great application,</segment>
+        <segment id="4" parent="10" relname="span">but it seems to cut off a whole segment of the population by being more complex than it needs to.</segment>
+        <segment id="5" parent="9" relname="span">Someone should make an application between Dreamweaver's complexity and FrontPage's lack of options.</segment>
+        <segment id="6" parent="5" relname="evaluation">Personally, I hate the little banner FrontPage loves to stick into your web pages.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="9" relname="solutionhood"/>
+        <group id="11" type="span" parent="8" relname="background"/>
+    </body>
+</rst>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="span">Applying basic HCI concept to a web design for non-designers is no easy task.</segment>
+        <segment id="2" parent="18" relname="span">Building a website or a webpage has it share of obstacles:</segment>
+        <segment id="3" parent="2" relname="elaboration">color, layout, functionality, accessibility, cross-platform design, and much more.</segment>
+        <segment id="4" parent="19" relname="span">Even more if it is an ecommerce</segment>
+        <segment id="5" parent="4" relname="circumstance">where you need to track their locations, time spent on pages, demographics, shopping habits and other important logistics.</segment>
+        <segment id="6" parent="15" relname="concession">Although anyone can quickly put a webpage together,</segment>
+        <segment id="7" parent="15" relname="span">very few can create one that applies HCI rules.</segment>
+        <segment id="8" parent="16" relname="span">New web sites are not just providing content but are data-driven, interactive, and customized, which requires a systematic approach of designing it.</segment>
+        <segment id="9" parent="8" relname="elaboration">With the use of XML/XSL, data and presentation can be separated that improve network performance, and accessibility.</segment>
+        <segment id="10" parent="21" relname="contrast">Many times you can find poorly designed websites that are trafficking ten thousand users per month.</segment>
+        <segment id="11" parent="21" relname="contrast">In addition, you can find the best applied HCI principles with less than a 100 users per month.</segment>
+        <group id="12" type="multinuc"/>
+        <group id="13" type="span" parent="12" relname="joint"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="20" relname="span"/>
+        <group id="16" type="span" parent="7" relname="evidence"/>
+        <group id="17" type="span" parent="1" relname="evidence"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="18" relname="elaboration"/>
+        <group id="20" type="span" parent="14" relname="evidence"/>
+        <group id="21" type="multinuc" parent="12" relname="joint"/>
+    </body>
+</rst>

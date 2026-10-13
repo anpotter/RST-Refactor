@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="16" relname="preparation">Now that I have regained by vision I can type my response.</segment>
+        <segment id="2" parent="16" relname="span">That is a great example of a HORRIBLE web site.</segment>
+        <segment id="3" parent="2" relname="elaboration">The music was a bit on the obnoxious side as well.</segment>
+        <segment id="4" parent="17" relname="concession">It is not the same thing by far</segment>
+        <segment id="5" parent="18" relname="span">but I find the Disney World site very unappealing.</segment>
+        <segment id="6" parent="23" relname="conjunction">The site is very busy</segment>
+        <segment id="7" parent="23" relname="conjunction">and it is difficult to focus on a task.</segment>
+        <segment id="8" parent="21" relname="span">A couple of weeks I had to make reservations to attend a professional event at Disney</segment>
+        <segment id="9" parent="8" relname="volitional-result">and found myself really annoyed with the site.</segment>
+        <segment id="10" parent="21" relname="background">I was booking at the Polynesian resort</segment>
+        <segment id="11" parent="19" relname="span">and it just felt very cumbersome.</segment>
+        <segment id="12" parent="22" relname="span">Now this was surprising to me</segment>
+        <segment id="13" parent="12" relname="volitional-result">because I would have Disney would have a great web site with all the resources available to them.</segment>
+        <group id="14" type="span"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="25" relname="span"/>
+        <group id="17" type="span" parent="15" relname="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="24" relname="span"/>
+        <group id="20" type="span" parent="11" relname="circumstance"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="19" relname="evaluation"/>
+        <group id="23" type="multinuc" parent="5" relname="elaboration"/>
+        <group id="24" type="span" parent="18" relname="evidence"/>
+        <group id="25" type="span" parent="15" relname="background"/>
+    </body>
+</rst>

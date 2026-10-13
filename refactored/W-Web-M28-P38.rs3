@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="16" relname="background">The internet has evolved from a new marketing and advertising venue to a tool that provides a means at acquiring information like never before.</segment>
+        <segment id="2" parent="16" relname="span">The past decade has slowly reversed the way in which our society views the internet;</segment>
+        <segment id="3" parent="17" relname="contrast">many were fearful of this technology and intimidated.</segment>
+        <segment id="4" parent="18" relname="span">Many people who we once perceived as those who rejected the internet are surprisingly those who are now possibly benefiting from it the most.</segment>
+        <segment id="5" parent="24" relname="span">Senior citizens who were once believed to refute technology have surprisingly beginning to embrace this source of useful information.</segment>
+        <segment id="6" parent="25" relname="span">The internet, providing a vast amount of various information and services, has given seniors the opportunity to research and access vital online health information.</segment>
+        <segment id="7" parent="6" relname="elaboration">It gives them a source for vital information that might otherwise not have been accessible to them.</segment>
+        <segment id="8" parent="26" relname="span">Senior citizens who have chronic illnesses or who may be homebound see this as an opportunity to seek answers to a myriad of questions they may have.</segment>
+        <segment id="9" parent="8" relname="volitional-result">This is why utilizing the internet has become much more appealing to this demographics.</segment>
+        <segment id="10" parent="21" relname="span">Web designers now have the task of meeting the needs of senior users as well as others.</segment>
+        <segment id="11" parent="23" relname="span">There are more factors to consider when trying to equate the usability factors that should be considered.</segment>
+        <segment id="12" parent="11" relname="elaboration">Senior friendly designs have to accommodate for aging processes such as vision, cognition, and other physical impairments.</segment>
+        <segment id="13" parent="23" relname="elaboration">Site issues such as fonts, color, graphics and poor navigation may hinder older adults from fully utilizing these online resources.</segment>
+        <segment id="14" parent="27" relname="span">The NIA (The U.S. National Institute on Aging) along with the NLM (The U.S. National Library of Medicine) has recognized the usability problems for senior citizens and have published guidelines for designing senior-friendly sites in an effort to remedy this issue.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="multinuc" parent="2" relname="evidence"/>
+        <group id="18" type="span" parent="17" relname="contrast"/>
+        <group id="19" type="span" parent="4" relname="evidence"/>
+        <group id="20" type="span" parent="19" relname="span"/>
+        <group id="21" type="span" parent="14" relname="solutionhood"/>
+        <group id="22" type="span" parent="10" relname="evidence"/>
+        <group id="23" type="span" parent="22" relname="span"/>
+        <group id="24" type="span" parent="20" relname="span"/>
+        <group id="25" type="span" parent="5" relname="elaboration"/>
+        <group id="26" type="span" parent="24" relname="elaboration"/>
+        <group id="27" type="span" parent="20" relname="volitional-result"/>
+    </body>
+</rst>

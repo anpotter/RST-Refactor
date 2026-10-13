@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">Good observation P49.</segment>
+        <segment id="2" parent="1" relname="elaboration">There's a lot of bad looking sights out there.</segment>
+        <segment id="3" parent="13" relname="span">And I agree with the majority of what you just commented about.</segment>
+        <segment id="4" parent="10" relname="span">I really hate the bright flashy ads at the top of websites too.</segment>
+        <segment id="5" parent="12" relname="span">They really think that a person will just jump to that particular link</segment>
+        <segment id="6" parent="5" relname="volitional-cause">just because its flashing.</segment>
+        <segment id="7" parent="12" relname="volitional-result">And that insults a person's intelligence I think</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="3" relname="elaboration"/>
+        <group id="11" type="span" parent="4" relname="elaboration"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="9" relname="elaboration"/>
+    </body>
+</rst>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="span">According to this article by (Cockton, 2004), HCI concepts need to evolve to meet more modern user needs and desires.</segment>
+        <segment id="2" parent="3" relname="volitional-cause">Since quality is determined by the user,</segment>
+        <segment id="3" parent="15" relname="span">HCI standards should also change with user perceptions.</segment>
+        <segment id="4" parent="15" relname="elaboration">Computer interaction development and testing should be based on specific changes in user demographics resulting from changes in technology, and possibly, social and political climate.</segment>
+        <segment id="5" parent="13" relname="antithesis">Developers are still concerned that HCI interferes in production, and complain that the use of HCI in development hampers productivity and puts limits on new ideas.</segment>
+        <segment id="6" parent="13" relname="span">Instead HCI should be based on user attributes that are pleasing based on psychological and sociological aspects discovered through research of current trends.</segment>
+        <segment id="7" parent="6" relname="evidence">By taking current trends and issues into account, HCI can continue to develop based on user needs and expectations, vice depending on commonly used HCI terms to limit the scope of new developments in HCI.</segment>
+        <segment id="8" parent="9" relname="concession">The traditional terms used in association with HCI still apply,</segment>
+        <segment id="9" parent="17" relname="span">but the core principles of these terms will evolve as user awareness of development potential changes.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="16" relname="span"/>
+        <group id="14" type="span" parent="1" relname="evidence"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="12" relname="evidence"/>
+        <group id="17" type="span" parent="11" relname="summary"/>
+    </body>
+</rst>

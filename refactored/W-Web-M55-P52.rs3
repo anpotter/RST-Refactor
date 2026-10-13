@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="motivation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="concession">This may be off topic a bit,</segment>
+        <segment id="2" parent="8" relname="span">but check out www.baddesigns.com</segment>
+        <segment id="3" parent="9" relname="span">This website is not only the epitome of bad web design,</segment>
+        <segment id="4" parent="3" relname="elaboration">but also other horrible interaciton designs one can learn a lot from.</segment>
+        <segment id="5" parent="7" relname="background">I enjoyed the "Web Pages that Suck" site.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="2" relname="motivation"/>
+    </body>
+</rst>

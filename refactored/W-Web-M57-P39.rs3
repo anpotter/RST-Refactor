@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="span">I remember this U-G-L-Y cheer in a Goldi Hawn movie called WILDCATS made in 1986</segment>
+        <segment id="2" parent="1" relname="circumstance">where she was a football coach,</segment>
+        <segment id="3" parent="17" relname="evaluation">and it was a funny scene to me anyway.</segment>
+        <segment id="4" parent="25" relname="span">Anyway, here are some other things that came to mind when I read your post.</segment>
+        <segment id="5" parent="23" relname="antithesis">Branding your image is one thing,</segment>
+        <segment id="6" parent="23" relname="span">but keeping with standards that users expect instead of deviating towards creativity seems to be what is supported.</segment>
+        <segment id="7" parent="8" relname="condition">On page 373 of our Barnum text, it shows how Nielsen recommends that if 90% or more of the big sites are doing something,</segment>
+        <segment id="8" parent="24" relname="span">you should probably do it as well for your site.</segment>
+        <segment id="9" parent="21" relname="conjunction">On page 112, Barnum identified that Web users are, for the most part, new learners of web site usage</segment>
+        <segment id="10" parent="21" relname="conjunction">and they don't spend a lot of time on any one site.</segment>
+        <segment id="11" parent="20" relname="concession">Everyone wants to be original,</segment>
+        <segment id="12" parent="20" relname="span">but it appears that standardization supports the masses</segment>
+        <segment id="13" parent="12" relname="circumstance">when products such as web sites need to be used in large amounts.</segment>
+        <segment id="14" parent="18" relname="elaboration">To add to this, it appears that all the new users aren't even going to stick around long enough to admire or even know how to use the creativity.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="16" relname="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="26" relname="span"/>
+        <group id="21" type="multinuc" parent="25" relname="elaboration"/>
+        <group id="22" type="span" parent="4" relname="elaboration"/>
+        <group id="23" type="span" parent="22" relname="span"/>
+        <group id="24" type="span" parent="6" relname="evidence"/>
+        <group id="25" type="span" parent="19" relname="span"/>
+        <group id="26" type="span" parent="19" relname="elaboration"/>
+        <group id="27" type="span" parent="16" relname="background"/>
+    </body>
+</rst>

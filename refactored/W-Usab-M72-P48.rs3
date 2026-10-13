@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="span">I was just on the site www.usability.gov which is maintained by the US Department of Health and Human Services.</segment>
+        <segment id="2" parent="15" relname="span">The site is wonderful.</segment>
+        <segment id="3" parent="2" relname="evidence">It explains usability and then gets into much detail.</segment>
+        <segment id="4" parent="16" relname="span">The main page is displayed very friendly and easy to read.</segment>
+        <segment id="5" parent="4" relname="evidence">Each topic is grouped and linked to another page that explains the topic is much more detail.</segment>
+        <segment id="6" parent="17" relname="span">There are quite alot of usability resources here</segment>
+        <segment id="7" parent="14" relname="span">- everything from planning usable web sites to internet survey results</segment>
+        <segment id="8" parent="7" relname="summary">- it's all here.</segment>
+        <segment id="9" parent="11" relname="background">I'm sure Professor P11 has seen this one already.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="1" relname="evaluation"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="6" relname="elaboration"/>
+        <group id="15" type="span" parent="13" relname="span"/>
+        <group id="16" type="span" parent="15" relname="evidence"/>
+        <group id="17" type="span" parent="13" relname="summary"/>
+    </body>
+</rst>

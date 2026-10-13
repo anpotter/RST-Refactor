@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="preparation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="preparation">Thanks for providing that thread.</segment>
+        <segment id="2" parent="8" relname="span">I took went to the website you mentioned to find out more information and I did.</segment>
+        <segment id="3" parent="9" relname="span">They said that inaccessible technology interferes with an individual's ability to obtain and use information quickly and easily.</segment>
+        <segment id="4" parent="3" relname="elaboration">Basically, Section 508 was enacted to eliminate barriers in information technology, in order to make available new opportunities for people with disabilities, and to encourage development of technologies that will help achieve this kind of thing.</segment>
+        <segment id="5" parent="7" relname="evaluation">Good Thread.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="2" relname="elaboration"/>
+    </body>
+</rst>
