@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="motivation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="span">I don't believe that endorsing the Nuclear Freeze Initiative is the right step for California Common  Cause.</segment>
+        <segment id="2" parent="3" relname="concession">Tempting as it may be,</segment>
+        <segment id="3" parent="22" relname="span">we shouldn't embrace every popular issue that comes along.</segment>
+        <segment id="4" parent="23" relname="condition">When we do so,</segment>
+        <segment id="5" parent="23" relname="span">we use precious, limited resources</segment>
+        <segment id="6" parent="5" relname="circumstance">where other players with superior resources are already doing an adequate job.</segment>
+        <segment id="7" parent="25" relname="span">Rather, I think we will be stronger and more effective</segment>
+        <segment id="8" parent="7" relname="condition">if we stick to those issues of governmental structure and process, broadly defined, that have formed the  core of our agenda for years.</segment>
+        <segment id="9" parent="25" relname="elaboration">Open government, campaign finance reform, and fighting he influence of special interests and big  money, these are our kinds of issues.</segment>
+        <segment id="10" parent="18" relname="justify">Let's be clear:</segment>
+        <segment id="11" parent="19" relname="concession">I personally favor the initiative and ardently support disarmament negotiations to reduce the risk of  war.</segment>
+        <segment id="12" parent="13" relname="antithesis">But I don't think endorsing a specific nuclear freeze proposal is appropriate for CCC.</segment>
+        <segment id="13" parent="19" relname="span">We should limit our involvement in defense and weaponry to matters of process, such as exposing the  weapons industry's influence on the political process.</segment>
+        <segment id="14" parent="15" relname="span">Therefore, I urge you to vote against a CCC endorsement of the nuclear freeze initiative.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="14" relname="motivation"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="27" relname="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="1" relname="evidence"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="26" relname="span"/>
+        <group id="23" type="span" parent="24" relname="span"/>
+        <group id="24" type="span" parent="22" relname="evidence"/>
+        <group id="25" type="span" parent="21" relname="span"/>
+        <group id="26" type="span" parent="21" relname="antithesis"/>
+        <group id="27" type="span" parent="17" relname="evidence"/>
+    </body>
+</rst>

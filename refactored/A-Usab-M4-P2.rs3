@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="motivation" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="span">Grudin (1989) takes a contrarians view of the issue of interface consistency.</segment>
+        <segment id="2" parent="18" relname="span">He argues that consistency should not be a primary user interface goal.</segment>
+        <segment id="3" parent="2" relname="elaboration">The interface designer should concentrate in understanding the users tasks, work context, physical constraints and psychology instead.</segment>
+        <segment id="4" parent="20" relname="span">Grudin identifies three types of consistency:</segment>
+        <segment id="5" parent="19" relname="list">Internal consistency of the design,</segment>
+        <segment id="6" parent="19" relname="list">external consistency with other interfaces,</segment>
+        <segment id="7" parent="19" relname="list">and analogical or metaphoric consistency with features in the real world.</segment>
+        <segment id="8" parent="9" relname="antithesis">He analyzes several examples of physical and software interface design and demonstrates that giving primacy to the principle of consistency often produces sub-optimal designs.</segment>
+        <segment id="9" parent="21" relname="span">Grudin recommends that as a designer faces the various tradeoffs necessary to construct a computer interface that he/she gives primacy to users and their tasks.</segment>
+        <segment id="10" parent="16" relname="elaboration">Grudin concludes (p. 1172), as we come to understand users work environments better, we should find designs evolving away from consistent interfaces in many areas of interface design. The way to stay at the forefront of this evolution is to know your users and their tasks a little better than anyone else.</segment>
+        <segment id="11" parent="22" relname="span">I recommend that everyone in the class read this article.</segment>
+        <segment id="12" parent="11" relname="motivation">It is an enlightening discussion that covers many of the usability factors we have been discussing from a different perspective.</segment>
+        <group id="13" type="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="1" relname="elaboration"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="multinuc" parent="4" relname="elaboration"/>
+        <group id="20" type="span" parent="18" relname="elaboration"/>
+        <group id="21" type="span" parent="17" relname="elaboration"/>
+        <group id="22" type="span" parent="14" relname="volitional-result"/>
+    </body>
+</rst>

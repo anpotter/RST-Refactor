@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="preparation">Attributes of Good Design</segment>
+        <segment id="2" parent="11" relname="span">According to Robin Williams (http://www.ratz.com/featuresgood.html) One of the elements of good web design is a lack of the elements that make bad web design.</segment>
+        <segment id="3" parent="13" relname="justify">Based on the my understanding of HCI and based on my knowledge of a user of webpage applications,</segment>
+        <segment id="4" parent="13" relname="span">I think that good website should be straight forward, easy to use and provide usefulness to the end user.</segment>
+        <segment id="5" parent="14" relname="span">A quality webpage would load easily without any performance issues and provide an informative user-friendly web interface which enable users to access the purposeful information while keeping the users at ease with flexible and transparent functionality.</segment>
+        <segment id="6" parent="15" relname="span">Depending on the nature of the business, the websites should provide applicable information/graphics that match the need for the website.</segment>
+        <segment id="7" parent="6" relname="elaboration">Having additonal information or inadequate information are equally bad for a website and can attribute to loss of business due to an inefficient web page structure. Webpages should maintain a level of consistency and standardization that make them both attractive and easy to use.</segment>
+        <segment id="8" parent="10" relname="summary">Webpages like all applications should be made keeping the actual user and requirements in mind.</segment>
+        <group id="9" type="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="2" relname="elaboration"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="4" relname="elaboration"/>
+        <group id="15" type="span" parent="5" relname="elaboration"/>
+    </body>
+</rst>

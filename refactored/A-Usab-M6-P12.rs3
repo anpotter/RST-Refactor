@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="evidence" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="span">I do not really think that Grudin goes contrary to general concepts on consistency.</segment>
+        <segment id="2" parent="1" relname="evidence">He recognizes and points out that one concept is not the be-all of design and that sometimes other factors can counter it and be more important.</segment>
+        <segment id="3" parent="4" relname="antithesis">I'm not sure his knife analogy plays out well.</segment>
+        <segment id="4" parent="7" relname="span">I would say that placing them near the point of use is another type of consistency that differs from keeping them in one place.</segment>
+        <group id="5" type="span"/>
+        <group id="6" type="span" parent="5" relname="span"/>
+        <group id="7" type="span" parent="6" relname="evidence"/>
+    </body>
+</rst>

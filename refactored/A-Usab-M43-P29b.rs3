@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="span">That is very true.</segment>
+        <segment id="2" parent="13" relname="span">Today, there is a lot of new technology out there.</segment>
+        <segment id="3" parent="15" relname="span">There are devices that can be used for more than one thing.</segment>
+        <segment id="4" parent="16" relname="span">How to use them all is what gets customers frustrated.</segment>
+        <segment id="5" parent="18" relname="background">I used to work for Nokia Mobile Phones and they had a device called a Communicator.</segment>
+        <segment id="6" parent="19" relname="concession">It was a nice device,</segment>
+        <segment id="7" parent="20" relname="span">but it was hard to remember how to do certain things.</segment>
+        <segment id="8" parent="9" relname="volitional-cause">We used to have customers call in</segment>
+        <segment id="9" parent="21" relname="span">because they could not remember how to do a particular function.</segment>
+        <segment id="10" parent="20" relname="elaboration">Even us, as the support team, sometimes had trouble remembering certain features that were not commonly used.</segment>
+        <segment id="11" parent="15" relname="evaluation">This is something that should be thought about when designing products.</segment>
+        <group id="12" type="span"/>
+        <group id="13" type="span" parent="1" relname="evidence"/>
+        <group id="14" type="span" parent="2" relname="elaboration"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="3" relname="volitional-result"/>
+        <group id="17" type="span" parent="4" relname="elaboration"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="19" relname="span"/>
+        <group id="21" type="span" parent="7" relname="elaboration"/>
+    </body>
+</rst>

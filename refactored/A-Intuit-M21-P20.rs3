@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="otherwise" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="24" relname="span">Dictionary.com gives a very important and interesting everyday meaning of intuitive as being derived from or prompted by a natural tendency;</segment>
+        <segment id="2" parent="1" relname="elaboration">"an intuitive perception".</segment>
+        <segment id="3" parent="26" relname="span">The key words here are DERIVED and NATURAL TENDENCY.</segment>
+        <segment id="4" parent="25" relname="span">This means that the task should be naturally and correctly carried out from the onset,</segment>
+        <segment id="5" parent="4" relname="otherwise">otherwise it is never intuitive.</segment>
+        <segment id="6" parent="17" relname="span">I particularly liked the scenarios described by Raskin, J in his paper Intuitive equals familiar (an interesting paper).</segment>
+        <segment id="7" parent="22" relname="preparation">Here they are;</segment>
+        <segment id="8" parent="22" relname="list">1) Stephen Oppenheimer, of the Review Board of InfoWorld magazine, noted in his review of Mathcad 4.0 that "The editing tools become increasingly intuitive over time."</segment>
+        <segment id="9" parent="22" relname="list">2) Richard Collins in Flying (October 1994 pg. 67), speaking of a new aircraft navigation device, "Like anything, it can be learned, but it would take a lot of experience to do it intuitively."</segment>
+        <segment id="10" parent="23" relname="span">The point here is that there is nothing like increasingly becoming intuitive.</segment>
+        <segment id="11" parent="18" relname="span">We could roughly equate intuitive with what we call common sense .</segment>
+        <segment id="12" parent="19" relname="span">We often hear people saying; COMMON SENSE SHOULD HAVE TOLD YOU THAT</segment>
+        <segment id="13" parent="14" relname="evidence">Since the person didnt naturally do the task right the very first time,</segment>
+        <segment id="14" parent="20" relname="span">therefore (to him/her) it ceased being common sense.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="10" relname="elaboration"/>
+        <group id="19" type="span" parent="11" relname="elaboration"/>
+        <group id="20" type="span" parent="12" relname="elaboration"/>
+        <group id="21" type="span" parent="6" relname="elaboration"/>
+        <group id="22" type="multinuc" parent="21" relname="span"/>
+        <group id="23" type="span" parent="17" relname="summary"/>
+        <group id="24" type="span" parent="16" relname="span"/>
+        <group id="25" type="span" parent="3" relname="nonvolitional-result"/>
+        <group id="26" type="span" parent="24" relname="elaboration"/>
+        <group id="27" type="span" parent="16" relname="elaboration"/>
+    </body>
+</rst>

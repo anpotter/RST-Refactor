@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="background">Webster.com defines intuitive as known or perceived by intuition, and defines intuition as quick and ready insight, and immediate apprehension or cognition.</segment>
+        <segment id="2" parent="9" relname="span">When applied to HCI, intuitiveness relates to how easy or difficult the interface is to learn and use.</segment>
+        <segment id="3" parent="11" relname="condition">If a design is intuitive</segment>
+        <segment id="4" parent="11" relname="span">the user can easily learn and perform tasks based on apprehension and cognition rather than some form of formal instruction.</segment>
+        <segment id="5" parent="4" relname="elaboration">For example, can the user perform the desired tasks without seeking help from documentation, the help desk, or from some other source?</segment>
+        <segment id="6" parent="8" relname="summary">When presented with an interface the user should know what to do to accomplish their desired goals.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="2" relname="elaboration"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+    </body>
+</rst>

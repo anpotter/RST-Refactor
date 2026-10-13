@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="span">Shortcuts are good ways to make people get "used" to a system.</segment>
+        <segment id="2" parent="8" relname="concession">A simple example, in MS Word you can cut and paste by going to the Edit in the tool bar and scrolling to cut and then go to Edit and scroll to paste.</segment>
+        <segment id="3" parent="9" relname="span">However, people that use MS all the time know that they can simply right click and scroll to the desired operation</segment>
+        <segment id="4" parent="3" relname="elaboration">or they can press CTRL-V, CTRL-X, CTRL-C, etc.</segment>
+        <segment id="5" parent="9" relname="elaboration">That also goes for BOLD (CTRL-b), ITALICS (CTRL-I) and UNDERLINE (CTRL-U).</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="1" relname="evidence"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+    </body>
+</rst>

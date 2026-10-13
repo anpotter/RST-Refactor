@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">I agree that users should be experts in their line of business applications.</segment>
+        <segment id="2" parent="12" relname="antithesis">Ive found through experience at my job that the business users rely on IT far too much for functional issues and knowledge of the software.</segment>
+        <segment id="3" parent="12" relname="conjunction">The IT department should be focusing on the technical upkeep</segment>
+        <segment id="4" parent="12" relname="conjunction">and the business users should be knowledgeable enough to support their work functions within the application.</segment>
+        <segment id="5" parent="11" relname="span">Having a system that is easy to learn will help.</segment>
+        <segment id="6" parent="14" relname="conjunction">If the software and business process align,</segment>
+        <segment id="7" parent="14" relname="conjunction">and the software is easy to learn,</segment>
+        <segment id="8" parent="13" relname="span">then this might take the burden off of IT.</segment>
+        <group id="9" type="span"/>
+        <group id="10" type="span" parent="1" relname="evidence"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="multinuc" parent="15" relname="span"/>
+        <group id="13" type="span" parent="5" relname="elaboration"/>
+        <group id="14" type="multinuc" parent="8" relname="condition"/>
+        <group id="15" type="span" parent="11" relname="solutionhood"/>
+    </body>
+</rst>

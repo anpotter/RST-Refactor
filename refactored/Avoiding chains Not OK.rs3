@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="span">There's Jeff [Drake],</segment>
+        <segment id="2" parent="1" relname="elaboration">who is behind the camera.</segment>
+        <segment id="3" parent="7" relname="span">Right now, yeah, he's helping us right now.</segment>
+        <segment id="4" parent="3" relname="elaboration">We're talking about doing some individual web series, video series</segment>
+        <group id="5" type="span"/>
+        <group id="6" type="span" parent="5" relname="span"/>
+        <group id="7" type="span" parent="6" relname="elaboration"/>
+    </body>
+</rst>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="means" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">As with many things in life there should be a proper consideration to any website created and published.</segment>
+        <segment id="2" parent="1" relname="elaboration">Good web designers can make any web site a major asset and not just a brightly-coloured bauble.</segment>
+        <segment id="3" parent="9" relname="elaboration">Web designers should have the experience and skills to design web sites that enhance a business.</segment>
+        <segment id="4" parent="8" relname="means">At present, Web designers should use combination of technologies such as XHTML, CSS, PHP, MySQL and JavaScript.</segment>
+        <segment id="5" parent="7" relname="summary">All this essentially means that each web site produced, web designers should have concentrated on clarity, ease of navigation, speed of loading and excellent search engine ranking, easy to maintain, display in all browsers and be ready for new technologies.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+    </body>
+</rst>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="interpretation" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="joint">(56) The challenge facing World Wildlife Fund is global.</segment>
+        <segment id="2" parent="8" relname="joint">(57) And time is running out.</segment>
+        <segment id="3" parent="7" relname="span">(58) We need your membership support now.</segment>
+        <segment id="4" parent="9" relname="span">(59) Extinction can come quickly.</segment>
+        <segment id="5" parent="4" relname="interpretation">(60) And extinction is forever.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="multinuc" parent="3" relname="justify"/>
+        <group id="9" type="span" parent="7" relname="justify"/>
+    </body>
+</rst>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="means" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="33" relname="span">I believe that the aspects to good web design lies in how well the designer does his or her research and how well it is tested.</segment>
+        <segment id="2" parent="3" relname="nonvolitional-cause">Putting a site out there is very easy,</segment>
+        <segment id="3" parent="38" relname="span">and not many designers give thought to what they publish.</segment>
+        <segment id="4" parent="37" relname="contrast">However, there are those who follow the rules of good design and put out sites are great examples of good design.</segment>
+        <segment id="5">Before even going to the drawing board, the designer or the analysts should first define the site goals</segment>
+        <segment id="6">(what is its purpose).</segment>
+        <segment id="7">Is it going to be for eCommerce, information, or entertainment, etc.</segment>
+        <segment id="8">Second, they should simulate a few user experiences.</segment>
+        <segment id="9">Who are the targeted audience,</segment>
+        <segment id="10">what are they going to be doing in detail on the site,</segment>
+        <segment id="11">and what about by-passers.</segment>
+        <segment id="12">After defining the user experience, the designer should then outline the content,</segment>
+        <segment id="13">whats important</segment>
+        <segment id="14">and whats not,</segment>
+        <segment id="15">what should the user want on there,</segment>
+        <segment id="16">and define the avenues that the users should take.</segment>
+        <segment id="17">Then, a site structure, layout, or blueprint should follow, with the visual design to end it all.</segment>
+        <segment id="18">Sites that come to mind that speak of good design are as follows:</segment>
+        <segment id="19">http://www.hotscripts.com/</segment>
+        <segment id="20">a great place to start.</segment>
+        <segment id="21">http://hotwired.lycos.com/webmonkey/design/site_building/tutorials/tutorial1.html</segment>
+        <segment id="22">one of my favorites.</segment>
+        <segment id="23">http://www.wdvl.com/Authoring/Design/TopTen2001/</segment>
+        <segment id="24">its always good to reflect on whats good out there.</segment>
+        <segment id="25">And http://www.webreference.com/ and http://www.useit.com/</segment>
+        <segment id="26">in case you get lost.</segment>
+        <segment id="27" parent="39" relname="span">Nothing better can stop or slow down the train of poor Web design than education.</segment>
+        <segment id="28" parent="35" relname="concession">Its unfortunate enough that anyone can put up a Web site.</segment>
+        <segment id="29" parent="35" relname="span">However, I believe that the HCI community along with the Web community can advertise more and give credit to those that have done well in Web design by publicly awarding those who deserve it on TV and the Web.</segment>
+        <segment id="30" parent="36" relname="span">(Just like the Oscars or Emmys).</segment>
+        <segment id="31" parent="30" relname="evaluation">:)</segment>
+        <group id="32" type="span"/>
+        <group id="33" type="span" parent="32" relname="span"/>
+        <group id="34" type="span" parent="27" relname="means"/>
+        <group id="35" type="span" parent="34" relname="span"/>
+        <group id="36" type="span" parent="29" relname="elaboration"/>
+        <group id="37" type="multinuc" parent="1" relname="elaboration"/>
+        <group id="38" type="span" parent="37" relname="contrast"/>
+        <group id="39" type="span" parent="33" relname="elaboration"/>
+    </body>
+</rst>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="span">To Jef Raskin intuitiveness equals familiar (Communications of the ACM. 37:9, September 1994, pg. 17),</segment>
+        <segment id="2" parent="1" relname="elaboration">he stated that many products claim intuitiveness but when examined they fail,</segment>
+        <segment id="3" parent="17" relname="elaboration">he suggested that the term intuitiveness should be replaced with the word familiar discourse.</segment>
+        <segment id="4" parent="16" relname="elaboration">He defined intuitive as uses readily transferred existing skills.</segment>
+        <segment id="5" parent="18" relname="span">I tend to agree with Raskin,</segment>
+        <segment id="6" parent="15" relname="concession">I have not yet seen any information system package that can be used by new users without referring to help or manuals</segment>
+        <segment id="7" parent="15" relname="span">but on the other hand there is no doubt that the number of times the user has to reference help screens increases with decreasing intuitiveness,</segment>
+        <segment id="8" parent="7" relname="elaboration">that is, decreasing familiarity.</segment>
+        <segment id="9" parent="12" relname="conjunction">Intuitiveness plays an important role in usability</segment>
+        <segment id="10" parent="12" relname="conjunction">and when designed properly leads to better usable products.</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="multinuc" parent="19" relname="summary"/>
+        <group id="13" type="span" parent="19" relname="span"/>
+        <group id="14" type="span" parent="5" relname="evidence"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="13" relname="span"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="13" relname="evaluation"/>
+        <group id="19" type="span" parent="11" relname="span"/>
+    </body>
+</rst>

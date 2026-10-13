@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="21" relname="span">Allen (2002) defines intuitiveness as something that is natural.</segment>
+        <segment id="2" parent="1" relname="elaboration">The comprehension of the task would require the users do not have to think about the task when doing it.</segment>
+        <segment id="3" parent="21" relname="elaboration">He further concludes that intuitive interfaces dont go beyond what the user already knows or could figure out from prior experiences.</segment>
+        <segment id="4" parent="22" relname="span">How intuitiveness is applied in usability is the common understanding in the group,</segment>
+        <segment id="5" parent="4" relname="elaboration">the group made up of users familiar with the job and the environment in which the job is preformed.</segment>
+        <segment id="6" parent="15" relname="span">Some of the ways to measure intuitiveness, using the above definition, might be to measure how long it takes users to perform tasks.</segment>
+        <segment id="7" parent="18" relname="span">These tasks, however, must meet the definition of something they are familiar with,</segment>
+        <segment id="8" parent="7" relname="elaboration">or should know from prior experiences.</segment>
+        <segment id="9" parent="16" relname="sequence">The measurement could be based on taking someone who has not seen the interface</segment>
+        <segment id="10" parent="16" relname="sequence">and compare that time against someone more experienced with it.</segment>
+        <segment id="11" parent="12" relname="condition">If the interface is intuitive</segment>
+        <segment id="12" parent="17" relname="span">then the time differences should be small.</segment>
+        <group id="13" type="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="23" relname="span"/>
+        <group id="16" type="multinuc" parent="19" relname="span"/>
+        <group id="17" type="span" parent="16" relname="nonvolitional-result"/>
+        <group id="18" type="span" parent="6" relname="elaboration"/>
+        <group id="19" type="span" parent="15" relname="elaboration"/>
+        <group id="20" type="span" parent="14" relname="span"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="20" relname="elaboration"/>
+        <group id="23" type="span" parent="14" relname="elaboration"/>
+    </body>
+</rst>

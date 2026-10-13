@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="5" relname="span">[Although bullish dollar sentiment has fizzled,many currency analysts say a massive sell-off probablywon’t occur in the near future. While Wall Street’stough times and lower U.S. interest rates continue toundermine the dollar, weakness in the pound and the yenis expected to offset those factors. “By default,” thedollar probably will be able to hold up pretty well incoming days, says Francoise Soares-Kemp, a foreignexchangeadviser at Credit Suisse. “We’re close to thebottom” of the near-term ranges, she contends. ...A]</segment>
+        <segment id="2" parent="1" relname="elaboration">[With the stock market wobbly and dollar buyers discouragedby signs of U.S. economic weakness and therecent decline in U.S. interest rates that has diminishedthe attractiveness of dollar-denominated investments,traders say the dollar is still in a precariousposition. “They’ll be looking at levels to sell thedollar,” says James Scalfaro, a foreign-exchange marketingrepresentative at Bank of Montreal. While someanalysts say the dollar eventually could test supportat 1.75 marks and 135 yen, Mr. Scalfaro and others don’tsee the currency decisively sliding under support at1.80 marks and 140 yen soon.B]</segment>
+        <segment id="3" parent="5" relname="elaboration">[Predictions for limiteddollar losses are based largely on the pound’s weakstate after Mr. Lawson’s resignation and the yen’sinability to strengthen substantially when there aredollar retreats. With the pound and the yen laggingbehind other major currencies, “you don’t have a confirmation”that a sharp dollar downturn is in theworks, says Mike Malpede, senior currency analyst atRefco Inc. in Chicago. ...C]</segment>
+        <group id="4" type="span"/>
+        <group id="5" type="span" parent="4" relname="span"/>
+    </body>
+</rst>

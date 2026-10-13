@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="concession">I agree with the points made in the above postings.</segment>
+        <segment id="2" parent="10" relname="span">However there are a few firms who actually make an effort for the novice user.</segment>
+        <segment id="3" parent="2" relname="justify">I work as a Quality assurance engineer responsible to make sure that an application works according to application requirements and that an application can be used by a novice application user.</segment>
+        <segment id="4" parent="12" relname="span">In general I think the term "novice" is loosely used as a Novice application user need not be a Novice computer user.</segment>
+        <segment id="5" parent="4" relname="elaboration">The nature of an application should determine the level of expertise required by the end user.</segment>
+        <segment id="6" parent="11" relname="span">Many new age firms design applications that are sent thru a process of end user testing conducted by a target audience of users who define a part of the actual application users.</segment>
+        <segment id="7" parent="6" relname="elaboration">This helps to define the application for the application users who are both experts and novice in the use of the application.</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="13" relname="span"/>
+        <group id="12" type="span" parent="11" relname="background"/>
+        <group id="13" type="span" parent="10" relname="evidence"/>
+    </body>
+</rst>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="span">Personally, the two concepts which are most crucial to comprehending new software or website are, ease of use and ease of learnability.</segment>
+        <segment id="2" parent="16" relname="span">In some ways, both these concepts are complementary or relative to each other.</segment>
+        <segment id="3" parent="20" relname="span">In other words, if the software is easy to use, then this is because it is easy to learn.</segment>
+        <segment id="4" parent="5" relname="circumstance">When I visit a website</segment>
+        <segment id="5" parent="22" relname="span">and I find the comprehensive navigatibility,</segment>
+        <segment id="6" parent="21" relname="span">then I am encouraged to venture further into the website.</segment>
+        <segment id="7" parent="23" relname="span">However, I believe ease of use and ease of learnibility are strongly relative to the users level of experience with a given technology.</segment>
+        <segment id="8" parent="9" relname="condition">If a user is just getting onto the information superhighway,</segment>
+        <segment id="9" parent="19" relname="span">then their exposure and conceptual grasp of the functionality of the Internet is miniscule in focus.</segment>
+        <segment id="10" parent="11" relname="circumstance">Thus, when testing the users ease of use and learnibility,</segment>
+        <segment id="11" parent="18" relname="span">it is prudent to separate groups by user experience.</segment>
+        <segment id="12" parent="13" relname="joint">I would like to focus on the other concepts early next week.</segment>
+        <group id="13" type="multinuc"/>
+        <group id="14" type="span" parent="13" relname="joint"/>
+        <group id="15" type="span" parent="1" relname="elaboration"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="7" relname="evidence"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="18" relname="volitional-cause"/>
+        <group id="20" type="span" parent="2" relname="elaboration"/>
+        <group id="21" type="span" parent="3" relname="elaboration"/>
+        <group id="22" type="span" parent="6" relname="volitional-cause"/>
+        <group id="23" type="span" parent="16" relname="elaboration"/>
+    </body>
+</rst>

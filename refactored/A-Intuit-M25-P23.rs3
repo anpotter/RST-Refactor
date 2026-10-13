@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="span">Intuitiveness is one of those "grey" terms when it comes to desigining a user interface.</segment>
+        <segment id="2" parent="17" relname="span">In its simplest form intuitiveness has to deal with the ability to follow the next logical step.</segment>
+        <segment id="3" parent="18" relname="span">The question then is logical to whom.</segment>
+        <segment id="4" parent="3" relname="elaboration">A mean will a 7 year old find MS Word intuitive?</segment>
+        <segment id="5" parent="13" relname="concession">It is a good term to use when marketing a product</segment>
+        <segment id="6" parent="13" relname="span">but many fall by the way side,</segment>
+        <segment id="7" parent="14" relname="span">because I do not believe a product can be intuitive to all users.</segment>
+        <segment id="8" parent="16" relname="span">I might find MS Word intuitive</segment>
+        <segment id="9" parent="8" relname="concession">(and that might be after some time of use)</segment>
+        <segment id="10" parent="15" relname="span">but I think it is difficult to create a product that is immediately intuitive</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="19" relname="span"/>
+        <group id="14" type="span" parent="6" relname="nonvolitional-cause"/>
+        <group id="15" type="span" parent="7" relname="elaboration"/>
+        <group id="16" type="span" parent="10" relname="concession"/>
+        <group id="17" type="span" parent="1" relname="elaboration"/>
+        <group id="18" type="span" parent="2" relname="elaboration"/>
+        <group id="19" type="span" parent="12" relname="elaboration"/>
+    </body>
+</rst>

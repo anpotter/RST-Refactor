@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="evidence" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">Governments were committed to inflation because they were themselves part of the system which required it.</segment>
+        <segment id="2" parent="1" relname="evidence">Modern capitalism thrives on expansion and credit, and without them it shrivels.</segment>
+        <segment id="3" parent="9" relname="evidence">Equally however it requires the right context, which is an expanding world economy</segment>
+        <segment id="4" parent="8" relname="evidence">Furthermore, the more the particular economy flourishes, the more dependent it is upon the total economy</segment>
+        <segment id="5" parent="7" relname="evidence">Finally, any government operating within such a system becomes overwhelmingly committed to maintaining it</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+    </body>
+</rst>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="15" relname="preparation">I agree with P19 about many of the attributes he mentioned.</segment>
+        <segment id="2" parent="17" relname="antithesis">I believe there are certain guidelines that can help with the development,</segment>
+        <segment id="3" parent="18" relname="span">but that website development needs to be an iterative process and that testing is important to making sure these attributes can be achieved.</segment>
+        <segment id="4" parent="22" relname="conjunction">Unfortunately many designers work with systems the general users don't have</segment>
+        <segment id="5" parent="22" relname="conjunction">and they may be on a high-speed network,</segment>
+        <segment id="6" parent="22" relname="volitional-result">so from thier point of view response time is acceptable.</segment>
+        <segment id="7" parent="8" relname="circumstance">But as soon as that site is accessed by users with dial-up access</segment>
+        <segment id="8" parent="21" relname="span">troubles begin with response time.</segment>
+        <segment id="9" parent="10" relname="nonvolitional-cause">Also it seems that many developers create pages using new large screens</segment>
+        <segment id="10" parent="19" relname="span">and then when users access the page it overflows their screen.</segment>
+        <segment id="11" parent="19" relname="evaluation">As a web user, I never want to scroll right as well as down to read a web page.</segment>
+        <segment id="12" parent="13" relname="nonvolitional-cause">There are a lot of variables in web design,</segment>
+        <segment id="13" parent="25" relname="span">so it is important to consider these variables in the design process and to test, test, test with the expected users in mind.</segment>
+        <group id="14" type="span"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="24" relname="span"/>
+        <group id="20" type="span" parent="3" relname="solutionhood"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="multinuc" parent="23" relname="span"/>
+        <group id="23" type="span" parent="21" relname="volitional-cause"/>
+        <group id="24" type="span" parent="18" relname="solutionhood"/>
+        <group id="25" type="span" parent="16" relname="summary"/>
+    </body>
+</rst>

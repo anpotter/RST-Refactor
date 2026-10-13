@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="background">I am glad to say I am finally caught up with all the reading.</segment>
+        <segment id="2" parent="19" relname="span">After reading all the assigned chapters and articles, something hit me.</segment>
+        <segment id="3" parent="29" relname="span">We talk about all these terms to support the importance of user-friendliness, user-centered and so forth.</segment>
+        <segment id="4" parent="23" relname="contrast">I have observed through my mother (I recently bought her a computer) a new user, a novice or a new computer experiencer.</segment>
+        <segment id="5" parent="23" relname="contrast">I, on the hand, grew up with computers,</segment>
+        <segment id="6">my 1st grade class had an Apple 2E and we played sneakers on it;</segment>
+        <segment id="7">I even learned basic.</segment>
+        <segment id="8" parent="24" relname="contrast">My generation is significantly smaller then hers.</segment>
+        <segment id="9" parent="24" relname="contrast">In regards to business her generation has more value and more disposable cash.</segment>
+        <segment id="10" parent="22" relname="span">However, computer technology has created 2 kinds of users:</segment>
+        <segment id="11" parent="10" relname="elaboration">me, who is experienced and her that is scare if she hits the wrong button we will have World War III on our hands.</segment>
+        <segment id="12" parent="21" relname="span">My point is that her kind of user is completely ignored, the terms listed:</segment>
+        <segment id="13" parent="12" relname="elaboration">ease of use ease of learning or learnabililty efficiency memorability error recovery user satisfaction flexibility consistency</segment>
+        <segment id="14" parent="20" relname="span">Who are they for, me or her or both?</segment>
+        <segment id="15" parent="27" relname="span">In my opinion she and those inexperienced users are ignored</segment>
+        <segment id="16" parent="15" relname="elaboration">and there is a lack of a model for those type users.</segment>
+        <group id="17" type="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="3" relname="background"/>
+        <group id="20" type="span" parent="18" relname="span"/>
+        <group id="21" type="span" parent="28" relname="span"/>
+        <group id="22" type="span" parent="26" relname="span"/>
+        <group id="23" type="multinuc" parent="25" relname="span"/>
+        <group id="24" type="multinuc" parent="23" relname="background"/>
+        <group id="25" type="span" parent="22" relname="background"/>
+        <group id="26" type="span" parent="21" relname="background"/>
+        <group id="27" type="span" parent="14" relname="solutionhood"/>
+        <group id="28" type="span" parent="20" relname="background"/>
+        <group id="29" type="span" parent="18" relname="background"/>
+    </body>
+</rst>

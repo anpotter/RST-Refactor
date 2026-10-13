@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="concession">Even though the approaches deemed best are based on what has worked successfully.</segment>
+        <segment id="2" parent="7" relname="span">I definately can tell that most of the concepts underlying their approach to design are based design in application to almost any industry.</segment>
+        <segment id="3" parent="2" relname="evidence">From taking a look at the bigger picture before deciding on cost facor decisions to the multidisciplinarian side of things.</segment>
+        <segment id="4" parent="6" relname="summary">Good design is good design and takes time, a team, and innovative/creative thinking.</segment>
+        <group id="5" type="span"/>
+        <group id="6" type="span" parent="5" relname="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+    </body>
+</rst>

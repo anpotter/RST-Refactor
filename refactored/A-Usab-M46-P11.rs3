@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="enablement" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="span">When you get a chance, find this article in the ACM Digital Library:</segment>
+        <segment id="2" parent="1" relname="enablement">Chrusch, M. (2000, September &amp; October). Seven great myths of usability. Interactions, 13-16. In this article Marc Chrusch brings up some very interesting areas to consider that are actually myths about usability.</segment>
+        <segment id="3" parent="17" relname="background">These myths are based on mis-education and also misuse of terms.</segment>
+        <segment id="4" parent="16" relname="span">Here are the seven myths.</segment>
+        <segment id="5" parent="4" relname="elaboration">Go read the article for more information:</segment>
+        <segment id="6" parent="15" relname="list">Myth #1: Usability only increases development costs and lengthens development time.</segment>
+        <segment id="7" parent="15" relname="list">Myth #2: The user interface is really just adding good practices to make the application appealing</segment>
+        <segment id="8" parent="15" relname="list">Myth #3: Usability is user interface design.</segment>
+        <segment id="9" parent="15" relname="list">Myth #4: Usability is really just common sense.</segment>
+        <segment id="10" parent="15" relname="list">Myth #5: As long as developers are familar with guidelines, good user interfaces will be designed.</segment>
+        <segment id="11" parent="15" relname="list">Myth #6: Usability testing is not needed if the development team has been working with the users a long time and knows what they want.</segment>
+        <segment id="12" parent="15" relname="list">Myth #7: "We'll handle that in the help/training/documentation."</segment>
+        <group id="13" type="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="multinuc" parent="16" relname="elaboration"/>
+        <group id="16" type="span" parent="18" relname="span"/>
+        <group id="17" type="span" parent="14" relname="span"/>
+        <group id="18" type="span" parent="14" relname="elaboration"/>
+    </body>
+</rst>

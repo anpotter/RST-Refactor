@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="span">I totally agree with you,</segment>
+        <segment id="2" parent="10" relname="span">I think that screen) layout, color, fonts, labeling, graphics, sound, visualization, presentation, interaction and spacing are very important in web design.</segment>
+        <segment id="3" parent="12" relname="span">You can not explore a website</segment>
+        <segment id="4" parent="3" relname="concession">(even if it has great information)</segment>
+        <segment id="5" parent="12" relname="condition">if it does not capture your attention quickly.</segment>
+        <segment id="6" parent="7" relname="volitional-cause">I have been turned off by horrible designs,</segment>
+        <segment id="7" parent="13" relname="span">and I refuse to even explore a little bit.</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="1" relname="elaboration"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="2" relname="evidence"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="10" relname="evidence"/>
+    </body>
+</rst>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="interpretation" type="rst"/>
+            <rel name="means" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+            <rel name="list" type="multinuc"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="28" relname="span">Intuitiveness and transparency are interrelated attributes of a product.</segment>
+        <segment id="2" parent="42" relname="span">The transparency of a product relates to how easily users of a product understands the mental model, or logical process flow, of that product.</segment>
+        <segment id="3" parent="44" relname="circumstance">For example, when a user hits the top of a television when the reception is poor,</segment>
+        <segment id="4" parent="44" relname="span">they have a poor mental model of television technology.</segment>
+        <segment id="5" parent="46" relname="span">Decades ago, this model was true.</segment>
+        <segment id="6" parent="7" relname="means">By striking the television on its top or sides,</segment>
+        <segment id="7" parent="47" relname="span">the electronic tubes inside the television might reset or reseat, allowing the picture to come back.</segment>
+        <segment id="8" parent="45" relname="span">However, with solid state electronics, this is no longer true.</segment>
+        <segment id="9" parent="48" relname="span">The intuitive nature of a product refers, I believe, to how readily the usability of product reflects the same mental model of a product.</segment>
+        <segment id="10" parent="38" relname="sequence">For example, the mental model of a telephone involves picking up the receiver,</segment>
+        <segment id="11" parent="38" relname="sequence">dialing the number,</segment>
+        <segment id="12" parent="38" relname="sequence">waiting for someone to answer,</segment>
+        <segment id="13" parent="38" relname="sequence">conversing,</segment>
+        <segment id="14" parent="38" relname="sequence">and then hanging up the receiver.</segment>
+        <segment id="15" parent="40" relname="contrast">The transparent pieces of the model are the miles of telephone lines and many sattelites floating above the Earth that support this mental model.</segment>
+        <segment id="16" parent="39" relname="span">The intuitive nature of the product is that the model is so transparent,</segment>
+        <segment id="17" parent="16" relname="elaboration">all someone needs to do to call someone is simple push the right sequence of buttons on the telephone.</segment>
+        <segment id="18" parent="31" relname="span">Comparing land lines to cell phones leads to another question on intuitiveness.</segment>
+        <segment id="19" parent="20" relname="preparation">As the professor stated,</segment>
+        <segment id="20" parent="36" relname="span">learned behavior to a similar mental model can lead to varied results.</segment>
+        <segment id="21" parent="37" relname="span">To dial from a cell phone, users must typically press one additional keystroke to actually active the phone call.</segment>
+        <segment id="22" parent="34" relname="list">Since a) this keystroke is not required on land line, the prelearned model,</segment>
+        <segment id="23" parent="34" relname="list">and b) this key is not positioned in the same location on all cell phones,</segment>
+        <segment id="24" parent="33" relname="span">many users have issues with the intuitive nature of cell phones.</segment>
+        <segment id="25" parent="26" relname="concession">Once connected, using a cell phone is no different than a land line.</segment>
+        <segment id="26" parent="35" relname="span">However, it is with the single additional keystroke that intuitiveness is lost.</segment>
+        <group id="27" type="span"/>
+        <group id="28" type="span" parent="27" relname="span"/>
+        <group id="29" type="span" parent="9" relname="elaboration"/>
+        <group id="30" type="span" parent="29" relname="span"/>
+        <group id="31" type="span" parent="41" relname="span"/>
+        <group id="32" type="span" parent="21" relname="elaboration"/>
+        <group id="33" type="span" parent="32" relname="span"/>
+        <group id="34" type="multinuc" parent="24" relname="nonvolitional-cause"/>
+        <group id="35" type="span" parent="33" relname="summary"/>
+        <group id="36" type="span" parent="18" relname="background"/>
+        <group id="37" type="span" parent="31" relname="elaboration"/>
+        <group id="38" type="multinuc" parent="30" relname="span"/>
+        <group id="39" type="span" parent="40" relname="contrast"/>
+        <group id="40" type="multinuc" parent="38" relname="interpretation"/>
+        <group id="41" type="span" parent="30" relname="elaboration"/>
+        <group id="42" type="span" parent="1" relname="elaboration"/>
+        <group id="43" type="span" parent="2" relname="evidence"/>
+        <group id="44" type="span" parent="43" relname="span"/>
+        <group id="45" type="span" parent="4" relname="evidence"/>
+        <group id="46" type="span" parent="8" relname="antithesis"/>
+        <group id="47" type="span" parent="5" relname="nonvolitional-cause"/>
+        <group id="48" type="span" parent="28" relname="elaboration"/>
+    </body>
+</rst>

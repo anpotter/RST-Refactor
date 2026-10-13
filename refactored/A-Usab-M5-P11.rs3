@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="span">The Grudin article IS considered a classic article in the HCI world.</segment>
+        <segment id="2" parent="9" relname="span">Grudin (1989) identified three types of consistency:</segment>
+        <segment id="3" parent="10" relname="list">the internal consistency of a design with itself;</segment>
+        <segment id="4" parent="10" relname="list">the external consistency of a design with other interface designs familiar to a user;</segment>
+        <segment id="5" parent="10" relname="list">and an external analogic or metaphoric correspondence of a design to features in the world beyond the computer domain.</segment>
+        <segment id="6" parent="8" relname="volitional-cause">He said that interface design is an engineering problem that forces tradeoffs among many factors, often including many possible forms and dimensions of consistency.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="1" relname="volitional-cause"/>
+        <group id="10" type="multinuc" parent="2" relname="elaboration"/>
+    </body>
+</rst>

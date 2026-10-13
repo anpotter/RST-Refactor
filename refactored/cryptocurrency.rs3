@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="15" relname="justify">Just like other speculative bubbles,</segment>
+        <segment id="2" parent="15" relname="span">the cryptocurrency bubble will also blow up at some point,</segment>
+        <segment id="3" parent="2" relname="concession">though the timing is quite unpredictable.</segment>
+        <segment id="4" parent="14" relname="span">But the risk is not only to gullible speculators.</segment>
+        <segment id="5" parent="17" relname="circumstance">As time goes on,</segment>
+        <segment id="6" parent="18" relname="nonvolitional-cause">cryptocurrencies get more enmeshed in our economic system</segment>
+        <segment id="7" parent="18" relname="span">and the risk of financial contagion grows.</segment>
+        <segment id="8" parent="7" relname="background">Financial contagion refers to the spread of market disturbances, typically on the downside, between different economic institutions and between different countries.</segment>
+        <segment id="9" parent="20" relname="span">The cryptocurrency bubble is, in my opinion, a growing systemic financial risk</segment>
+        <segment id="10" parent="9" relname="elaboration">(and there are also the issues of susceptibility to cyberattacks and voracious energy appetite).</segment>
+        <segment id="11">Vardi, M. Y. (2018). A declaration of the dependence of cyberspace. Communications of the ACM, 61(3), 9.</segment>
+        <group id="12" type="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="19" relname="span"/>
+        <group id="16" type="span" parent="4" relname="evidence"/>
+        <group id="17" type="span" parent="16" relname="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="14" relname="concession"/>
+        <group id="20" type="span" parent="13" relname="summary"/>
+    </body>
+</rst>

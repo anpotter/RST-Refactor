@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="background">We had the same problem with one of our mainframe programs.</segment>
+        <segment id="2" parent="18" relname="antithesis">Having varying key commands to do the same action makes learning the system more difficult and the usability of the system harder for the end users to conquer.</segment>
+        <segment id="3" parent="4" relname="condition">If an application is consistent throughout</segment>
+        <segment id="4" parent="18" relname="span">users can use different parts of the program and still have the knowledge of how to perform certain tasks since they will be done the same way.</segment>
+        <segment id="5" parent="19" relname="span">I think consistency is a very important usability concept.</segment>
+        <segment id="6" parent="25" relname="justify">As noted in the class text book,</segment>
+        <segment id="7" parent="25" relname="span">one of the benefits is that users will have an easier time learning.</segment>
+        <segment id="8" parent="7" relname="elaboration">They only have to learn a single mode of operation that applies throughout the interface (Pierce, Rogers, &amp; Sharp).</segment>
+        <segment id="9" parent="20" relname="justify">As Andrei stated</segment>
+        <segment id="10" parent="23" relname="span">consistence is one of the golden rules of interface design.</segment>
+        <segment id="11" parent="10" relname="elaboration">It is very important on many levels.</segment>
+        <segment id="12" parent="23" relname="elaboration">It creates the foundation for user interaction in a predictable manner.</segment>
+        <segment id="13" parent="22" relname="elaboration">It must be applied effectively though.</segment>
+        <segment id="14" parent="21" relname="elaboration">Consistency creates usage patterns, offering users the opportunity to succeed in the face of an unknown feature encountered for the first time (2004).</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="16" relname="span"/>
+        <group id="20" type="span" parent="26" relname="span"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="21" relname="span"/>
+        <group id="23" type="span" parent="22" relname="span"/>
+        <group id="24" type="span" parent="5" relname="evidence"/>
+        <group id="25" type="span" parent="24" relname="span"/>
+        <group id="26" type="span" parent="19" relname="evidence"/>
+        <group id="27" type="span" parent="16" relname="volitional-cause"/>
+    </body>
+</rst>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="concession">Although all the features/attributes mentioned above are important in the design of an application,</segment>
+        <segment id="2" parent="44" relname="span">some of the features/attributes that stand out, in my experience are: -- ease of use, -- ease of learning and -- error recovery.</segment>
+        <segment id="3" parent="27" relname="preparation">Ease of Use:</segment>
+        <segment id="4" parent="5" relname="condition">If an application is not easy to use,</segment>
+        <segment id="5" parent="33" relname="span">none of the users are going to be very happy using it.</segment>
+        <segment id="6" parent="28" relname="span">If the users are not happy, then the productivity goes down.</segment>
+        <segment id="7" parent="29" relname="span">Every application must be made in a way it is easy to be used,</segment>
+        <segment id="8" parent="7" relname="antithesis">no matter if it is of superior quality.</segment>
+        <segment id="9" parent="32" relname="span">The best example would be Windows Vs Unix.</segment>
+        <segment id="10" parent="11" relname="concession">Although Unix is a far superior OS,</segment>
+        <segment id="11" parent="31" relname="span">Windows is the choice of 95% of the worlds computer users.</segment>
+        <segment id="12" parent="30" relname="span">And one of the most important reason for this is, ease of use.</segment>
+        <segment id="13" parent="36" relname="preparation">Ease of learning:</segment>
+        <segment id="14" parent="36" relname="span">Ease of use should and will be complimented with the ease of learning.</segment>
+        <segment id="15" parent="38" relname="condition">If users cannot learn to use the application easily,</segment>
+        <segment id="16" parent="38" relname="span">then they will not be too happy implementing the product.</segment>
+        <segment id="17" parent="39" relname="span">Not only are the users unhappy with the applications implementation,</segment>
+        <segment id="18" parent="17" relname="elaboration">the management will also be unhappy becasue they will have to spend more time and money training the users.</segment>
+        <segment id="19" parent="41" relname="preparation">Error recovery:</segment>
+        <segment id="20" parent="42" relname="condition">No matter how good the application is, if it does not have proper error recovery mechanism,</segment>
+        <segment id="21" parent="42" relname="span">it will not be very popular with the majority of users.</segment>
+        <segment id="22" parent="23" relname="preparation">This is especially true when business are taken into consideration.</segment>
+        <segment id="23" parent="43" relname="span">Data is money and businesses cannot afford to lose data.</segment>
+        <group id="24" type="span"/>
+        <group id="25" type="multinuc" parent="44" relname="elaboration"/>
+        <group id="26" type="span" parent="25" relname="list"/>
+        <group id="27" type="span" parent="26" relname="span"/>
+        <group id="28" type="span" parent="27" relname="span"/>
+        <group id="29" type="span" parent="34" relname="span"/>
+        <group id="30" type="span" parent="9" relname="elaboration"/>
+        <group id="31" type="span" parent="12" relname="volitional-cause"/>
+        <group id="32" type="span" parent="29" relname="elaboration"/>
+        <group id="33" type="span" parent="6" relname="solutionhood"/>
+        <group id="34" type="span" parent="28" relname="elaboration"/>
+        <group id="35" type="span" parent="25" relname="list"/>
+        <group id="36" type="span" parent="35" relname="span"/>
+        <group id="37" type="span" parent="14" relname="volitional-cause"/>
+        <group id="38" type="span" parent="37" relname="span"/>
+        <group id="39" type="span" parent="16" relname="elaboration"/>
+        <group id="40" type="span" parent="25" relname="list"/>
+        <group id="41" type="span" parent="40" relname="span"/>
+        <group id="42" type="span" parent="41" relname="span"/>
+        <group id="43" type="span" parent="21" relname="elaboration"/>
+        <group id="44" type="span" parent="24" relname="span"/>
+    </body>
+</rst>

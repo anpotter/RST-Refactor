@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="span">Some Web sites that speak to good design in my opinion are:</segment>
+        <segment id="2" parent="8" relname="list">www.amazon.com</segment>
+        <segment id="3" parent="8" relname="list">www.msnbc.msn.com</segment>
+        <segment id="4" parent="8" relname="list">www.cnn.com</segment>
+        <segment id="5" parent="7" relname="elaboration">Another site I found easy to navigate through and atractive was: www.baylorhealth.com</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="multinuc" parent="1" relname="elaboration"/>
+    </body>
+</rst>

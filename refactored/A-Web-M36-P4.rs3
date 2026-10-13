@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="conjunction">I am a fairly new first time Dad,</segment>
+        <segment id="2" parent="11" relname="conjunction">my daughter is 11 months old</segment>
+        <segment id="3" parent="11" relname="conjunction">and my wife recently turned me on too a great site with an equally great interface.</segment>
+        <segment id="4" parent="16" relname="span">Preece,Rogers and Sharp in their book Interactive Design said"If users haven't used a site for a few months they should be able to remember or at least be reminded how to use it.Users shouldn't have to keep relearning how to carry out tasks."</segment>
+        <segment id="5" parent="15" relname="span">I only get a chance to visit that site maybe once every few weeks</segment>
+        <segment id="6" parent="14" relname="span">usually when I need the answer to some infromation about raising my daughter</segment>
+        <segment id="7" parent="6" relname="elaboration">such as what to do if your child has a fever.</segment>
+        <segment id="8" parent="13" relname="span">So, it is important that I don't have to relearn where everyting is.</segment>
+        <segment id="9" parent="8" relname="elaboration">Consistency and intuitiveness also play a part here.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="multinuc" parent="16" relname="background"/>
+        <group id="12" type="span" parent="4" relname="elaboration"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="5" relname="circumstance"/>
+        <group id="15" type="span" parent="13" relname="volitional-cause"/>
+        <group id="16" type="span" parent="10" relname="span"/>
+    </body>
+</rst>

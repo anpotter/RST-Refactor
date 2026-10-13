@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="justify" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="concession">The deal is an important step toward more open access in scientific publishing,</segment>
+        <segment id="2" parent="8" relname="span">but the per paper fee of €2750 seems high,</segment>
+        <segment id="3" parent="2" relname="justify">says Leo Waaijers, an open-access advocate and retired librarian at the Delft University of Technology in the Netherlands.</segment>
+        <segment id="4" parent="9" relname="span">Dutch researchers are paying Wiley just €1600 per paper under a similar deal in the Netherlands,</segment>
+        <segment id="5" parent="4" relname="justify">he notes.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="evidence"/>
+    </body>
+</rst>
