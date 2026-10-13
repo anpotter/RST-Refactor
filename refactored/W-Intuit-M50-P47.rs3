@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="enablement" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="13" relname="span">check it out: lefty keyboard (and wireless)</segment>
+        <segment id="2" parent="1" relname="enablement">http:// shop. store. yahoo. com/ directron/ lefthanded.html</segment>
+        <segment id="3" parent="4" relname="concession">I'm also left-handed,</segment>
+        <segment id="4" parent="14" relname="span">but at this stage in my life I don't know if I'dlike a lefty keyboard!</segment>
+        <segment id="5" parent="16" relname="background">That sword- fighting story is new to me.</segment>
+        <segment id="6" parent="18" relname="circumstance">I've had SO many people tell methat a bunch of years ago,</segment>
+        <segment id="7" parent="18" relname="span">lefties were not admired</segment>
+        <segment id="8" parent="19" relname="span">so they were forcedto use their right hands,</segment>
+        <segment id="9" parent="8" relname="concession">although several have told me of an initiallefty preference.</segment>
+        <segment id="10" parent="16" relname="contrast">Frankly, I'm trying to steer my 1-year-old into beinga lefty ;)</segment>
+        <group id="11" type="multinuc"/>
+        <group id="12" type="span" parent="11" relname="joint"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="13" relname="elaboration"/>
+        <group id="15" type="span" parent="11" relname="joint"/>
+        <group id="16" type="multinuc" parent="15" relname="span"/>
+        <group id="17" type="span" parent="16" relname="contrast"/>
+        <group id="18" type="span" parent="17" relname="span"/>
+        <group id="19" type="span" parent="7" relname="nonvolitional-result"/>
+    </body>
+</rst>

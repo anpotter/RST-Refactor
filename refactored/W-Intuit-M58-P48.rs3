@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="18" relname="span">I found this article on Intuitiveness to be interesting,</segment>
+        <segment id="2" parent="1" relname="volitional-cause">in that the writer states that it is "ease of use".</segment>
+        <segment id="3" parent="18" relname="elaboration">I like to think of intuitive meaning having a natural tendency - familiar.</segment>
+        <segment id="4" parent="19" relname="span">They both kind of fall into place here.</segment>
+        <segment id="5" parent="14" relname="span">A good example of is can be a user who is learning Microsoft Excel for the first time.</segment>
+        <segment id="6" parent="15" relname="span">Now this can take some time, depending on their computer skills already.</segment>
+        <segment id="7" parent="16" relname="sequence">They need to become familiar with the interface and how to navigate easily throughout the program.</segment>
+        <segment id="8" parent="9" relname="circumstance">Once they feel comfortable with Excel</segment>
+        <segment id="9" parent="17" relname="span">then one can say that it is easy, or easier, to use.</segment>
+        <segment id="10" parent="16" relname="sequence">After some time of working with Excel the user has a sense of familiarity.</segment>
+        <segment id="11" parent="16" relname="sequence">It is at this point that the user develops a natural tendancy to work with the program.</segment>
+        <group id="12" type="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="4" relname="elaboration"/>
+        <group id="15" type="span" parent="5" relname="elaboration"/>
+        <group id="16" type="multinuc" parent="6" relname="elaboration"/>
+        <group id="17" type="span" parent="16" relname="sequence"/>
+        <group id="18" type="span" parent="13" relname="span"/>
+        <group id="19" type="span" parent="13" relname="elaboration"/>
+    </body>
+</rst>

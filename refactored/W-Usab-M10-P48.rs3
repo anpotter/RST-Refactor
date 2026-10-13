@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="evaluation" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="span">I agree with you 100% on the point that MS has its advantages by being quite flexible with other MS products.</segment>
+        <segment id="2" parent="1" relname="volitional-result">This makes it so easy for the consumer/end-user when working on this platform.</segment>
+        <segment id="3" parent="8" relname="span">Practically every MS product in the Office Suite "speaks" to eachother in a sense.</segment>
+        <segment id="4" parent="3" relname="evidence">Everything can be imported, exported, merged, etc.</segment>
+        <segment id="5" parent="8" relname="evaluation">This is a wonderful benefit to any user.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="9" relname="span"/>
+        <group id="9" type="span" parent="7" relname="evidence"/>
+    </body>
+</rst>

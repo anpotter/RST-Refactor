@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="10" relname="antithesis">Certain MS products are flexible</segment>
+        <segment id="2" parent="11" relname="span">and not without their share of problems.</segment>
+        <segment id="3" parent="4" relname="background">If you can remember Frontpage95/98.</segment>
+        <segment id="4" parent="14" relname="span">They were very inflexible that actually decrease flexibility.</segment>
+        <segment id="5" parent="13" relname="span">Now, Frontpage XP is fairly decent</segment>
+        <segment id="6" parent="5" relname="elaboration">but now comparable to be BBEdit or Dreamweaver.</segment>
+        <segment id="7" parent="15" relname="span">The one thing that MS has its advantages is the flexibility with other MS products,</segment>
+        <segment id="8" parent="7" relname="elaboration">eg. Excel spreadsheet in Word or Power point.</segment>
+        <group id="9" type="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="2" relname="elaboration"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="13" relname="antithesis"/>
+        <group id="15" type="span" parent="11" relname="elaboration"/>
+    </body>
+</rst>

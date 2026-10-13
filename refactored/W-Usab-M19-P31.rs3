@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="span">Learnability is a critical attribute for a new interface or application.</segment>
+        <segment id="2" parent="1" relname="evidence">Today's user doesn't have time to waste trying to learn the ins and outs of a new system.</segment>
+        <segment id="3" parent="13" relname="span">Preece sees learnability as a measure of how easy a system is to learn to use (2002).</segment>
+        <segment id="4" parent="12" relname="span">Learnability may further be described in quantifiable areas such as familiarity, consistency, predictability, simplicity, and generalizability (Usability 101, 2003).</segment>
+        <segment id="5" parent="4" relname="elaboration">Familiarity is the extent to which a piece osf software or interface builds upon the user's prior knowledge of similiar applications or interfaces.</segment>
+        <segment id="6" parent="12" relname="elaboration">Consistency points to the attribute of only having to learn a task within the application once and allows the user to perform the same task in the same manner every time.</segment>
+        <segment id="7" parent="11" relname="volitional-result">Breaking down learnability into sub areas makes it easier to evaluate.</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="3" relname="elaboration"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="9" relname="elaboration"/>
+    </body>
+</rst>

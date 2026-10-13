@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="14" relname="span">There is a popular HCI term often floating around called "intuitiveness".</segment>
+        <segment id="2" parent="1" relname="background">We often read about products being rated for intuitiveness -- how well a product can be learned or used without much instruction or help.</segment>
+        <segment id="3" parent="12" relname="span">From both a marketing perspective and a design perspective, this usability concept of intuitiveness requires full support in user interface design.</segment>
+        <segment id="4" parent="3" relname="elaboration">Intuitiveness helps us with ease of use and ease of learning (both are noted usability attributes) in using new products and with continual use of familiar products.</segment>
+        <segment id="5" parent="13" relname="span">However, many products are being marketed as "intuitive",</segment>
+        <segment id="6" parent="5" relname="circumstance">when in fact, their design falls short of the promise.</segment>
+        <segment id="7" parent="10" relname="conjunction">We need to DEFINE intuitiveness and discuss how we can MEASURE intuitiveness in terms of usability and design.</segment>
+        <segment id="8" parent="10" relname="conjunction">Let's try to address this issue of intuitiveness and how we can specifically measure it.</segment>
+        <group id="9" type="span"/>
+        <group id="10" type="multinuc" parent="9" relname="span"/>
+        <group id="11" type="span" parent="15" relname="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="12" relname="concession"/>
+        <group id="14" type="span" parent="11" relname="background"/>
+        <group id="15" type="span" parent="10" relname="background"/>
+    </body>
+</rst>

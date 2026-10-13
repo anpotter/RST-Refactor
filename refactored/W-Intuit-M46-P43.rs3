@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="23" relname="span">Excellent posting.</segment>
+        <segment id="2" parent="3" relname="concession">I am right handed</segment>
+        <segment id="3" parent="16" relname="span">but surrounded with lefties</segment>
+        <segment id="4" parent="15" relname="span">and I have never thought about the location of the numeric key pad.</segment>
+        <segment id="5" parent="21" relname="span">Mouses can be programmed for lefties</segment>
+        <segment id="6" parent="5" relname="elaboration">and this has been case for a long time.</segment>
+        <segment id="7" parent="17" relname="span">I am always surprised at the number of people who are not aware of this feature.</segment>
+        <segment id="8" parent="19" relname="conjunction">When I was a PC Tech</segment>
+        <segment id="9" parent="19" relname="conjunction">and came accross a left handed user</segment>
+        <segment id="10" parent="20" relname="span">I would offer a left mouse set up for them.</segment>
+        <segment id="11" parent="18" relname="span">Well many people said they had gotten use to the right hand set up</segment>
+        <segment id="12" parent="11" relname="elaboration">and did not need to switch.</segment>
+        <group id="13" type="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="1" relname="elaboration"/>
+        <group id="16" type="span" parent="4" relname="concession"/>
+        <group id="17" type="span" parent="14" relname="span"/>
+        <group id="18" type="span" parent="22" relname="span"/>
+        <group id="19" type="multinuc" parent="10" relname="circumstance"/>
+        <group id="20" type="span" parent="18" relname="concession"/>
+        <group id="21" type="span" parent="7" relname="volitional-cause"/>
+        <group id="22" type="span" parent="17" relname="nonvolitional-result"/>
+        <group id="23" type="span" parent="14" relname="background"/>
+    </body>
+</rst>

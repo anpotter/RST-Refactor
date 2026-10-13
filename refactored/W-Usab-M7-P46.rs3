@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="circumstance">When I think of the term flexibility,</segment>
+        <segment id="2" parent="19" relname="span">what comes to mind is an interface/system that allows the user to accomplish a task in more than one way.</segment>
+        <segment id="3" parent="12" relname="span">However, my definition is actually too narrow.</segment>
+        <segment id="4" parent="13" relname="span">According to Dix et al (1998), there are five design principles related to flexibility,</segment>
+        <segment id="5" parent="16" relname="span">two of which are "substitutivity" and "customizability.</segment>
+        <segment id="6" parent="5" relname="elaboration">" An example of substitutivity is how paint programs, such as Microsoft Paint, allow you to define the size of an image in either pixels or inches.</segment>
+        <segment id="7" parent="18" relname="span">Customizability is the ability to modify the interface (Dix et al).</segment>
+        <segment id="8" parent="9" relname="preparation">For example, with the fixed asset software we use,</segment>
+        <segment id="9" parent="17" relname="span">you can make rename fields.</segment>
+        <segment id="10" parent="15" relname="volitional-result">I think that most of the Windows program I use have decent flexibility.</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="3" relname="elaboration"/>
+        <group id="14" type="span" parent="4" relname="elaboration"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="7" relname="elaboration"/>
+        <group id="18" type="span" parent="16" relname="elaboration"/>
+        <group id="19" type="span" parent="12" relname="antithesis"/>
+    </body>
+</rst>

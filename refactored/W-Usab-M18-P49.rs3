@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="background">Luckily you can also disable auto correct in MS Word as well.</segment>
+        <segment id="2" parent="6" relname="span">I oftenhave to type words in a different language than English and they wereoften being auto corrected.</segment>
+        <segment id="3" parent="7" relname="span">One option would be to have an option(which can be disabled) that would allow you to see which words havebeen auto corrected, just like spellchecking.</segment>
+        <segment id="4" parent="3" relname="volitional-result">And then you will have achoice as to whether you want the changes to remain or not.</segment>
+        <group id="5" type="span"/>
+        <group id="6" type="span" parent="5" relname="span"/>
+        <group id="7" type="span" parent="2" relname="solutionhood"/>
+    </body>
+</rst>

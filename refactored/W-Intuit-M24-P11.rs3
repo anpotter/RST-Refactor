@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="background">Your post makes a good connection to mental mapping.</segment>
+        <segment id="2" parent="7" relname="span">I'm thinking this requires  some level of expertise</segment>
+        <segment id="3" parent="4" relname="concession">-- for example, that one is quite familar with some operating systems, but not all.</segment>
+        <segment id="4" parent="9" relname="span">However, the basis of the experience affords the user to make mental mappings between his/her previous experience (e.g. Unix) and the new experience (Windows XP),</segment>
+        <segment id="5" parent="9" relname="concession">although the operating systems have quite different interfaces.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="2" relname="elaboration"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+    </body>
+</rst>

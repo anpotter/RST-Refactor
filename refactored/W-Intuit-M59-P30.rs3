@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="background">Intuitiveness is the process of being able to use a software or website without the use instruction.</segment>
+        <segment id="2" parent="7" relname="span">According to Mr. Lindstrom, brand building should be intuitive.</segment>
+        <segment id="3" parent="8" relname="span">Designers need to start asking themselves what a first time and second time user would want to know.</segment>
+        <segment id="4" parent="9" relname="span">This will encourage the user either to buy the product and come back to a website</segment>
+        <segment id="5" parent="4" relname="volitional-cause">because they are going to find it easy to learn.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="2" relname="volitional-result"/>
+        <group id="9" type="span" parent="3" relname="volitional-result"/>
+    </body>
+</rst>

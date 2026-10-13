@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="enablement" type="rst"/>
+            <rel name="motivation" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="6" relname="joint">Good start here, P45.</segment>
+        <segment id="2" parent="8" relname="span">Also, everyone should check out Jakob Nielsen's Alertbox website.</segment>
+        <segment id="3" parent="2" relname="enablement">I believe I have a link to this on the HCI Website under HCI Exploration.</segment>
+        <segment id="4" parent="9" relname="span">Nielsen is considered the "guru" of usability,</segment>
+        <segment id="5" parent="4" relname="elaboration">having defined the term in the early 90s and taking the lead on usability research as we know it today.</segment>
+        <group id="6" type="multinuc"/>
+        <group id="7" type="span" parent="6" relname="joint"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="8" relname="motivation"/>
+    </body>
+</rst>

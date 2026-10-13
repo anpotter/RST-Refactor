@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="conjunction" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="16" relname="span">Intuitiveness is about physical response.</segment>
+        <segment id="2" parent="23" relname="span">Take for example the keyboard which was designed for right handed users.</segment>
+        <segment id="3" parent="2" relname="elaboration">All of the additional features of the keyboard (the number keypad and the insert/delete keys, etc) are located on the right side of the keyboard.</segment>
+        <segment id="4" parent="24" relname="concession">Over the years I've become familiar with the key pad and insert/delete keys,</segment>
+        <segment id="5" parent="24" relname="span">but the use of them took me years to master</segment>
+        <segment id="6" parent="5" relname="nonvolitional-cause">because of the locaction and the lack of flexibility with my right hand.</segment>
+        <segment id="7" parent="22" relname="elaboration">They have yet to come out with a left handed keyboard designed with these functions on the opposite side.</segment>
+        <segment id="8" parent="21" relname="conjunction">I've noticed right handed users are able to quickly learn the keystrokes</segment>
+        <segment id="9" parent="21" relname="conjunction">and are able to touch type on the number pad.</segment>
+        <segment id="10" parent="17" relname="antithesis">Physical response and intuitiveness is something they attempted with the keyboard,</segment>
+        <segment id="11" parent="17" relname="span">but they missed the mark with at least a few users.</segment>
+        <segment id="12" parent="18" relname="span">Unfortunately I don't think now it would matter.</segment>
+        <segment id="13" parent="19" relname="span">The keyboard is standardized,</segment>
+        <segment id="14" parent="13" relname="elaboration">and even left handed users have learned to adapt physically.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="11" relname="nonvolitional-result"/>
+        <group id="19" type="span" parent="12" relname="nonvolitional-cause"/>
+        <group id="20" type="span" parent="1" relname="evidence"/>
+        <group id="21" type="multinuc" parent="26" relname="evidence"/>
+        <group id="22" type="span" parent="26" relname="span"/>
+        <group id="23" type="span" parent="22" relname="span"/>
+        <group id="24" type="span" parent="25" relname="span"/>
+        <group id="25" type="span" parent="23" relname="nonvolitional-result"/>
+        <group id="26" type="span" parent="20" relname="span"/>
+        <group id="27" type="span" parent="16" relname="summary"/>
+    </body>
+</rst>

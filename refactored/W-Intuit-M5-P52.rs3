@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="antithesis">Intuitiveness incorporates not only a sense of instinct within an interface,</segment>
+        <segment id="2" parent="14" relname="span">but also defines an accelerated learning curve for those areas that users may have particular trouble in.</segment>
+        <segment id="3" parent="22" relname="span">I would make a safe wager to propose that there is no program of significant size that is 100% intuitive.</segment>
+        <segment id="4" parent="5" relname="condition">If there were,</segment>
+        <segment id="5" parent="16" relname="span">one would only have to look at each feature once and know it.</segment>
+        <segment id="6" parent="17" relname="antithesis">Therefore, not only does intuitiveness include the first instinctive impression,</segment>
+        <segment id="7" parent="17" relname="span">but also the process of learning afterwards.</segment>
+        <segment id="8" parent="19" relname="antithesis">This is not to say that a program should be completely juvenile,</segment>
+        <segment id="9" parent="19" relname="span">but that even advanced features should be intuitive or near-self-explanatory as possible.</segment>
+        <segment id="10" parent="11" relname="circumstance">For instance, when programming in GUI based languages such as Visual Basic or Pascal (Delphi).</segment>
+        <segment id="11" parent="21" relname="span">Many features are complex,</segment>
+        <segment id="12" parent="20" relname="span">but with the help of intuitive design of the interfaces, even novice users can pick up on the functionality of many advanced functions.</segment>
+        <group id="13" type="span"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="23" relname="span"/>
+        <group id="16" type="span" parent="3" relname="evidence"/>
+        <group id="17" type="span" parent="15" relname="span"/>
+        <group id="18" type="span" parent="7" relname="elaboration"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="9" relname="evidence"/>
+        <group id="21" type="span" parent="12" relname="concession"/>
+        <group id="22" type="span" parent="15" relname="evidence"/>
+        <group id="23" type="span" parent="14" relname="elaboration"/>
+    </body>
+</rst>

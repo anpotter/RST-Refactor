@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="12" relname="background">The auto-correct feature can be useful and troublesome at the same time.</segment>
+        <segment id="2" parent="12" relname="span">What I find annoying is the spellcheck feature in Microsoft Outlook.</segment>
+        <segment id="3" parent="13" relname="span">I used to have this feature enable for all of my outgoing email.</segment>
+        <segment id="4" parent="14" relname="span">After a while I would get so tired of it coming up each every time I compose a new message.</segment>
+        <segment id="5" parent="4" relname="nonvolitional-result">This got to be quite annoying so I disabled it.</segment>
+        <segment id="6" parent="15" relname="span">I know what you mean</segment>
+        <segment id="7" parent="11" relname="span">when sometimes you don't want this feature to fix the problem.</segment>
+        <segment id="8" parent="7" relname="elaboration">This is one of those things that some find to be a pro and others find it to be a con in usability.</segment>
+        <group id="9" type="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="6" relname="elaboration"/>
+        <group id="12" type="span" parent="10" relname="span"/>
+        <group id="13" type="span" parent="2" relname="elaboration"/>
+        <group id="14" type="span" parent="3" relname="elaboration"/>
+        <group id="15" type="span" parent="10" relname="summary"/>
+    </body>
+</rst>

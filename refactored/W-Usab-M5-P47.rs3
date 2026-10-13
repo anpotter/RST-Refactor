@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="20" relname="span">In many software or web interfaces, we are presented with more peripheral, or non-essential, information than we can possibly ingest (Maglio and Campbell, 2000).</segment>
+        <segment id="2" parent="1" relname="elaboration">This "ambient information" can be helpful, interesting or useless to us.</segment>
+        <segment id="3" parent="20" relname="elaboration">It can be presented innocuously or obnoxiously, as in unsolicited pop-up windows.</segment>
+        <segment id="4" parent="21" relname="span">But what makes it memorable?</segment>
+        <segment id="5" parent="14" relname="span">Maglio and Campbell (2000) studied the impact of 'ticker displays' on primary task performance.</segment>
+        <segment id="6" parent="15" relname="span">The study compared horizontal continuous scrolling (HCS), vertical discrete scrolling (VDS, 'scroll-stop') and serial presentation (SP, full text replacement) ticker displays.</segment>
+        <segment id="7" parent="8" relname="concession">It is no great surprise that displays with more movement are more distracting and had a more pronounced impact on performance.</segment>
+        <segment id="8" parent="19" relname="span">But I found it interesting that, although the primary task was completed more slowly or with more errors,</segment>
+        <segment id="9" parent="18" relname="span">all methods were equally memorable in the peripheral information presented.</segment>
+        <segment id="10" parent="17" relname="span">So this study would support the common marketing practice of presenting website ads with animation or movement in order to attract the user's attention.</segment>
+        <segment id="11" parent="16" relname="span">However, I would argue that user satisfaction would be sacrificed in favor of the mighty dollar.</segment>
+        <group id="12" type="span"/>
+        <group id="13" type="span" parent="12" relname="span"/>
+        <group id="14" type="span" parent="4" relname="solutionhood"/>
+        <group id="15" type="span" parent="5" relname="elaboration"/>
+        <group id="16" type="span" parent="6" relname="elaboration"/>
+        <group id="17" type="span" parent="11" relname="antithesis"/>
+        <group id="18" type="span" parent="10" relname="nonvolitional-cause"/>
+        <group id="19" type="span" parent="9" relname="concession"/>
+        <group id="20" type="span" parent="13" relname="span"/>
+        <group id="21" type="span" parent="13" relname="elaboration"/>
+    </body>
+</rst>

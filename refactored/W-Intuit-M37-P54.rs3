@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="24" relname="span">In an article that discussed a low-cost method to learnability evaluation Santos and Badre (1995) equated intuitiveness with initial ease of use.</segment>
+        <segment id="2" parent="3" relname="antithesis">Santos and Badre (1995) claimed that many designers place too much focus on intuitiveness</segment>
+        <segment id="3" parent="21" relname="span">rather than learnability over long-term use.</segment>
+        <segment id="4" parent="20" relname="span">They also described a system that favored intuitiveness and fast learning (system A) and another system that promoted performance for the expert user (system B),</segment>
+        <segment id="5" parent="22" relname="span">they claimed there is a point at which the more complicated system actually becomes easier to use.</segment>
+        <segment id="6" parent="7" relname="preparation">Santos and Badre (1995) described this concept.</segment>
+        <segment id="7" parent="23" relname="span">System A favors intuitiveness and fast learning, whereassystem B optimizes performance for the expert user. Attime t1 in Figure 1, system A would seem to be preferableto system B. But at time t2, system B is clearly thewinner. Clearly, in this example, system B is harder tolearn at first, but once users overcome the initial obstacles,they learn faster and become more proficient. This exampleillustrates that an extrapolation of an analysis of short-termperformance to infer long-term performance is prone toerrors.</segment>
+        <segment id="8" parent="17" relname="concession">This is an interesting concept;</segment>
+        <segment id="9" parent="17" relname="span">however I would think intuitiveness could mean overall ease of use, not just initial.</segment>
+        <segment id="10" parent="18" relname="span">In addition, I believe an application could be intuitive to the expert as well as the novice.</segment>
+        <segment id="11" parent="12" relname="concession">However, there may be a point where the application is no longer intuitive to the novice</segment>
+        <segment id="12" parent="19" relname="span">but remains intuitive to the expert.</segment>
+        <segment id="13" parent="15" relname="summary">I think the authors demonstrate that an application can be designed that promotes a longer period of intuitiveness for the novice user as well as the expert.</segment>
+        <group id="14" type="span"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="25" relname="span"/>
+        <group id="18" type="span" parent="9" relname="elaboration"/>
+        <group id="19" type="span" parent="10" relname="concession"/>
+        <group id="20" type="span" parent="16" relname="span"/>
+        <group id="21" type="span" parent="1" relname="background"/>
+        <group id="22" type="span" parent="4" relname="elaboration"/>
+        <group id="23" type="span" parent="5" relname="elaboration"/>
+        <group id="24" type="span" parent="20" relname="background"/>
+        <group id="25" type="span" parent="16" relname="evaluation"/>
+    </body>
+</rst>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="volitional-result" type="rst"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="11" relname="justify">As a programmer, its a constant struggle to write interfaces that areintuitive to the end user.</segment>
+        <segment id="2" parent="14" relname="background">Theres is an administrative assistant in our office that can break aprogram faster than anyone Ive ever met.</segment>
+        <segment id="3" parent="14" relname="span">As a test for intuitiveness,I will ask her to test-drive new programs.</segment>
+        <segment id="4" parent="15" relname="sequence">Generally I give her littleto no instructions.</segment>
+        <segment id="5" parent="15" relname="sequence">I just let her try and figure it out on her own.</segment>
+        <segment id="6" parent="15" relname="sequence">Invariably she will come up with a series of key strokes or acombination of commands that I never considered.</segment>
+        <segment id="7" parent="13" relname="circumstance">After working with herfor nearly five years,</segment>
+        <segment id="8" parent="13" relname="span">Im no closer to understanding her thoughtprocess or what she finds intuitive.</segment>
+        <segment id="9" parent="8" relname="concession">I have however honed my errortrapping skills.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="10" relname="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="16" relname="span"/>
+        <group id="14" type="span" parent="12" relname="span"/>
+        <group id="15" type="multinuc" parent="3" relname="elaboration"/>
+        <group id="16" type="span" parent="12" relname="volitional-result"/>
+    </body>
+</rst>

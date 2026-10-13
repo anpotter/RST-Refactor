@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="2" relname="preparation">I accessed the article you referenced</segment>
+        <segment id="2" parent="13" relname="span">and I agree with your assessment that intuitiveness should mean overall ease of use not just during the initial period.</segment>
+        <segment id="3" parent="19" relname="span">However, the article's study seemed to be based on a random set of students</segment>
+        <segment id="4" parent="15" relname="span">and I wonder if the study itself might be flawed</segment>
+        <segment id="5" parent="4" relname="elaboration">in that it did not start by determining what the user problem and work flow was about.</segment>
+        <segment id="6" parent="17" relname="span">I think that there are systems that are built for experts in certain fields, such as CAD/CAM,</segment>
+        <segment id="7" parent="16" relname="span">where novices might be able to perform some tasks</segment>
+        <segment id="8" parent="7" relname="elaboration">but without experience (expertise) in the field for which the application was designed will not be able to proceed too deeply into the use of the application.</segment>
+        <segment id="9" parent="10" relname="evidence">The article itself mentioned that "experts" will organize the compenents of their mental processes in larger "chunks".</segment>
+        <segment id="10" parent="18" relname="span">To me that meant they may be sampling the wrong population - or too broad a population - for their study.</segment>
+        <group id="11" type="span"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="3" relname="concession"/>
+        <group id="14" type="span" parent="12" relname="span"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="6" relname="circumstance"/>
+        <group id="17" type="span" parent="15" relname="evidence"/>
+        <group id="18" type="span" parent="14" relname="evidence"/>
+        <group id="19" type="span" parent="12" relname="volitional-cause"/>
+    </body>
+</rst>

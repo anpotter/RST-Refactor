@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="justify" type="rst"/>
+            <rel name="sequence" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="justify">I've seen many times over the years in software development</segment>
+        <segment id="2" parent="9" relname="sequence">where the developer(s)believes the application is intuitive to them</segment>
+        <segment id="3" parent="9" relname="sequence">and when the end-user finally sees the finished product,</segment>
+        <segment id="4" parent="9" relname="sequence">the end-user does not even know where to begin to use the interface.</segment>
+        <segment id="5" parent="8" relname="span">With this being said, isn't the "intuitiveness" of the UI, really a subjective analysis?</segment>
+        <segment id="6" parent="5" relname="elaboration">Where as, being intuitive to one user may be perceived as very confusing to another.....</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="multinuc" parent="10" relname="span"/>
+        <group id="10" type="span" parent="8" relname="concession"/>
+    </body>
+</rst>

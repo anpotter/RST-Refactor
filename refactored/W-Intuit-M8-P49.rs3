@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="preparation" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="7" relname="preparation">I can identify with your comments P52.</segment>
+        <segment id="2" parent="8" relname="circumstance">As I learn more about objectoriented analysis and design(OOAD),</segment>
+        <segment id="3" parent="8" relname="span">I see how its very nature andbuilding blocks, the class, provide for better intuitiveness in thefinal product.</segment>
+        <segment id="4" parent="5" relname="circumstance">For example, once an Employee class has been createdwith attributes such as  name, employeeID, pay rate,</segment>
+        <segment id="5" parent="9" relname="span">any specializationsor subclasses that follow such as Project Manager, Systems Analyst, DBA,will automatically inherit the same attributes.</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="3" relname="elaboration"/>
+    </body>
+</rst>

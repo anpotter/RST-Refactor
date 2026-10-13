@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="preparation" type="rst"/>
+            <rel name="summary" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="preparation">I agree with the comments about ease of use.</segment>
+        <segment id="2" parent="12" relname="span">Ease of use refers to theproperty of a product or thing that a user can operate without having toovercome a steep learning curve.</segment>
+        <segment id="3" parent="2" relname="elaboration">Things with high ease of use will beintuitive to the average user in the target market for the product.</segment>
+        <segment id="4" parent="12" relname="elaboration">Theterm is often used as a goal during the design of a product, as well asbeing used for marketing purposes.</segment>
+        <segment id="5" parent="13" relname="span">Put simply, things with "high ease ofuse" are easy to use.</segment>
+        <segment id="6" parent="11" relname="span">However, some experts distinguish ease of use from ease of learning,</segment>
+        <segment id="7" parent="6" relname="circumstance">especially when the design of a product involves a tradeoff between thetwo goals.</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="5" relname="concession"/>
+        <group id="12" type="span" parent="10" relname="span"/>
+        <group id="13" type="span" parent="10" relname="summary"/>
+    </body>
+</rst>

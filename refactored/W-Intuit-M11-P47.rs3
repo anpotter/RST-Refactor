@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="9" relname="solutionhood">What would be a more intuitive interface than direct interaction with a human-like entity?</segment>
+        <segment id="2" parent="10" relname="span">Now, theorists are developing an artificial personality to accompany the artificial entity (AE), or customer service avatar, that you are interacting with online (Neubauer, 2004).</segment>
+        <segment id="3" parent="4" relname="antithesis">This is much different from a fixed, programmed personality,</segment>
+        <segment id="4" parent="12" relname="span">but can evolve with "experience".</segment>
+        <segment id="5" parent="13" relname="span">Working with 16 categories of personality and artificial intelligence tools, such as Prolog and AIML (artificial intelligence markup language), developers can simulate certain characteristics and collect 'experience' and 'perception' toward an AE with an artificial personality.</segment>
+        <segment id="6" parent="7" relname="antithesis">Ironically, traits such as 'intuition' and 'feeling' cannot effectively be simulated,</segment>
+        <segment id="7" parent="11" relname="span">but the appearance of them can be "faked".</segment>
+        <group id="8" type="span"/>
+        <group id="9" type="span" parent="8" relname="span"/>
+        <group id="10" type="span" parent="9" relname="span"/>
+        <group id="11" type="span" parent="5" relname="elaboration"/>
+        <group id="12" type="span" parent="2" relname="elaboration"/>
+        <group id="13" type="span" parent="10" relname="elaboration"/>
+    </body>
+</rst>

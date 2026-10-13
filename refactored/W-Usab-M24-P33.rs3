@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="10" relname="span">I too agree that learnability is very critical attribute to any interface.</segment>
+        <segment id="2" parent="16" relname="span">What sometimes happen is that interfaces are designed so badly that users just simply don't use some of the features of the system.</segment>
+        <segment id="3" parent="2" relname="elaboration">They tend to learn just enough to get by and forget about the complex stuff.</segment>
+        <segment id="4" parent="16" relname="nonvolitional-result">This obviously can lead to efficientcy problems.</segment>
+        <segment id="5" parent="17" relname="span">I myself have done this.</segment>
+        <segment id="6" parent="14" relname="span">I find myself doing things the long way, just to find out that there is some feature that could make my life much simplier,</segment>
+        <segment id="7" parent="8" relname="volitional-cause">but because the design was so difficult to learn,</segment>
+        <segment id="8" parent="15" relname="span">i never too kthe time to figure stuff out.</segment>
+        <segment id="9" parent="14" relname="summary">I guess i kinda follow the 10 minute rule myself.</segment>
+        <group id="10" type="span"/>
+        <group id="11" type="span" parent="1" relname="evidence"/>
+        <group id="12" type="span" parent="11" relname="span"/>
+        <group id="13" type="span" parent="5" relname="elaboration"/>
+        <group id="14" type="span" parent="13" relname="span"/>
+        <group id="15" type="span" parent="6" relname="elaboration"/>
+        <group id="16" type="span" parent="12" relname="span"/>
+        <group id="17" type="span" parent="12" relname="evidence"/>
+    </body>
+</rst>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="circumstance" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="span">I here what your saying P39.</segment>
+        <segment id="2" parent="10" relname="span">Also, I agree that there should also be an option to reverse the correction</segment>
+        <segment id="3" parent="2" relname="circumstance">whenever the mouse is hovered over color-coded auto corrected words.</segment>
+        <segment id="4" parent="9" relname="span">I also want to say thanks for providing the article that proposed guidelines for handling human errors,</segment>
+        <segment id="5" parent="4" relname="volitional-cause">I needed to know more about that for my paper.</segment>
+        <segment id="6" parent="9" relname="summary">Thanks again.</segment>
+        <group id="7" type="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="11" relname="span"/>
+        <group id="10" type="span" parent="1" relname="elaboration"/>
+        <group id="11" type="span" parent="8" relname="elaboration"/>
+    </body>
+</rst>

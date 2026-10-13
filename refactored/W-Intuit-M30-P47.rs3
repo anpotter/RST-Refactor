@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="nonvolitional-result" type="rst"/>
+            <rel name="volitional-cause" type="rst"/>
+            <rel name="contrast" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="17" relname="concession">Everything about usability is subjective!</segment>
+        <segment id="2" parent="3" relname="circumstance">But when a vast majority ofusers can figure out an interface with little or no instruction,</segment>
+        <segment id="3" parent="17" relname="span">thenit's considered intuitive.</segment>
+        <segment id="4" parent="24" relname="volitional-cause">Actually, since intuitiveness is so closely tied to learnability,</segment>
+        <segment id="5" parent="24" relname="span">Ithink the premise discussed in the Preece text would apply (p16):</segment>
+        <segment id="6" parent="25" relname="contrast">products intended for use by the general population, used everyday orinfrequently, must be easy to learn (intuitive),</segment>
+        <segment id="7" parent="25" relname="contrast">while products that arecomplex by design and have much more functionality require more time andeffort to learn.</segment>
+        <segment id="8" parent="19" relname="antithesis">We talk about the 'intuitiveness' of Word, or some other complexapplication,</segment>
+        <segment id="9" parent="19" relname="span">but we weren't born knowing what a "File Save" or "Paste"icon means.</segment>
+        <segment id="10" parent="11" relname="nonvolitional-cause">These things have evolved to make certain things moreconsistent in complex applications</segment>
+        <segment id="11" parent="21" relname="span">and, hence, make other applicationsadhering to these principles seem more intuitive.</segment>
+        <segment id="12" parent="13" relname="condition">If a free-thinker came up with a better icon for "Save" or "Paste",</segment>
+        <segment id="13" parent="22" relname="span">then I feel sure that it would be rejected</segment>
+        <segment id="14" parent="22" relname="nonvolitional-cause">because it is inconsistent withcurrent established conventions.</segment>
+        <group id="15" type="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="27" relname="span"/>
+        <group id="18" type="span" parent="16" relname="span"/>
+        <group id="19" type="span" parent="26" relname="span"/>
+        <group id="20" type="span" parent="9" relname="elaboration"/>
+        <group id="21" type="span" parent="20" relname="span"/>
+        <group id="22" type="span" parent="23" relname="span"/>
+        <group id="23" type="span" parent="21" relname="nonvolitional-result"/>
+        <group id="24" type="span" parent="18" relname="span"/>
+        <group id="25" type="multinuc" parent="5" relname="elaboration"/>
+        <group id="26" type="span" parent="18" relname="evidence"/>
+        <group id="27" type="span" parent="16" relname="background"/>
+    </body>
+</rst>

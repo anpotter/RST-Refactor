@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="elaboration" type="rst"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="8" relname="span">Good post.</segment>
+        <segment id="2" parent="1" relname="elaboration">I would have to agree that the nature of intuitiveness is subjective.</segment>
+        <segment id="3" parent="8" relname="elaboration">The questions that Jared Spool raises are essential.</segment>
+        <segment id="4" parent="9" relname="span">This also connects well to what we have discussed in previous threads</segment>
+        <segment id="5" parent="4" relname="elaboration">-- the notion in the Marcus article that we need to ask "who are our users?"</segment>
+        <group id="6" type="span"/>
+        <group id="7" type="span" parent="6" relname="span"/>
+        <group id="8" type="span" parent="7" relname="span"/>
+        <group id="9" type="span" parent="7" relname="elaboration"/>
+    </body>
+</rst>

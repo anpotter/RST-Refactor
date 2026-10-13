@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="background" type="rst"/>
+            <rel name="circumstance" type="rst"/>
+            <rel name="condition" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="37" relname="span">Any adult who has put their hands on a controller created for use with gaming consoles like Playstation2 or X-Box knows these controllers seem to have been created for an alien life form.</segment>
+        <segment id="2" parent="1" relname="nonvolitional-cause">Triangles and X's where there should be words or descriptions, nothing to tell the user what the buttons are supposed to do.</segment>
+        <segment id="3" parent="4" relname="condition">But, put the same controller into the hands of a 12 year old, or even 6 year old,</segment>
+        <segment id="4" parent="36" relname="span">and suddenly they're racing down the slopes on a snowboard or fighting bad guys disguised as a Disney character.</segment>
+        <segment id="5" parent="6" relname="circumstance">After my hours of frustration dealing with these controllers,</segment>
+        <segment id="6" parent="35" relname="span">I began to wonder if developers had considered another alternative to the game pad currently used.</segment>
+        <segment id="7" parent="33" relname="span">These games offer an outstanding opportunity for parents to interact with their children,</segment>
+        <segment id="8" parent="53" relname="span">but the complexity of the controller is a severe drawback.</segment>
+        <segment id="9" parent="44" relname="span">My research took me to an article about a game called Nautilus.</segment>
+        <segment id="10" parent="48" relname="span">(Stromberg, 2002) describes this 3-D gaming environment where up to 4 players may interact with the environment as well as each other.</segment>
+        <segment id="11" parent="49" relname="list">The game is centered around a room sized display,</segment>
+        <segment id="12" parent="49" relname="list">where the walls and floor display the game,</segment>
+        <segment id="13" parent="49" relname="list">and the floor contains sensors that determine movement and location.</segment>
+        <segment id="14" parent="49" relname="list">The players interact with one another</segment>
+        <segment id="15" parent="49" relname="list">and have shared experiences about the game using team concepts and interactive settings.</segment>
+        <segment id="16" parent="50" relname="span">This HCI concept is a computer generated Human Centered Design approach.</segment>
+        <segment id="17" parent="45" relname="span">The concept for interaction with the game comes from the intuitiveness of the control.</segment>
+        <segment id="18" parent="46" relname="list">The control metaphors have reference points to natural body movements and actions,</segment>
+        <segment id="19" parent="46" relname="list">and are imbedded in the game allowing for multiple gaming environments and circumstances to be created.</segment>
+        <segment id="20" parent="21" relname="circumstance">As the players move around the gaming environment,</segment>
+        <segment id="21" parent="47" relname="span">the sensors keep track of their movements</segment>
+        <segment id="22" parent="46" relname="list">and the players not only are able to interact with the game,</segment>
+        <segment id="23" parent="46" relname="list">but can share in the experience of winning the game while teamed with others.</segment>
+        <segment id="24" parent="42" relname="span">This specific game is designed around a simulated sea environment</segment>
+        <segment id="25" parent="24" relname="elaboration">where the players have 4 minutes to save a dolphin before their air supply is depleted.</segment>
+        <segment id="26" parent="42" relname="elaboration">The game allows for hand and finger movement to be detected without the use of any worn equipment.</segment>
+        <segment id="27" parent="28" relname="solutionhood">The wall screen replaces the virtual environment created by a head mounted display,</segment>
+        <segment id="28" parent="43" relname="span">and eliminates the problems of movement limitations and simulator sickness.</segment>
+        <segment id="29" parent="52" relname="span">Im looking forward to the release of this gaming environment,</segment>
+        <segment id="30" parent="29" relname="elaboration">and am interested to see how intuitiveness of game controllers changes with new developments in HCI, changing the perception of what gaming can be.</segment>
+        <group id="31" type="span"/>
+        <group id="32" type="span" parent="31" relname="span"/>
+        <group id="33" type="span" parent="8" relname="evaluation"/>
+        <group id="34" type="span" parent="7" relname="background"/>
+        <group id="35" type="span" parent="34" relname="span"/>
+        <group id="36" type="span" parent="38" relname="span"/>
+        <group id="37" type="span" parent="36" relname="condition"/>
+        <group id="38" type="span" parent="35" relname="background"/>
+        <group id="39" type="span" parent="32" relname="span"/>
+        <group id="40" type="span" parent="39" relname="span"/>
+        <group id="41" type="span" parent="51" relname="span"/>
+        <group id="42" type="span" parent="41" relname="span"/>
+        <group id="43" type="span" parent="41" relname="elaboration"/>
+        <group id="44" type="span" parent="40" relname="span"/>
+        <group id="45" type="span" parent="16" relname="elaboration"/>
+        <group id="46" type="multinuc" parent="17" relname="elaboration"/>
+        <group id="47" type="span" parent="46" relname="list"/>
+        <group id="48" type="span" parent="9" relname="elaboration"/>
+        <group id="49" type="multinuc" parent="10" relname="elaboration"/>
+        <group id="50" type="span" parent="44" relname="elaboration"/>
+        <group id="51" type="span" parent="40" relname="elaboration"/>
+        <group id="52" type="span" parent="39" relname="evaluation"/>
+        <group id="53" type="span" parent="32" relname="solutionhood"/>
+    </body>
+</rst>

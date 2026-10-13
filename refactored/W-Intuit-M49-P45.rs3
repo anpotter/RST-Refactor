@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="antithesis" type="rst"/>
+            <rel name="background" type="rst"/>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evaluation" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="joint" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="13" relname="span">Good point P39 about the left hand information.</segment>
+        <segment id="2" parent="15" relname="antithesis">I know you must feel like the lone ranger,</segment>
+        <segment id="3" parent="16" relname="span">but there are plenty of lefties out there.</segment>
+        <segment id="4" parent="3" relname="elaboration">A lot of times there called south paws in the sports fields of baseball and boxing.</segment>
+        <segment id="5" parent="6" relname="solutionhood">Did you know that August 13 was International Left Handers Day?</segment>
+        <segment id="6" parent="17" relname="span">Well it is.</segment>
+        <segment id="7" parent="19" relname="background">But sticking with the subject of keyboards and usability,</segment>
+        <segment id="8" parent="19" relname="span">I agree, keyboards (at least the QWERTY Keyboard) appear to be designed with the right-handed person in mind.</segment>
+        <segment id="9" parent="20" relname="span">And was probably designed by a right handed person,</segment>
+        <segment id="10" parent="21" relname="span">but that's only speculation on my part.</segment>
+        <segment id="11" parent="10" relname="evaluation">And with all honesty, that is a little bit unfair.</segment>
+        <group id="12" type="multinuc"/>
+        <group id="13" type="span" parent="12" relname="joint"/>
+        <group id="14" type="span" parent="1" relname="elaboration"/>
+        <group id="15" type="span" parent="14" relname="span"/>
+        <group id="16" type="span" parent="15" relname="span"/>
+        <group id="17" type="span" parent="16" relname="elaboration"/>
+        <group id="18" type="span" parent="12" relname="joint"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="span" parent="8" relname="elaboration"/>
+        <group id="21" type="span" parent="9" relname="concession"/>
+    </body>
+</rst>

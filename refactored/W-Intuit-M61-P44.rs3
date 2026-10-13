@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<rst>
+    <header>
+        <relations>
+            <rel name="concession" type="rst"/>
+            <rel name="elaboration" type="rst"/>
+            <rel name="evidence" type="rst"/>
+            <rel name="nonvolitional-cause" type="rst"/>
+            <rel name="solutionhood" type="rst"/>
+            <rel name="summary" type="rst"/>
+            <rel name="list" type="multinuc"/>
+        </relations>
+    </header>
+    <body>
+        <segment id="1" parent="27" relname="concession">I agree with this comment.</segment>
+        <segment id="2" parent="27" relname="span">However, the application of interface designis pervasive, including products such as:</segment>
+        <segment id="3" parent="28" relname="list">a simple watch,</segment>
+        <segment id="4" parent="28" relname="list">a DVD player,</segment>
+        <segment id="5" parent="28" relname="list">an aircraft cockpit,</segment>
+        <segment id="6" parent="28" relname="list">a software program, etc.</segment>
+        <segment id="7" parent="26" relname="span">In many cases, goodtechnology is not readily accepted</segment>
+        <segment id="8" parent="7" relname="nonvolitional-cause">because the product is not easy touse or efficient to use.</segment>
+        <segment id="9" parent="26" relname="elaboration">A product's usability, acceptance, andmarketability are often dependent on the user feeling that it is easy tolearn and use.</segment>
+        <segment id="10" parent="24" relname="span">User Interface Design increases the intuitiveness,efficiency, and comfort level with a product, which translates intoproduct acceptance and use.</segment>
+        <segment id="11" parent="24" relname="summary">You need both good technology and usabilityfor a successful product launch.</segment>
+        <segment id="12" parent="30" relname="span">Intuition has many meanings acrossmany cultures, including:</segment>
+        <segment id="13" parent="20" relname="list">1. quick and ready insight seeminglyindependent of previous experiences and empirical knowledge</segment>
+        <segment id="14" parent="21" relname="span">2. immediateapprehension or cognition</segment>
+        <segment id="15" parent="22" relname="list">o	knowledge or conviction gained by intuition</segment>
+        <segment id="16" parent="22" relname="list">o	the power or faculty of attaining to direct knowledge or cognitionwithout evident rational thought and inference.</segment>
+        <segment id="17" parent="20" relname="list">3. the perceiving of unconsciousness.</segment>
+        <group id="18" type="span"/>
+        <group id="19" type="span" parent="18" relname="span"/>
+        <group id="20" type="multinuc" parent="12" relname="evidence"/>
+        <group id="21" type="span" parent="20" relname="list"/>
+        <group id="22" type="multinuc" parent="14" relname="elaboration"/>
+        <group id="23" type="span" parent="19" relname="span"/>
+        <group id="24" type="span" parent="29" relname="span"/>
+        <group id="25" type="span" parent="10" relname="solutionhood"/>
+        <group id="26" type="span" parent="25" relname="span"/>
+        <group id="27" type="span" parent="23" relname="span"/>
+        <group id="28" type="multinuc" parent="2" relname="elaboration"/>
+        <group id="29" type="span" parent="23" relname="elaboration"/>
+        <group id="30" type="span" parent="19" relname="elaboration"/>
+    </body>
+</rst>
